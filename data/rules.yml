@@ -1,0 +1,359 @@
+version: "2.0"
+
+rules: 
+- rule: out of scope number 1
+  steps:
+  - intent: out_of_scope_1
+  - action: utter_out_of_scope_1
+  - action: utter_out_of_scope_2
+- rule: Convention de Partenariat au Port
+  steps: 
+  - intent: convention_partenariat
+  - action: utter_convention_partenariat
+  - action: utter_convention_partenariat_1
+- rule: Accord de Partenariat 
+  steps:
+  - intent: accord_partenariat
+  - action: utter_accord_partenariat
+  - action: utter_accord_partenariat_1
+- rule: dire bonjour quand l'utilisateur 
+  steps: 
+  - intent: greet
+  - action: utter_init_5
+  - action: utter_init_6
+  # Information sur   Accessibilité maritime du Port de Dakar
+- rule: Information géographique du port de Dakar
+  steps:
+  - intent: accessibilite
+  - action: utter_accessibilite
+- rule: Information géographique du port de Dakar
+  steps:
+  - intent: horaire_fonctionnement
+  - action: utter_horaire_fonctionnement
+- rule: Accessibilité des navires au port de dakar
+  steps: 
+  - intent: accessibilite_navire
+  - action: utter_accessibilite_navire
+  - action: utter_accessibilite_navire_1
+- rule: localisation géographique 
+  steps: 
+  - intent: localisation_geographique
+  - action: utter_localisation_geographique
+- rule: situation geographique du port
+  steps: 
+  - intent: situation_geographique
+  - action: utter_situation_geographique
+  - action: utter_situation_geographique2
+- rule: plan d'aeu intérieur du port de dakar
+  steps:
+  - intent: superficie_plan_eau
+  - action: utter_superficie_plan_eau
+- rule: profondeur du tirant eau du port de dakar
+  steps: 
+  - intent: profondeur_tirant_eau
+  - action: utter_profondeur_tirant_eau
+- rule: Initialisation de la conversation
+  steps:
+  - intent: initialise
+  - action: utter_init_0
+  - action: utter_init
+  - action: utter_init_1
+  - action: utter_init_2
+  - action: utter_init_3
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+- rule: Remplissage du formulaire de la manifestion d'intérêt
+  steps: 
+  - intent: manifest
+  - action: utter_manifestion
+- rule: Information sur les agréments
+  steps:
+  - intent: agrement
+  - action: utter_agrement
+- rule: remerciement de l'utilisateur
+  steps:
+  - intent: UserMerci
+  - action: utter_usermerci
+- rule: out-of-intent
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+- rule: Les infrastructures spécialisées du port de Dakar
+  steps: 
+  - intent: installation_specialise
+  - action: utter_installation_specialise
+- rule: Les infrastructures spécialisées et capacité d'accueil
+  steps: 
+  - intent: infrastructure_capacite
+  - action: utter_infrastructure_capacite
+- rule: installation des bateaux de croisières ou paquebots
+  steps:
+  - intent: installation_paquebot
+  - action: utter_installation_paquebot
+- rule: les postes à quai du port
+  steps:
+  - intent: poste_a_quai
+  - action: utter_poste_a_quai
+- rule: les terminaux du port de Dakar
+  steps:
+  - intent: terminaux
+  - action: utter_terminaux
+  - action: utter_terminaux_1
+  - action: utter_terminaux_2
+- rule: les conteneurs frigorifiques du PAD
+  steps: 
+  - intent: frigo
+  - action: utter_frigo
+- rule: installations mises en place pour la fluidité
+  steps:
+  - intent: fluidite
+  - action: utter_fluidite 
+## Marchandises Transit
+- rule: Marchandises en Transit
+  steps: 
+  - intent: marchandise_transit
+  - action: utter_marchandise_transit
+- rule: Les entrepots maliens au senegal
+  steps: 
+  - intent: entrepot_senegal_mali
+  - action: utter_entrepot_senegal_mali
+- rule: Acheminement de marchandises entre le Senegal et le Mali
+  steps: 
+  - intent: acheminement_dakar_mali
+  - action: utter_acheminement_dakar_mali
+  - action: utter_acheminement_dakar_mali_1
+- rule: Stationnements des camions entre Dakar et Bamako
+  steps: 
+  - intent: stationnement_camion
+  - action: utter_stationnement_camion
+- rule: les facilités accordées aux marchandises en transit
+  steps:
+  - intent: priorite_transit_mali
+  - action: utter_priorite_transit_mali
+## Equipement du Port de Dakar
+- rule: Les équipement du port de Dakar 
+  steps:
+  - intent: equipement_port
+  - action: utter_equipement_port
+- rule: les équipements de manutention au port de dakar
+  steps: 
+  - intent: manutention_conteneur
+  - action: utter_manutention_conteneur
+  - action: utter_manutention_conteneur_1
+- rule: les équipements des manutentions en vrac des solides
+  steps: 
+  - intent: manutention_vrac
+  - action: utter_manutention_vrac
+- rule: Installations et services du port de pêche
+  steps:
+  - intent: port_peche
+  - action: utter_port_peche
+  - action: utter_port_peche_1
+- rule: les procédures de dédouanement
+  steps:
+  - intent: dedouanement
+  - action: utter_dedouanement
+- rule: les formalites pour obtnir une autorisation
+  steps:
+  - intent: formalite_domaniale
+  - action: utter_formalite_domaniale
+- rule: les differents agréments qu'on peut obtenir au Port de Dakar
+  steps:
+  - intent: type_agrement
+  - action: utter_type_agrement
+- rule: les conditions à remplir pour obtention d'un agrément
+  steps: 
+  - intent: condition_agrement
+  - action: utter_condition_agrement
+- rule: la liste des pièces à fournir pour les agréments
+  steps: 
+  - intent: liste_piece
+  - action: utter_liste_piece
+- rule: La durée de validité des agréments 
+  steps: 
+  - intent: duree_liste
+  - action: utter_duree_liste
+- rule: la commission qui valide les agréments
+  steps:
+  - intent: commission
+  - action: utter_commission
+- rule: Le suivi du dossier déposer pour l'obtention d'agrément
+  steps:
+  - intent: suivi_agrement
+  - action: utter_suivi_agrement
+- rule: Les exigences soumises pour les titulaires
+  steps: 
+  - intent: exigence
+  - action: utter_exigence
+- rule: déclarations de chiffres d'affaire 
+  steps: 
+  - intent: chiffre_affaire
+  - action: utter_chiffre_affaire
+- rule: Obtenir une autorisation pour exercer au bord des navires
+  steps: 
+  - intent: autorisation_navire
+  - action: utter_autorisation_navire
+- rule: les activités autorisées au bord des navires
+  steps: 
+  - intent: activite_navire
+  - action: utter_activite_navire
+- rule: demande de restitution de caution
+  steps: 
+  - intent: restitution_caution
+  - action: utter_restitution_caution
+- rule: demande de renouvellemnt d'autorisation d'exercer au bord des navires
+  steps:
+  - intent: renouvellement_autorisation
+  - action: utter_renouvellement_autorisation
+- rule: redevances applicables au navires
+  steps:
+  - intent: cout_passage
+  - action: utter_cout_passage
+  - action: utter_cout_passage_1
+- rule: gestion clientele et reclamation client
+  steps: 
+  - intent: gestion_client
+  - action: utter_gestion_client
+  - action: utter_gestion_client_1
+# Enlévement marchandise
+- rule: Le menu principal pour les questions
+  steps: 
+  - intent: menu_principal
+  - action: utter_menu_principal
+- rule: Enlèvement de marchandise au Port de Dakar
+  steps: 
+  - intent: enlevement_marchandise
+  - action: utter_enlevement_marchandise
+- rule: Les services à la marchandise
+  steps:
+  - intent: service_marchandise
+  - action: utter_service_marchandise
+- rule: Les stockages des marchandises au Port de Dakar
+  steps: 
+  - intent: stockage_marchandise
+  - action: utter_stockage_marchandise
+- rule: La durée de séjour des marchandise au Port autonome de Dakar
+  steps: 
+  - intent: sejour_marchandise
+  - action: utter_sejour_marchandise
+  - action: utter_sejour_marchandise_1
+- rule: les redevances applicables aux marchandises
+  steps: 
+  - intent: redevance_marchandise
+  - action: utter_redevance_marchandise
+- rule: La Sécurité La sureté et l'envirronement du Port
+  steps: 
+  - intent: securite_surete_environnement
+  - action: utter_securite_surete_environnement
+- rule: La Sécurité La sureté au Port Autonome de Dakar
+  steps:
+  - intent: surete_securite
+  - action: utter_surete_securite
+  - action: utter_surete_securite_1
+- rule: Les administrations et forces de sécurité du Port
+  steps:
+  - intent: administration_securite
+  - action: utter_administration_securite
+- rule: Les conditions d'accès des personnes et des véhicules
+  steps: 
+  - intent: acces_port
+  - action: utter_acces_port
+- rule: Les sercices au Port pour assistances aux navires
+  steps: 
+  - intent: service_assistance_navire
+  - action: utter_service_assistance_navire
+- rule: Les qualités du services aux navires
+  steps:
+  - intent: qualite_service
+  - action: utter_qualite_service
+- rule: L'avitaillement en eau et en hydrocabure au Port de Dakar
+  steps:
+  - intent: avitaillement_eau_hydro
+  - action: utter_avitaillement_eau_hydro
+- rule: Société de réparation navale
+  steps: 
+  - intent: reparation_navale
+  - action: utter_reparation_navale
+- rule: Les types de facturations de l'occupation du domaine du Port
+  steps:
+  - intent: facture_domaine
+  - action: utter_facture_domaine
+- rule: Possibilité d'obtenir des surfaces allouées au Port
+  steps: 
+  - intent: surface_allouee
+  - action: utter_surface_allouee
+  - action: utter_surface_allouee_1
+- rule: Demande de reformulation de question
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+  - action: utter_telephone_service_client
+
+- rule: Les chiffres clés du port de dakar
+  steps:
+  - intent: chiffre_cle
+  - action: utter_chiffre_cle
+- rule: l'utilisateur parle anglais
+  steps:
+  - intent: langue_eng
+  - action: utter_english
+  - action: utter_english_1
+- rule: l'utilisateur parle français
+  steps:
+  - intent: langue_fr
+  - action: utter_happy
+- rule: l'utilisateur n'est pas satisfait
+  steps: 
+  - intent: mauvaise_reponse
+  - action: utter_mauvaise_reponse
+  - action: utter_mauvaise_reponse_1
+- rule: Se rendre à la gare maritime de Dakar
+  steps: 
+  - intent: gare_maritime
+  - action: utter_gare_maritime
+  - action: utter_gare_maritime_1
+  - action: utter_gare_maritime_2
+  - action: utter_gare_maritime_3
+  - action: utter_gare_maritime_4
+  - action: utter_gare_maritime_5
+- rule: ligne Dakar Gorée
+  steps: 
+  - intent: ligne_maritime_goree
+  - action: utter_ligne_maritime_goree
+  - action: utter_ligne_maritime_goree_1
+  - action: utter_ligne_maritime_goree_2
+  - action: utter_ligne_maritime_goree_3
+- rule: Ligne maritime dakar ziguinchor
+  steps: 
+  - intent: ligne_maritime_zig
+  - action: utter_ligne_maritime_zig
+  - action: utter_ligne_maritime_zig_1
+- rule: La capacité d'accueil de la gare maritime
+  steps:
+  - intent: capacite_accueil_gare_maritime
+  - action: utter_capacite_accueil_gare_maritime
+  - action: utter_capacite_accueil_gare_maritime_1
+- rule: Le service offert aux passagers
+  steps: 
+  - intent: service_offert_aux_passager
+  - action: utter_service_offert_aux_passager
+- rule: Le service offert au public à la Gare
+  steps:
+  - intent: service_offert_au_public
+  - action: utter_service_offert_au_public
+- rule: certification de la gare maritime
+  steps: 
+  - intent: certification_gare_maritime
+  - action: utter_certification_gare_maritime
+  - action: utter_certification_gare_maritime_1
+  - action: utter_certification_gare_maritime_2
+
+
+
+  

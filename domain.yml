@@ -1,0 +1,1251 @@
+version: "2.0"
+
+# List all my intents in this part
+intents:
+  - out_of_scope_1
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - manifest
+  - agrement
+  - chiffre_cle
+  - UserMerci
+  - initialise
+  - out_of_scope
+  - tell_name
+  - langue_fr
+  - langue_eng
+  - localisation_geographique
+  - situation_geographique
+  - accessibilite
+  - accessibilite_navire
+  - horaire_fonctionnement
+  - superficie_plan_eau
+  - profondeur_tirant_eau
+  - installation_specialise
+  - infrastructure_capacite
+  - installation_paquebot
+  - poste_a_quai
+  - terminaux
+  - frigo
+  - fluidite
+  - marchandise_transit
+  - entrepot_senegal_mali
+  - acheminement_dakar_mali
+  - stationnement_camion
+  - priorite_transit_mali
+  - equipement_port
+  - manutention_conteneur
+  - manutention_vrac
+  - port_peche
+  - dedouanement
+  - formalite_domaniale
+  - type_agrement
+  - condition_agrement
+  - liste_piece
+  - duree_liste
+  - commission
+  - suivi_agrement
+  - exigence
+  - chiffre_affaire
+  - autorisation_navire
+  - activite_navire
+  - restitution_caution
+  - renouvellement_autorisation
+  - cout_passage
+  - gestion_client
+  - enlevement_marchandise
+  - service_marchandise
+  - stockage_marchandise
+  - sejour_marchandise
+  - redevance_marchandise
+  - securite_surete_environnement
+  - surete_securite
+  - administration_securite
+  - acces_port
+  - service_assistance_navire
+  - qualite_service
+  - menu_principal
+  - avitaillement_eau_hydro
+  - reparation_navale
+  - surface_allouee
+  - facture_domaine
+  - mauvaise_reponse
+  - gare_maritime
+  - ligne_maritime_goree
+  - ligne_maritime_zig
+  - capacite_accueil_gare_maritime
+  - service_offert_aux_passager
+  - service_offert_au_public
+  - certification_gare_maritime
+  - accord_partenariat
+  - convention_partenariat
+  - gestion_remorquage
+
+# This part is our bot's responses
+responses:
+#   utter_tell_name:
+#   - text: "Je me nomme Cheikh Bot."
+#   utter_my_name:
+#   - text: "Comment vous vous appelez ?"
+  # utter_merci_bcp: 
+  # - text: "Merci beaucoup"
+  utter_convention_partenariat:
+  - text: "Déposer un dossier contenant une lettre officielle adressée au Cordonateur de la Cellule des 
+          Partenariats et Coopération Internationale, les termes de référence, une note conceptuelle avec les 
+          spécifications techniques et finacières. Les élèments du dossier doivent être en adéquation avec les 
+          textes régissants les PPP."
+  utter_convention_partenariat_1:
+  - text: "Appeler le 33 849 45 45 est demandé le 4770"
+    buttons:
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+# Partie partenariat stratégique du Port Autonome de Dakar 
+  utter_accord_partenariat: 
+  - text: "Déposer un dossier contenant une lettre officielle adressée au Cordonateur de la Cellule des 
+          Partenariats et Coopération Internationale, les termes de référence, une note conceptuelle avec les 
+          spécifications techniques et finacières. Les élèments du dossier doivent être en adéquation avec les 
+          textes régissants les PPP."
+  utter_accord_partenariat_1:
+  - text: "Appeler le 33 849 45 45 est demandé le 4770"
+    buttons:
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_out_of_scope:
+  - text: "Pour avoir des informations relatives à cette question, nous vous demandons de visiter notre site 
+          en cliquant [ici](https://www.portdakar.sn/fr/nous-decouvrir/message-du-dg)."
+  utter_init_5:
+  - text: "Hey, je suis l'assistant virtuel du Port Autonome de Dakar. "
+  utter_init_6:
+  - text: "Comment puis-je vous aider?" 
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  utter_init_0:
+  - text: ""
+    image: "data:image/png;base64,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"
+  
+  utter_init:
+  - text: "Bonjour, je suis l'assistant virtuel du Port Autonome de Dakar. "
+  utter_init_1:
+  - text: "Je peux vous aider à trouver des informations sur: Agrément, Réclamation client,  
+            Partenariat, Gare maritime, etc. "
+  utter_init_2:
+  - text: "Je fonctionne mieux lorsque les questions sont courtes et directes." 
+  utter_init_3:
+  - text: "Comment puis-je vous aider?" 
+    buttons:
+    #   - title: "Français"
+    #     payload: '/langue_fr'
+    #   - title: "English"
+    #     payload: '/langue_eng'
+      # - title: "Statistiques"
+      #   payload: "/chiffre_cle"
+      # - title: "Formulaires manifestation"
+      #   payload: "/manifest"
+      # - title: "Agrément et autorisation"
+      #   payload: "/agrement"
+      # - title: "Service commercial"
+      #   payload: "/out_of_scope"
+      # - title: "Accessibilite du Port"
+      #   payload: "/accessibilite"
+      # - title: "Infrastructures"
+      #   payload: "/infrastructure_capacite"
+      # - title: "Marchandises en transit"
+      #   payload: "/marchandise_transit"
+      # - title: "Equipement du Port"
+      #   payload: "/equipement_port"
+      # - title: "Dédouanement"
+      #   payload: "/dedouanement"
+      # - title: "Redevances applicables aux navires"
+      #   payload: "/cout_passage"
+      # - title: "Gestion Clientèle"
+      #   payload: "/gestion_client"
+      # - title: "Enlèvement marchandise"
+      #   payload: "/enlevement_marchandise"
+      # - title: "Sécurité/ Sûreté/ Environnement"
+      #   payload: "/securite_surete_environnement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      # - title: "👎"
+      #   payload: "/mauvaise_reponse" 
+  #   - title: "Accès des personnes et véhicules"
+        # payload: "/acces_port"
+  utter_mauvaise_reponse:
+  - text: "Ha, je suis vraiment désolé."
+  utter_mauvaise_reponse_1:
+  - text: " Veuillez reformuler votre question s'il vous plait !"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  utter_greet:
+  - text: "Hey! Comment vous allez ?"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  - text: "Salut! J'espère que vous allez bien !"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  utter_menu_principal:
+  - text: Comment puis-je vous aider ?
+    buttons: 
+      - title: "Statistiques"
+        payload: "/chiffre_cle"
+      - title: "Formulaires manifestation"
+        payload: "/manifest"
+      - title: "Comment avoir un agrément et une autorisation ?"
+        payload: "/agrement"
+      # - title: "Service commercial"
+      #   payload: "/out_of_scope"
+      - title: "Quelle est accessibilite du Port ?"
+        payload: "/accessibilite"
+      - title: "Infrastructures"
+        payload: "/infrastructure_capacite"
+      - title: "Marchandises en transit"
+        payload: "/marchandise_transit"
+      - title: "Quels sont les équipements du Port ?"
+        payload: "/equipement_port"
+      - title: "Comment faire le dédouanement ?"
+        payload: "/dedouanement"
+      - title: "Redevances applicables aux navires"
+        payload: "/cout_passage"
+      - title: "Gestion Clientèle"
+        payload: "/gestion_client"
+      - title: "Comment devenir partenaire avec le Port?"
+        payload: "/convention_partenariat"
+      - title: "Comment enlever sa marchandise ?"
+        payload: "/enlevement_marchandise"
+      - title: "Sécurité/ Sûreté/ Environnement"
+        payload: "/securite_surete_environnement"
+      # - title: "👍"
+      #   payload: "/UserMerci"
+      # - title: "👎"
+      #   payload: "/mauvaise_reponse"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"            
+#  Add buttons for this utter_happy 
+  utter_happy:
+  - text: "Super! Vous avez besoin des informations sur:" 
+    buttons: 
+      - title: "Statistiques"
+        payload: "/chiffre_cle"
+      - title: "Formulaires manifestation"
+        payload: "/manifest"
+      - title: "Comment avoir un agrément et une autorisation ?"
+        payload: "/agrement"
+      # - title: "Service commercial"
+      #   payload: "/out_of_scope"
+      - title: "Quelle est accessibilite du Port ?"
+        payload: "/accessibilite"
+      - title: "Infrastructures"
+        payload: "/infrastructure_capacite"
+      - title: "Marchandises en transit"
+        payload: "/marchandise_transit"
+      - title: "Quels sont les équipements du Port ?"
+        payload: "/equipement_port"
+      - title: "Comment faire le dédouanement ?"
+        payload: "/dedouanement"
+      - title: "Redevances applicables aux navires"
+        payload: "/cout_passage"
+      - title: "Gestion Clientèle"
+        payload: "/gestion_client"
+      - title: "Comment devenir partenaire avec le Port?"
+        payload: "/convention_partenariat"
+      - title: "Comment enlever sa marchandise ?"
+        payload: "/enlevement_marchandise"
+      - title: "Sécurité/ Sûreté/ Environnement"
+        payload: "/securite_surete_environnement"
+      # - title: "👍"
+      #   payload: "/UserMerci"
+      # - title: "👎"
+      #   payload: "/mauvaise_reponse"
+# Choix de la langue  
+# Say Good Bye When the user say Goodbye
+  utter_goodbye:
+  - text: "Bye"
+  utter_iamabot:
+  - text: "I am a bot, powered by Autonomous Port of Dakar." 
+  #Réponse pour les questions relatives aux manifestations d'intêrét
+  utter_manifestion:
+  - text: "Pour remplir le formulaire de la manifestation d'intérêt cliquer 
+          [ici](https://www.portdakar.sn/fr/manifestation-dinteret)"
+  #Réponse pour les questions relatives aux demandes d'agrément
+  utter_agrement:
+  - text: "Vous voulez avoir des informations sur:"
+    buttons:
+      - title: "Comment obtenir une autorisation occupation domaniale?"
+        payload: "/formalite_domaniale"
+      - title: "Quels sont les types d'agréments?"
+        payload: "/type_agrement"
+      - title: "Conditions à remplir"
+        payload: "/condition_agrement"
+      - title: "Quelles sont les pièces à fournir pour obtenir un agrément?"
+        payload: "/liste_piece"
+      - title: "Durée"
+        payload: "/duree_liste"
+      - title: "Quelle est la comission qui examine le dossier?"
+        payload: "/commission"
+      - title: "Suivi dossier"
+        payload: "/suivi_agrement"
+      - title: "exigences"
+        payload: "/exigence"
+      - title: "Déclaration CA"
+        payload: "/chiffre_affaire"
+      - title: "Comment obtenir un autorisation d'exercer à bord de navires?"
+        payload: "/autorisation_navire"
+      - title: "Quelles sont les activités Autorisées au bord des navires?"
+        payload: "/activite_navire"
+      - title: "Restitution caution"
+        payload: "/restitution_caution"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_formalite_domaniale:
+  - text: "Pour obtenir une autorisation d'occupation domaniale, il faut adresser une demande au Directeur 
+          Général du PAD qui, après accord, impute le dossier au Service des Affaires Domaniales pour traitement et suivi.
+          C’est ainsi qu’un cahier des charges est élaboré et enregistré aux impôts et domaines par le client. Après 
+          cette phase d’enregistrement, le client verse une caution. Il s’en suit l’établissement du procès-verbal de 
+          remise, document dans lequel figurent le mode et le début de facturation du client."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_type_agrement:
+  - text: "Au port, on peut exercer 05 activités sous le régime de l’agrément que sont : la manutentention, la consignation, le transit, le transport et le shipchandler. "
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_condition_agrement:
+  - text: "Pour obtenir un agrément, il faut que la société réponde aux exigences de la liste des pièces à fournir selon le type d’agrément demandé."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_liste_piece:
+  - text: "Pour savoir les pièces à fournir pour les agréments, vous pouvez cliquer 
+          [ici](https://www.portdakar.sn/fr/opportunite-daffaire/procedures/agrement/obtenir-un-agrement) 
+          ou vous rendre à la Direction commerciale et Expérience Client du port pour plus d’informations."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_duree_liste:
+  - text: "Pour le transport la durée de validité est de cinq ans et pour la manutention, le transit, 
+          le shipchandler, la consignation la durée est indeterminée. 
+          ** Autorisation pour exercer au bord des navires**: La durée de validité est d’un an renouvelable chaque année."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_commission:
+  - text: "c’est la commission consultative portuaire qui se charge d’étudier le dossier. 
+          ** Les membres de cette commission ** sont: le port autonome de Dakar, la douane, le SEMPOS, le SATS, 
+          la direction du commerce intérieur, le CNES, le CNP, le SAMCOS, les impôts et domaines, l’ANAM, la direction 
+          des transports routiers, le syndicat des transporteurs routiers, la chambre ce commerce, l’USETTA. 
+          La **fréquence de tenue de  la commission consultative portuaire ** :la commission peut se réunir à intervalles de 45 jours."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_suivi_agrement:
+  - text: "Après tenue de la commission consultative portuaire la direction commerciale contactera le demandeur.
+          Si le dossier est valide, une copie pourra être retirée à la direction commerciale une fois les projets d’agrément 
+          signés par le ministère de la  pêche et de l’économie maritime. L’agrément est aussi accompagné d’un cahier des 
+          charges à signer, enregistrer aux impôts et domaines et retourner à la direction commerciale afin de pouvoir 
+          disposer de l’original de l’agrément."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_exigence: 
+  - text: "la société titulaire d'un agrément devra obligatoirement déclarer son chiffre d’affaires de 
+          l’année n-1 au plus tard le 30 juin de l’année n. 
+          ** NB**: une société peut obtenir plusieurs agréments à condition qu'elle dispose d’un capital 
+          qui lui permet de répondre à l’exigence du type d’agrément demandé."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_chiffre_affaire: 
+  - text: "Des formulaires de déclaration de chiffre d’affaire sont disponibles à la direction commerciale du port
+          selon le type d’activité ou 
+          [ici](https://www.portdakar.sn/fr/opportunite-daffaire/procedures/agrement/formulaires-de-declaration-de-chiffres-daffaires). 
+          La société titulaire d’un agrément devra payer des frais de redevance et frais de contrôle qui sont 
+          respectivement de 1/1000 et 1/5000. Ces frais sont fixés à un montant forfaitaire de 23600 si la société 
+          ou le GIE n’a pas fait un chiffre d’affaire supérieur ou égal 20.000.000."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_autorisation_navire: 
+  - text: "Pour obtenir une autorisation d'exercer au bord des navires, le demandeur devra faire une lettre de 
+          demande adressée au directeur général accompagnée des statuts de la société ou du GIE. Il doit aussi verser
+          une **caution** de **500.000** FCFA à déposer à la trésorerie du port.   
+          La direction commerciale après avoir reçu votre dossier de demande vous fera une cession qui vous 
+          permettra de déposer cette caution au niveau de la trésorerie." 
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_activite_navire: 
+  - text: "Il s’agit de toute activité dont un navire a besoin à quai sauf l’approvisionnement en vivres. A noter qu’aussi pour 
+          l’activité de gardiennage il faut impérativement l’agrément du ministère de l’intérieur ainsi que l’enlèvement 
+          d’huiles usées qui exige aussi l’agrément du ministère de l’environnement."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_restitution_caution:
+  - text: "La caution pourra être retirée en cas de demande de restitution par la société ou le GIE. 
+          Il s’agit de faire une lettre de demande de restitution de caution  adressée au directeur général 
+          accompagnée de l’autorisation, des copies de cession et du reçu de versement de la caution."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_renouvellement_autorisation: 
+  - text: "Au mois de janvier, le GIE ou la société devra faire une demande de renouvellement d’autorisation accompagnée de la 
+          déclaration de chiffre d’affaire de l’année N-1 et de la copie de l’autorisation expirée."
+    buttons: 
+      - title: "Agrément et autorisation"
+        payload: "/agrement"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  #Reponses pour les questions relatives aux statistiques du port de Dakar
+  utter_chiffre_cle:
+  - text: "Pour vous informer sur les chiffres clés du Port de Dakar cliquer sur 
+          [statistiques du port](http://www.portdakar.sn/fr/nous-decouvrir/nos-chiffres-cles)"
+  utter_help:
+  # - text: "Comment puis-je vous aider ?"
+  - text: "Qu'avez-vous besoin de savoir sur le port de dakar?"
+#Réponse du bot quand l'utilisateur parle l'anglais
+  utter_english:
+  - text: I am still learning. I not now able to speack english. Thank you for your undustanting.
+  utter_english_1: 
+  - text: "But you can translate your questions before asking it to me by using 
+          [google translate](https://translate.google.com/?hl=fr&sl=auto&tl=fr&text=i%20am%20fine%20&op=translate)"
+    buttons:
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_usermerci:
+  - text: "Ok"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  # - text: "Je vous en prie."
+  - text:  "👍"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+## Accessibilité du Port de Dakar
+  utter_accessibilite:
+  - text: "Vous avez besoin des informations sur:"
+    buttons: 
+      - title: "Quelle est localisation géographique du PAD?"
+        payload: "/localisation_geographique"
+      - title: "Quelle est situation géographique du PAD?"
+        payload: "/situation_geographique"
+      - title: "Accessibilite Navires"
+        payload: "/accessibilite_navire"
+      - title: "Quels sont les horaire de fonctionnementdu Port?"
+        payload: "/horaire_fonctionnement"
+      - title: "Quel est le plan d'eau intérieur?"
+        payload: "/superficie_plan_eau"
+      - title: "Quel est tirant d'eau?"
+        payload: "/profondeur_tirant_eau"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_situation_geographique:
+  - text: "le ** Port de Dakar ** est la porte océane de l’Afrique de l’Ouest et la porte naturelle de l’hinterland 
+          car il est situé à l’intersection des lignes maritimes reliant l’Europe à l’Amérique du Sud, L’Amérique du 
+          Nord à l’Afrique du Sud ;" 
+  utter_situation_geographique2:
+  - text: "le port de Dakar, bénéficie d’une position géographique exceptionnelle. 
+          Ce qui permet aux navires venant du Nord de disposer d’un gain de navigation de deux (2) à trois (3) jours par 
+          pport aux autres ports de la côte ouest africaine.
+          cliquez sur [Port de Dakar](https://www.google.com/maps/place/Port+Autonome+de+Dakar/@14.6743143,-17.4310095,15z/data=!4m5!3m4!1s0x0:0x2bd3c6c1882c3944!8m2!3d14.6743143!4d-17.4310095)
+          pour plus d'infos."
+    buttons: 
+      - title: "Accessibilite du Port"
+        payload: "/accessibilite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_localisation_geographique:
+  - text: "La localisation géographique du Port de Dakar est: 14° 40′ de latitude Nord et 17° 25′ de longitude Ouest."
+    buttons: 
+      - title: "Accessibilite du Port"
+        payload: "/accessibilite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse" 
+  utter_please_rephrase:
+  - text: "Je suis désolé, mais je comprend pas votre question. Pourriez-vous la reformuler s'il vous plaît?"
+    # buttons: 
+    #   - title: "Menu principal"
+    #     payload: "/menu_principal"
+    #   - title: "👍"
+    #     payload: "/UserMerci"
+    #   - title: "👎"
+    #     payload: "/mauvaise_reponse"
+  utter_accessibilite_navire:
+  - text: "Parfaitement balisé, le port de Dakar est l’un des rares ports de la côte ouest africaine où les navires de 
+          toutes catégories peuvent accéder à tout moment grâce aux conditions nautiques exceptionnelles du site (les 
+          marées maximales varient entre 0.20 et 1.80m). "
+  utter_accessibilite_navire_1:
+  - text: "Avec un plan d’eau de 177 ha stable et bien sécurisé, un chenal 
+          de 195m récemment dragué à -13 m à partir de la bouée d’atterrissage n°12 jusqu’au Terminal à conteneurs."
+    buttons: 
+      - title: "Accessibilite du Port"
+        payload: "/accessibilite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_horaire_fonctionnement:
+  - text: "Le port de Dakar est opérationnel 24h/24 et 7j/7"
+    buttons: 
+      - title: "Accessibilite du Port"
+        payload: "/accessibilite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_superficie_plan_eau:
+  - text: "Le plan d’eau intérieur s’étend sur 177 ha."
+    buttons: 
+      - title: "Accessibilite du Pord"
+        payload: "/accessibilite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_profondeur_tirant_eau:
+  - text: "Le tirant d’eau du Port de Dakar varie entre - 8 et -13m."
+  # - text: "La profondeur du tirant d'eau du port est toujours compris entre -8 et -13m."
+    buttons: 
+      - title: "Accessibilite du Port"
+        payload: "/accessibilite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+# 2. Infrastructure et capacité d'accueil du port de Dakar
+  utter_infrastructure_capacite:
+  - text: "Vous voulez-vous renseigner sur: "
+    buttons: 
+      - title: "Quelles sont les installations spécialisées du Port?"
+        payload: "/installation_specialise"
+      - title: "Paquebots (bateaux croisières)"
+        payload: "/installation_paquebot"
+      - title: "combien de postes à quai sont disponibles? "
+        payload: "/poste_a_quai"
+      - title: "Quels sont les terminaux?"
+        payload: "/terminaux"
+      - title: "Conteneurs frigorifiques"
+        payload: "/frigo"
+      - title: "Fluidité"
+        payload: "/fluidite"
+  utter_installation_specialise:
+  - text: "Quatorze (14) installations portuaires sont disponibles au Port de Dakar et soumises aux exigences du 
+          code ISPS (International Ship and Ports facilities Security). Mole1 (Conventionnel), Mole 3 (Conventionnel), 
+          Mole 4 (Conventionnel), Mole 5 (Vracs Solides), Mole 8 (Vracs Solides), Zone des hydrocarbures (Hydrocarbures, 
+          lasse), Terminal à conteneurs (Conteneurs), Terminal roulier (Véhicules et conteneurs), Sea line de Mbao 
+          (pétrole brut SAR, Gaz butane SAR/TOTAL, Acide phosphorique et acide sulfurique), Gare Maritime de Dakar 
+          (Passagers), Atelier de réparation navale (Tout type de navire)."
+    buttons:
+      - title: "Infrastructures spécialisées"
+        payload: "/infrastructure_capacite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_installation_paquebot: 
+  - text: "Il existe une Gare Maritime Internationale au Port de Dakar d’une capacité de 1800 passagers avec des 
+          commodités et un dispositif sécuritaire répondant aux standards internationaux avec un hall d’enregistrement, une 
+          zone de transit sécurisée (portiques, scanner, tourniquets) ; un grand espace aéré sur deux niveaux servant de 
+          hall d’embarquement (une cafétéria, des sanitaires et un kiosque à journaux, accès WIFI, afficheurs numériques, 
+          téléviseurs à écran plat) ; un parking sécurisé ; une passerelle, reliant la gare aux quais, pouvant servir de 
+          supports à des annonces publicitaires ; un ascenseur destiné en priorité aux personnes à motricité réduite"
+    buttons:
+      - title: "Infrastructures spécialisées"
+        payload: "/infrastructure_capacite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_poste_a_quai:
+  - text: "Le Port de Dakar dispose de 52 postes à quai ainsi répartis : 21 à la Zone Nord, 18 à la zone Sud, 
+          10 au Port de Pêche et 03 au Sea-lines."
+    buttons:
+      - title: "Infrastructures spécialisées"
+        payload: "/infrastructure_capacite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_terminaux:
+  - text: "** Terminal roulier: ** ? Un terminal roulier d’une superficie de 8 ha avec 700m de linéaire de quai qui 
+          répond aux spécificités de ce type de trafic en termes de sécurité et d’accessibilité. "
+  utter_terminaux_1: 
+  - text: "**Terminal à conteneurs :** Il recouvre une superficie totale de 24 ha et un linéaire de quai d’environ 700m 
+          pour un tirant d’eau de 13,5 mètres." 
+  utter_terminaux_2: 
+  - text: "**Terminal vraquier: ** Le terminal vraquier s’étend sur une superficie 
+          8 Ha avec une longueur des linéaire de plus de  700 Mètres  et des profondeurs variant entre – 6 et 10 mètres. "
+    buttons:
+      - title: "Infrastructures spécialisées"
+        payload: "/infrastructure_capacite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_frigo: 
+  - text: "Le Terminal à conteneurs de Dakar dispose d’un ** parc frigorifique ** d’une superficie de 9ha doté  de 560
+          prises reefer avec un Monitoring à distance 24h/24 et offre une priorité d’accostage lignes exclusives et une 
+          GATE export."
+    buttons:
+      - title: "Infrastructures spécialisées"
+        payload: "/infrastructure_capacite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_fluidite:
+  - text: "Un Parking de Gestion des flux de camion d’une superficie de 6ha pouvant accueillir 600 camions toutes 
+          les 6heures avec un système de prise de rendez-vous en vue de faciliter et de désengorger l’accès au Port. "
+    buttons:
+      - title: "Infrastructures spécialisées"
+        payload: "/infrastructure_capacite"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+## Marchandises en transit
+  utter_marchandise_transit:
+  - text: "Cliquer sur les bouttons suivantes pour plus de détails:"
+    buttons: 
+      - title: "Entrepôts Sénégalo-Maliens"
+        payload: "/entrepot_senegal_mali"
+      - title: "Acheminement Dakar-Bamako"
+        payload: "/acheminement_dakar_mali"
+      - title: "Stationnements"
+        payload: "/stationnement_camion"
+      - title: "facilités accordées"
+        payload: "/priorite_transit_mali"
+      # - title: "👍"
+      #   payload: "/UserMerci"
+      # - title: "👎"
+      #   payload: "/mauvaise_reponse"
+  utter_entrepot_senegal_mali:
+  - text: "Les Entrepôts Maliens au Sénégal (**EMASE**), Les Entrepôts Sénégalais au Mali (**ENSEMA**, Une représentation 
+          commerciale du Port de Dakar à Bamako (Mali). **Le port a un bureau de représentation commerciale au Mali**."
+    buttons:
+      - title: "Marchandises en transit"
+        payload: "/marchandise_transit"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_acheminement_dakar_mali:
+  - text: "Le Sénégal offre 02 voies terrestres : voie ferroviaire Dakar-Bamako et voie routière avec 02 itinéraires 
+          possibles : un corridor Nord (Dakar-Kayes) et un corridor Sud (Dakar-Saraya). " 
+  utter_acheminement_dakar_mali_1:
+  - text: "** La distance entre Dakar et Bamako** est Via **Kidira** : 1.382km et Via **Moussala** : 1.225km.  "
+    buttons:
+      - title: "Marchandises en transit"
+        payload: "/marchandise_transit"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_stationnement_camion:
+  - text: "3 parkings à Kaffrine, Koungheul et Missira (sur l’axe Kaolack-Tambacounda) 3 gares de gros porteurs à 
+          Sandiara, Diamniadio et Mbao (sur l’axe Dakar- Kaolack), et un parking à l’entrée du Port.  "
+    buttons:
+      - title: "Marchandises en transit"
+        payload: "/marchandise_transit"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_priorite_transit_mali: 
+  - text: "Priorité d’accostage au poste 32 pour les navires effectuant des opérations commerciales pour le 
+          compte du Mali, 17 000 m2 de terre-pleins et 2356 m2 de magasins couverts, 50 000 m² à Bel air pour les 
+          entrepôts maliens au Sénégal (EMASE), une gare pour les gros porteurs  à l’entrée de Dakar. 20% d’abattement 
+          sur la location des hangars et des terrains amodies, 50% d’abattement sur les redevances d’embarquement et de 
+          débarquement de marchandises, 21 jours de délai de franchise pour les marchandises diverses débarquées et 10 
+          jours pour les véhicules, Exonération de TVA sur les prestations portuaires au bénéfice des marchandises 
+          maliennes."
+    buttons:
+      - title: "Marchandises en transit"
+        payload: "/marchandise_transit"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_equipement_port:
+  - text: "Vous voulez des informations sur: "
+    buttons: 
+      - title: "Manutention des conteneurs"
+        payload: "/manutention_conteneur"
+      - title: "Manutention des vrac solides"
+        payload: "/manutention_vrac"
+      - title: "Port de Pêche"
+        payload: "/port_peche"
+  utter_manutention_conteneur:
+  - text: "\n2 portiques de quai (STS) Panamax Manutention en Tandem, 4 portiques de quai (STS) Post Panamax 
+          Manutention en Tandem, 10 portiques de parc (RTG) hauteur de 6, 3 grues mobiles Gottwald 100T, 2 spreaders 
+          automatiques, 6 spreaders à verrouillage automatique, 15 chariots élévateurs (Reach Stackers), 4 fourchettes 
+          (Empty Handlers), 32 Tracteurs et Remorques de Parc. "
+  utter_manutention_conteneur_1:
+  - text: "La **cadence de manutention des conteneurs** au Port de Dakar est 50 mouvement/ heure."
+    buttons:
+      - title: "Quels sont les équipements du Port ?"
+        payload: "/equipement_port"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_manutention_vrac:
+  - text: "2 grues Liebher  150 tonnes, 15 camions pour le transfert entre le quai et les zones de stockage du 
+          terminal, 2 convoyeurs / chargeurs de navire, 5 chariots élévateurs, 7 chargeuses, 02 ponts bascules, 02 
+          trémies dépoussiérées, 03 stations d’ensacheuse sans compter le petit matériel (crapaud, chouleurs). "
+    buttons:
+      - title: "Quels sont les équipements du Port ?"
+        payload: "/equipement_port"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_port_peche: 
+  - text: "  **Installations disponibles au Port de Pêche :** des unités industrielles de traitement de poissons et de congélation, 
+          de produits de mer, 
+          de fabriques de glaces, d’entrepôts frigorifiques. "
+  utter_port_peche_1: 
+  - text: "**Services offerts par le Port de Pêche et de commerce: **
+          l’avitaillement en eau à quai et en rade, l’avitaillement en gasoil, l’avitaillement en matériels de pêche et 
+          en vivres, la présence de deux bureaux de main-d’œuvre dockers, un service qui fonctionne 24h/24."
+    buttons:
+      - title: "Quels sont les équipements du Port ?"
+        payload: "/equipement_port"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_dedouanement:
+  - text: "Le **dédouanement** est effectué par le transitaire ou commissionnaire en douane qui, après avoir réuni 
+          les différents documents énumérés ci-dessous, effectue la procédure suivante : établissement de la note de 
+          détail manuelle ; saisie de la note de détail dans le système informatique de la Douane « GAINDE » ; 
+          enregistrement de ces informations dans le système qui lui indique en retour les droits et taxes à payer et 
+          l’inspecteur en charge du dossier ; dépôt physique des documents à la Douane pour recevabilité 
+          (vérification de l’exhaustivité et de la conformité des pièces, du régime fiscal, des bases taxables etc.) ; 
+          règlement des redevances au bureau du trésor en cas de recevabilité du dossier (pour les dossiers au comptant) ; 
+          validation du “Bon à enlever” par l’inspecteur des Douanes ; enlèvement de la marchandise après visa de la 
+          brigade de la Douane."
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_cout_passage: 
+  - text: "** Navire pilotable**: Un navire devient obligatoirement pilotable dès que son volume atteint 1500 m3. 
+          Les redevances portuaires sont principalement perçues sur : le pilotage et le balisage, l’amarrage, 
+          le désamarrage, le séjour du navire. "
+  utter_cout_passage_1:
+  - text: "**Navire non pilotage**: Les navires dits «  non pilotables » sont les 
+          navires de moins de 1.500 m3. Pour ces navires, le pilotage n’est pas obligatoire. Ils payent une redevance 
+          de balisage, une taxe d’utilisation du plan d’eau(TUPE), calculée en fonction du volume du navire. "
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_gestion_client: 
+  - text: "En cas de réclamations ou de préoccupations n’ayant pas trait aux agréments ou aux autorisations, 
+          veuillez-vous adresser au Service Clientèle via les numéros **33 849 45 06/ 77 645 70 79** ou télécharger la 
+          fiche de réclamations via le site internet du PAD. "
+  utter_gestion_client_1:
+  - text: Le "**Numéro vert** du Port Autonome de Dakar est  **800 801 802** "
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  ## Enlèvement de marchandise
+  utter_enlevement_marchandise:
+  - text: "L’enlèvement des marchandises sur les terre-pleins banalisés est systématiquement soumis à la 
+          délivrance du visa PAD par les Surveillants Taxateurs, sur présentation par le client du Bon à Délivrer 
+          (BAD) de la compagnie maritime, accompagné d’un bon à enlever et de la déclaration de Douane et d'un Bon à 
+          Délivrer de la compagnie maritime  portant les renseignements suivants : le nom du navire, la date d’arrivée 
+          du navire, la date de fin des opérations, etc. "
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "Services marchandise"
+        payload: "/service_marchandise"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_service_marchandise: 
+  - text: "Vous voulez des informations sur :"
+    buttons: 
+      - title: "Stockage marchandise"
+        payload: "/stockage_marchandise"
+      - title: "séjour marchandise"
+        payload: "/sejour_marchandise"
+      - title: "Redevances marchandise"
+        payload: "/redevance_marchandise"
+      # - title: "👍"
+      #   payload: "/UserMerci"
+      # - title: "👎"
+      #   payload: "/mauvaise_reponse"
+  utter_stockage_marchandise:
+  - text: "Les terre-pleins banalisés, les installations non banalisées adjacentes aux bords à quai, les 
+          installations non banalisées et non adjacentes aux bords à quai, les installations situées en dehors de la 
+          barrière douanière (ou portuaire) mais aussi, une plateforme logistique de 21 Ha qui a une capacité de stockage 
+           de 40.000 m2 composée de 03 hangars de 8.000 m² chacun ; 01 hangar de 5.500 m²; 04 hangars de 2.500 m² chacun."
+    buttons:
+      - title: "Enlèvement marchandise"
+        payload: "/enlevement_marchandise"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_sejour_marchandise: 
+  - text: "Les marchandises  à embarquer ou débarquer peuvent séjourner gratuitement sur les terre-pleins et 
+          dans les hangars de la zone interne pendant les durées suivantes : 07 jours à l’importation ou l’exportation 
+          pour toutes les marchandises y compris les véhicules, 20 jours pour les marchandises en transit sauf pour les 
+          véhicules, 12 jours pour les véhicules en transit."
+  utter_sejour_marchandise_1: 
+  - text: "Au-delà du 7ème jour suivant la fin du délai de gratuité, 
+          la majoration s’applique par m2 et par jour à la totalité des surfaces non encore libérées (+30%) par 
+          rapport au tarif de base."
+    buttons:
+      - title: "Enlèvement marchandise"
+        payload: "/enlevement_marchandise"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_redevance_marchandise:
+  - text: "Les droits de passage des marchandises à l'import et à l'export, les droits de passage des 
+          marchandises en transit et en transbordement, les droits perçus sur les passagers sur lignes internationales 
+          et sur les lignes de cabotage national."
+    buttons:
+      - title: "Enlèvement marchandise"
+        payload: "/enlevement_marchandise"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+## Sécurité Sûreté et Environnement du port
+  utter_securite_surete_environnement:
+  - text: "Sécurité-Sûreté-Environnement: "
+    buttons:
+      - title: "Sécurité et Sûreté"
+        payload: "/surete_securite"
+      - title: "Forces de Sécurité"
+        payload: "/administration_securite"
+      # - title: "👍"
+      #   payload: "/UserMerci"
+      # - title: "👎"
+      #   payload: "/mauvaise_reponse"
+  utter_surete_securite:
+  - text: "Le Port Autonome de Dakar a été l’un des premiers ports en Afrique à appliquer les dispositions du 
+          Code ISPS (International Ship and Port facility Security Code  – en français, Code International pour la 
+          Sureté des Navires et des Installations Portuaires), qui est entré en vigueur le 1er juillet 2004."
+  utter_surete_securite_1:
+  - text: "Etablissement recevant du public, la **Gare Maritime de Dakar** respecte les exigences des mesures sécurités y relatives et des dispositifs du code ISPS.
+          présence des forces de sécurité avec l'existence d'un poste de gendarmerie 
+          Disponibilité d'un système de vidéosurveillance, de scanner à bagages de portiques etc..."
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "Sécurité/ Sûreté/ Environnement"
+        payload: "/securite_surete_environnement"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_administration_securite:
+  - text: "Les structures, administrations et forces de sécurité qui veillent à la sûreté du Port sont: l’Agence Nationale des Affaires Maritimes (ANAM), l’Autorité Nationale de Sûreté Portuaire (ANSP), 
+          la HASSMAR (Haute Autorité chargée de la coordination de la Sécurité maritime, de la Sûreté maritime et de la 
+          protection de l’environnement Marin), la Marine nationale, la compagnie de gendarmerie maritime, la brigade 
+          nationale des sapeurs-pompiers, le commissariat spécial du port, Les services des douanes, le service du 
+          contrôle sanitaire aux frontières maritimes."
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "Sécurité/ Sûreté/ Environnement"
+        payload: "/securite_surete_environnement"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_acces_port:
+  - text: "Toutes personnes n’appartenant ni au service public, ni à une entreprise agréée au sens du décret n° 68-714, ni à une société titulaire d’un cahier de charge pour occupation au domaine du Port, 
+          n’étant ni titulaire d’une carte de docker professionnel ou occasionnel, ni d’un livret professionnel 
+          maritime, doivent s’acquitter d’une redevance annuelle (macaron annuel pour les véhicules) ou d’un laisser–passer journalier."
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+## Pas encore mis les buttons dans le menu principal
+  utter_service_assistance_navire:
+  - text: "Les  services au navire au Port de Dakar sont : le Pilotage, le  remorquage, la manutention, le 
+          balisage, le lamanage, la réparation navale, l’avitaillement et le soutage."
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "Qualité services"
+        payload: "/qualite_service"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_qualite_service:
+  - text: "**Qualité du service de remorquage au Port de Dakar **:Le remorquage reste facultatif au Port de Dakar grâce aux conditions nautiques exceptionnelles huit (8) remorqueurs équipés d’un dispositif 
+          adéquat de lutte contre la pollution et les incendies. Il est également certifié ISO.
+
+          **Qualité du service de pilotage des navires au Port de Dakar **: Le pilotage est opéré par des capitaines, agents du PAD, qui sont au nombre de quinze (15) pilotes, capitaines au long cour avec une 
+          flotte de six (6) pilotines et sept (7) pc d’amarrage assurent sans interruption, à tour de rôle, les manœuvres d’assistance des navires à l’entrée, au déhalage et à la sortie." 
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "Services aux navires"
+        payload: "/service_assistance_navire"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_avitaillement_eau_hydro:
+  - text: "**L’avitaillement en eau douce** dispose d’un réseau entièrement rénové. Il est effectué à l’aide de 132 
+          bouches à quai réparties comme suit : à la zone Nord (poste 42), à la Zone Sud (poste 32) et à la Zone Pêche 
+          (poste 58) **. Le réseau d’avitaillement en hydrocarbure ** comprend 213 bouches réparties sur 10 postes pouvant 
+          fournir 250/T/H navire, avec possibilité de délivrer jusqu’à 1000/T/H par poste. "
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "Services aux navires"
+        payload: "/service_assistance_navire"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_reparation_navale:
+  - text: "Il existe un atelier de réparation navale exploitée par la société Dakarnav. L’atelier de réparation 
+          navale dispose : d’un élévateur à bateau de 1200 tonnes, d’une cale sèche de 195 m de long et 27 m de large, 
+          d’un bassin de radoub de 130 m de long et 38 m de large, de deux (2) grues flottantes de 60 et 120 tonnes et 
+          d’un dock flottant avec une capacité de levage de 60.000 tonnes."
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "Services aux navires"
+        payload: "/service_assistance_navire"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_facture_domaine: 
+  - text: "Il existe trois types de facturation : une facturation bimestrielle pour clients du petit domaine 
+          (inférieures à 100 m²) (boutique, resto, gargotes…), une facturation trimestrielle pour les occupations 
+          supérieures à 100 m², une facturation annuelle qui concerne quelques gros clients comme les entreprises 
+          nationales."
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_surface_allouee: 
+  - text: "Oui. Il existe des terrains et installations de stockage situés à l’intérieur et à l’extérieur de la 
+          barrière douanière alloués à un client appelé amodiataire, sous forme de location d’une durée variant, 
+          généralement, entre neuf (09) et vingt-cinq (25) ans sur la base d’un cahier des charges." 
+  utter_surface_allouee_1:
+  - text: "La gestion et 
+          l’entretien de ces surfaces amodiées revient à l’amodiataire qui doit, compte tenu des incidences de son 
+          action sur la performance et la productivité du port, utiliser de façon rationnelle les surfaces mises à leur 
+          disposition »"
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_gare_maritime: 
+  - text: "La Gare Maritime Internationale de Dakar Cardinal Hyacinthe THIANDOUM est mise en exploitation en 
+          juillet 2010." 
+  utter_gare_maritime_1: 
+  - text: "Occupant 1800m² de surface sur un site d'un (1)+S3 hectare son objectif est de créer un  cadre 
+          et un environnement adéquat permettant aux passagers des compagnies maritimes intérieures de séjourner et de 
+          transiter par la Gare dans d’excellentes conditions de confort de sécurité et de sureté."
+  utter_gare_maritime_2:
+  - text: "lignes maritimes sur place : **Dakar Gorée** et **Dakar Ziguinchor** 
+          adresse : 21, boulevard de la libération "
+  utter_gare_maritime_3:
+  - text: "** Tel**: 33 849 79 65  **Fax** : 221 33 823 36 06 **mail**: gmid@portdakar.sn"     
+  utter_gare_maritime_4:                                                                                    
+  - text: "Facebook: [Gare maritime de Dakar](https://www.prod.facebook.com/garemaritimedakar/)"
+  utter_gare_maritime_5:                                                                                    
+  - text: " Si vous voulez utiliser google maps pour se rendre à la gare maritime cliquer 
+          [ici](https://www.google.com/search?q=gare+maritime+de+dakar+google+maps&rlz=1C1GCEU_frSN937SN937&tbm=lcl&sxsrf=ALeKk02Ropv2a_eq-DaTkIpx7M2dwrRYjg%3A1616419119263&ei=L5lYYJ3AD9KYsAeip4NA&oq=gare+maritime+de+dakar+google+maps&gs_l=psy-ab.12...0.0.1.3968.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.WxT2B4uCzeU#rlfi=hd:;si:;mv:[[14.674380000000001,-17.3970098],[14.667490500000001,-17.4328205]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2,lf:1,lf_ui:2)"
+    buttons: 
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  utter_ligne_maritime_goree: 
+  - text: "Deux lignes Maritime sont disponibles au niveau de la Gare."
+  utter_ligne_maritime_goree_1: 
+  - text: "La Ligne Maritime Dakar Gorée (LMDG) assure la desserte de Dakar vers l'île de Gorée :
+          de 6h15 à 23h sauf les vendredis minuit et les samedis et dimanches 01h15."
+  utter_ligne_maritime_goree_2: 
+  - text: "la LMDG dispose de trois chaloupes : Beer (340 passagers), Coumba Castel (340 passagers),
+           et Coumba Lamb (180 passagers) 11 rotations en moyenne par jour et des rotations non stop en période de forte 
+           affluence, d’octobre à décembre (1500 passagers), (2500 à 3000 passagers) / jour dont 25% de touristes
+           une Chaloupe spéciale peu aussi être affrétée à la demande. "
+  utter_ligne_maritime_goree_3: 
+  - text: "Cliquer [ici](http://www.portdakar.sn/fr/nos-services/trafic-passager/dakar-goree) pour visiter 
+          notre site web. "
+    buttons: 
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  utter_ligne_maritime_zig: 
+  - text: "La ligne Maritime Dakar Ziguinchor gérée par le **COSAMA** assure la desserte sur Ziguinchor" 
+  utter_ligne_maritime_zig_1:
+  - text: "Pour plus d'informations cliquez [ici](http://www.cosama.sn/)"
+    buttons: 
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+      - title: "Menu principal"
+        payload: "/menu_principal"
+  utter_capacite_accueil_gare_maritime:
+  - text: "La Gare Maritime de Dakar peut accueillir environ 1000 passagers dans de très bonnes conditions 
+          de transit  existence de dispositifs de prise en charge des personnes à motricités réduites existence 
+          d'ascenseur d'une capacité de 8 personnes."
+  utter_capacite_accueil_gare_maritime_1:
+  - text: "Elle dispose aussi de deux billetteries : pour La Liaison Dakar-Gorée et 1 pour  la Liaison 
+          Dakar-Ziguinchor ; un hall d’enregistrement ;
+          une zone de transit sécurisée : portiques, scanner
+          un grand hall de fret  pour les bagages  et les marchandises."
+    buttons: 
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_service_offert_aux_passager:
+  - text: "La Gare Maritime dispose d'une cafétéria et d'un restaurant fonctionnels de 6h30 à 20h, d'une boutique de 
+          souvenir, d'une connexion Wifi , d'un parking payant, de guichets automatiques de Banque et de Kiosque à 
+          transfert d'argent."
+    buttons: 
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+
+
+  # Gare maritime
+  utter_service_offert_au_public: 
+  - text: "Existence de salles de manifestation conviviales avec vue sur la mer mises à la disposition du grand public 
+           pour les manifestations culturelles et socio professionnelle (mariages, communions, baptêmes, exposition 
+           d'arts, cocktail etc...) des espaces pour l'affichage d'annonces publicitaire sont aussi mis à disposition. 
+           pour tout info contacter le **338497965**"
+    buttons: 
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+  utter_certification_gare_maritime: 
+  - text: "Le Port Autonome de Dakar a mis en place au niveau de la Gare Maritime de Dakar un Système de 
+          Management Intégré Qualité, Sécurité et Environnement conformément au exigences en vigueurs."
+  utter_certification_gare_maritime_1:
+  - text: "Obtention du certificat QSE pour l'activité Service aux passagers et aux marchandises suites aux 
+          audits de l'organisme International Afnor Existence d'un dispositif de tri de déchets "
+  utter_certification_gare_maritime_2:
+  - text: "Mise en place de mesures barrières  pour la Gestion de la COVID"
+    buttons: 
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+
+  # Out of scope message When user ask questions outside our nlu data
+  utter_out_of_scope_1:
+  - text: Je suis un robot programmé pour ne répondre qu'à certaines des questions fréquentes. 
+  utter_out_of_scope_2:
+  - text: utilisez le menu principal ou écrivez votre question ci-dessous.
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+
+  utter_telephone_service_client:
+  - text: "Ou bien, veuillez-vous adresser au Service Clientèle via les numéros 33 849 45 06/ 77 645 70 79"
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
+
+   
+        
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
