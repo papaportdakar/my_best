@@ -85,6 +85,7 @@ intents:
   - accord_partenariat
   - convention_partenariat
   - gestion_remorquage
+  - demande_emploi
 
 # This part is our bot's responses
 responses:
@@ -94,6 +95,15 @@ responses:
 #   - text: "Comment vous vous appelez ?"
   # utter_merci_bcp: 
   # - text: "Merci beaucoup"
+  utter_demande_emploi: 
+  - text: "Pour avoir des informations relatives aux offres d'emploi, veuillez envoyer mail à l'adresse suivant: **pad@portdakar.sn**"
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
   utter_convention_partenariat:
   - text: "Déposer un dossier contenant une lettre officielle adressée au Cordonateur de la Cellule des 
           Partenariats et Coopération Internationale, les termes de référence, une note conceptuelle avec les 

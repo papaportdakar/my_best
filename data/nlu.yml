@@ -1,5 +1,31 @@
 version: "2.0"
 nlu:
+
+- intent: demande_emploi
+  examples:  |
+    - Emploi au port de Dakar 
+    - Embauchement au Port 
+    - Recrutement au Port
+    - Comment devenir employé au Port
+    - comment etre recruter au port
+    - obtenir un emploi au Port
+    - Recrutement Port de Dakar
+    - Recrutement
+    - emploi 
+    - comment travailler au port
+    - demande d'emploi
+    - demande emploi
+    - Embauchement
+    - embauchement
+    - offre d'emploi 
+    - offre emploi au Port de Dakar
+    - je veux travailler au port
+    - comment etre employe au Port de dakar
+    - Comment devenir un emploi du Port
+    - travail au Port
+    - travailler au Port 
+    - je cherche du travail au port
+
 - intent: convention_partenariat
   examples: |
     - Comment signer un convention de partenariat?
@@ -46,6 +72,7 @@ nlu:
     - Coopération Internationale?
     - Coopération Internationale avec le Port de Dakar
     - protocole de Coopération Internationale?
+    - coorperation internationale
     - Que dois-je faire pour finaliser un protocole de Coopération Internationale?
     - Quelles sont les conditions à remplir  pour une collaboration sour forme de Coopération Internationale?
     - Comment nouer un accord de Coopération Internationale?
@@ -204,15 +231,18 @@ nlu:
   examples: |
     - Agrément et autorisation d’exercer
     - Comment obtenir un agrément?
+    - autorisation exercer
     - comment avoir une autorisation d'exercer au port?
     - Agrément
     - agrement
     - autorisation 
-    - autorisation
     - obtnir un agrément au Port
+    - obtenir un agrement au port
     - Je veux obtenir un agrément au port autonome de dakar
     - Je veux obtenir une autorisation au port autonome de dakar
     - obtention agrément
+    - obtention agrement
+    - je veux obtenir un agrement au port autonome de dakar
     - Agrément et autorisation
     - comment obtenir une autorisation
 - intent: formalite_domaniale
@@ -245,7 +275,9 @@ nlu:
     - Quelles sont les conditions pour obtenir un agrément?
     - les conditions pour les agréments
     - Conditions pour obtention d'agrément
+    - condition pour obtention d'agrement
     - les obligations pour les agréments
+    - les obligations pour les agrements
     - obligations pour les agrement
     - Obligations pour obtenir un agrément
     - Quelles sont les obligations à respecter pour l’obtention d’un agrément?
@@ -257,11 +289,13 @@ nlu:
     - Pièces à fournir pour les agréments
     - Pièces à fournir
     - piece a fournir
+    - pieces a fournir
     - Quelles sont les pièces à fournir pour obtenir un agrément?
     - Quelles sont les pièces à fournir
     - Je veux obtenir des informations sur les pièces à fournir
     - liste des pièces à fournir
     - liste des pièces
+    - liste des piece
 - intent: duree_liste
   examples: |
     - Quelle est la durée de validité de ces agréments?
@@ -269,14 +303,15 @@ nlu:
     - Durée de validité
     - duree de validite 
     - Durée des agréments
+    - duree des agrements
     - Quelle est la validité des agréments
     - Durée des agréments pour le transport
     - Durée des agréments pour la manutention
-    - Quelle est la durée de validité de l’autorisation?
+    - Quelle est la durée de validité de l’autorisation ?
+    - quelle est la duree de validite de l autorisation
     - Quelle est la durée de validité de l’autorisation pour exercer au bord des navires?
 - intent: commission
   examples: |
-
     - Qui valide le dossier de demande d’agrément? 
     - Quelle est la comission qui examine le dossier?
     - Qui valide le dossier de demande d’agrément?
@@ -311,17 +346,20 @@ nlu:
     - les obligations pour une société titulaire d’un agrément
     - exigences pour agréments
     - les normes à respecter
+    - norme a respecter
     - normes des agréments vis-àvis du Port
 - intent: chiffre_affaire
   examples: |
     - Comment fait-on une déclaration de chiffre d’affaire?
     - déclaration de chiffre d’affaire
     - comment déclarer son CA
+    - declarer son CA
     - déclaration de CA
     - Comment fait-on une déclaration de CA?
     - Comment obtenir le formulaire de déclaration de chiffre d'affaire?
     - Comment obtenir le formulaire de déclaration de CA?
     - formulaire de déclaration de CA?
+    - formulaire de declaration de chiffre affaire
     - formulaire de déclaration de déclaration de chiffre d'affaire?
 - intent: autorisation_navire
   examples: |

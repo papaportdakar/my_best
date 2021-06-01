@@ -1,6 +1,11 @@
 version: "2.0"
 
 rules: 
+
+- rule: demande d'emploi
+  steps:
+  - intent: demande_emploi
+  - action: utter_demande_emploi
 - rule: out of scope number 1
   steps:
   - intent: out_of_scope_1
