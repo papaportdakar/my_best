@@ -25,6 +25,7 @@ nlu:
     - travail au Port
     - travailler au Port 
     - je cherche du travail au port
+    
 
 - intent: convention_partenariat
   examples: |
