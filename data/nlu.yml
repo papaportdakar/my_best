@@ -40,6 +40,10 @@ nlu:
     - Comment obtenir un contrat de travail a durée détermine
     - CDD
     - CDI
+    - devenir stagiaire au port
+    - stagiaire au port
+    - depot de CV
+    - ou deposer son CV au Port
 
 
 - intent: convention_partenariat
