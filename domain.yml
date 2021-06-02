@@ -195,6 +195,8 @@ responses:
   - text: "Ha, je suis vraiment désolé."
   utter_mauvaise_reponse_1:
   - text: " Veuillez reformuler votre question s'il vous plait !"
+  utter_mauvaise_reponse_2:
+  - text: "Ou bien, veuillez-vous adresser au Service Clientèle via les numéros 33 849 45 06/ 77 645 70 79"
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"

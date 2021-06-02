@@ -318,6 +318,7 @@ rules:
   - intent: mauvaise_reponse
   - action: utter_mauvaise_reponse
   - action: utter_mauvaise_reponse_1
+  - action: utter_mauvaise_reponse_2
 - rule: Se rendre à la gare maritime de Dakar
   steps: 
   - intent: gare_maritime
