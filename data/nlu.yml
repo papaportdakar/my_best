@@ -25,7 +25,14 @@ nlu:
     - travail au Port
     - travailler au Port 
     - je cherche du travail au port
-    
+    - offre de stage
+    - comment effectuer un stage au port 
+    - stage 
+    - demande de stage au port
+    - je veux faire mon stage au port
+    - est ce qu il y a des stages disponibles au port
+    - demande de stage
+
 
 - intent: convention_partenariat
   examples: |
@@ -78,6 +85,8 @@ nlu:
     - Quelles sont les conditions à remplir  pour une collaboration sour forme de Coopération Internationale?
     - Comment nouer un accord de Coopération Internationale?
     - Quelles sont les pièces à fournir pour la signature d'une convention de Coopération Internationale?
+    - Quelles sont les piece a fournir pour la signature d une convention
+    - Signature d une convention
 - intent: accord_partenariat
   examples: |
     - Comment signer un acccord de partenariat?
