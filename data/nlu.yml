@@ -469,6 +469,12 @@ nlu:
     - relation client
     - relations clients
     - Y- a-t-il un numéro vert au Port de Dakar?
+    - Quelle est la meilleure façon de vous parler ?
+    - Contact service client
+    - meilleur facon de parler au port
+    - comment contacter le port
+    - reclamation
+    - service clientele
     - numéro vert
 - intent: UserMerci
   examples: |
