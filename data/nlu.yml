@@ -227,6 +227,8 @@ nlu:
 - intent: manifest
   examples: |
     - manisfestion d'intérêt
+    - manifestion d interet 
+    - comment obtenir le formulaire de la manifestion d interet
     - Comment obtenir le formulaire de la manifestion d'intérêt
     - Remplissage du formulaire de la manisfestion d'intérêt du port autonome de Dakar
     - Je veux me renseigner sur la manifestion d'intérêt du port
@@ -240,10 +242,13 @@ nlu:
 - intent: agrement
   examples: |
     - Agrément et autorisation d’exercer
+    - agrement et autorisation d exercer
     - Comment obtenir un agrément?
     - ou deposer une demande d'agrémént
     - depot d'agrément
     - ou deposer une demande d agrement 
+    - dossier agrement
+    - deposer un dossier pour un agrement
     - autorisation exercer
     - comment avoir une autorisation d'exercer au port?
     - Agrément
@@ -269,22 +274,27 @@ nlu:
     - formalités pour occuper un domaine
     - formalités pour avoir l'autorisation d'occuper un domaine du Port
     - domaine Port
-    - obtnir un domaine au Port
+    - obtenir un domaine au Port
     - occuper un domaine du Port
 - intent: type_agrement
   examples: |
     - Quels sont les différents agréments que l’on peut obtenir au port de Dakar?
     - Quels sont les types d'agréments?
+    - quels sont les type d'agrement?
     - types d'agrement disponibles
     - les différents agréments
+    - differents agrement
     - les différents agréments du Port
     - types agréments
+    - types agrements
     - les agréments du Port
+    - agrement du port
     - les agréments existant au Port de Dakar
 - intent: condition_agrement
   examples: |
     - Quelles sont les conditions à remplir pour l’obtention d’un agrément?
     - conditions à remplir pour l’obtention d’un agrément
+    - conditions a remplir pour l obtention d un agrement
     - Quelles sont les conditions pour obtenir un agrément?
     - les conditions pour les agréments
     - Conditions pour obtention d'agrément
@@ -293,12 +303,14 @@ nlu:
     - les obligations pour les agrements
     - obligations pour les agrement
     - Obligations pour obtenir un agrément
+    - obligation pour obtenir un agrement
     - Quelles sont les obligations à respecter pour l’obtention d’un agrément?
     - Conditions pour obtention d'agrément au Port
 - intent: liste_piece
   examples: |
     - Comment obtenir la liste des pièces à fournir pour les agréments?
     - liste des pièces à fournir pour les agréments?
+    - liste des pieces a fournir pour les agrements 
     - Pièces à fournir pour les agréments
     - Pièces à fournir
     - piece a fournir
@@ -336,7 +348,9 @@ nlu:
     - validation d'un agrément 
     - validation d un agrement
     - validation d'un agrément
+    - validation d un agrement
     - Commission de validation d'agréments
+    - commission de validation d un agrement
 - intent: suivi_agrement
   examples: |
     - Comment connaitre la suite qui a été donnée au dossier déposé?
@@ -360,15 +374,18 @@ nlu:
     - exigences pour agréments
     - les normes à respecter
     - norme a respecter
-    - normes des agréments vis-àvis du Port
+    - normes des agréments vis-à-vis du Port
+    - norme des agrements vis a vis du port
 - intent: chiffre_affaire
   examples: |
     - Comment fait-on une déclaration de chiffre d’affaire?
     - déclaration de chiffre d’affaire
+    - declarer son chiffre d affaire
     - comment déclarer son CA
     - declarer son CA
     - déclaration de CA
     - Comment fait-on une déclaration de CA?
+    - comment fait on une declaration du CA
     - Comment obtenir le formulaire de déclaration de chiffre d'affaire?
     - Comment obtenir le formulaire de déclaration de CA?
     - formulaire de déclaration de CA?
