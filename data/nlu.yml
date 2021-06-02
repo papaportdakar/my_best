@@ -1,32 +1,29 @@
 version: "2.0"
 nlu:
-
 - intent: demande_emploi
-  examples:  |
-    - Emploi au port de Dakar 
-    - Embauchement au Port 
+  examples: |
+    - Emploi au port de Dakar
+    - Embauchement au Port
     - Recrutement au Port
     - Comment devenir employé au Port
     - comment etre recruter au port
     - obtenir un emploi au Port
     - Recrutement Port de Dakar
     - Recrutement
-    - emploi 
+    - emploi
     - comment travailler au port
     - demande d'emploi
     - demande emploi
     - Embauchement
     - embauchement
-    - offre d'emploi 
+    - offre d'emploi
     - offre emploi au Port de Dakar
     - je veux travailler au port
     - comment etre employe au Port de dakar
     - Comment devenir un emploi du Port
     - travail au Port
-    - travailler au Port 
+    - travailler au Port
     - je cherche du travail au port
-    
-
 - intent: convention_partenariat
   examples: |
     - Comment signer un convention de partenariat?
@@ -236,7 +233,7 @@ nlu:
     - comment avoir une autorisation d'exercer au port?
     - Agrément
     - agrement
-    - autorisation 
+    - autorisation
     - obtnir un agrément au Port
     - obtenir un agrement au port
     - Je veux obtenir un agrément au port autonome de dakar
@@ -246,6 +243,8 @@ nlu:
     - je veux obtenir un agrement au port autonome de dakar
     - Agrément et autorisation
     - comment obtenir une autorisation
+    - agréménts
+    - ou deposer une demande d'agrémént
 - intent: formalite_domaniale
   examples: |
     - Quelles sont les formalités requises pour l’obtention d’une autorisation d’occupation domaniale?
@@ -269,6 +268,7 @@ nlu:
     - types agréments
     - les agréments du Port
     - les agréments existant au Port de Dakar
+    - CHEF DU BUREAU AGREMENTS
 - intent: condition_agrement
   examples: |
     - Quelles sont les conditions à remplir pour l’obtention d’un agrément?
@@ -302,7 +302,7 @@ nlu:
     - Quelle est la durée de validité de ces agréments?
     - Durée de validité d'un agréments
     - Durée de validité
-    - duree de validite 
+    - duree de validite
     - Durée des agréments
     - duree des agrements
     - Quelle est la validité des agréments
@@ -313,17 +313,15 @@ nlu:
     - Quelle est la durée de validité de l’autorisation pour exercer au bord des navires?
 - intent: commission
   examples: |
-    - Qui valide le dossier de demande d’agrément? 
-    - Quelle est la comission qui examine le dossier?
     - Qui valide le dossier de demande d’agrément?
+    - Quelle est la comission qui examine le dossier?
     - Quelle est la comission qui valide le dossier?
     - Quels sont les membres de cette commission?
     - les membres de la commission
     - Quelle est la fréquence de tenue de  la commission consultative portuaire?
     - commission consultative portuaire
-    - validation d'un agrément 
-    - validation d un agrement
     - validation d'un agrément
+    - validation d un agrement
     - Commission de validation d'agréments
 - intent: suivi_agrement
   examples: |
@@ -428,6 +426,7 @@ nlu:
     - renouvellement d'autorisation
     - Quand est-ce-qu'on doit renouveler son autorisation
     - informations sur le renouvellement de l'autorisation d'exercer au bord des navires
+    - comment renouveler un agrément de transort
 - intent: cout_passage
   examples: |
     - Coût de passage
@@ -455,12 +454,10 @@ nlu:
     - Contact Service Clientèle
     - Numero vert du port de Dakar
     - Service Clientèle du Port
-    - Y- a-t-il un numéro vert au Port de Dakar? 
-    - numéro vert 
-    - relation client
-    - relations clients
     - Y- a-t-il un numéro vert au Port de Dakar?
     - numéro vert
+    - relation client
+    - relations clients
 - intent: UserMerci
   examples: |
     - Merci beaucoup
@@ -623,10 +620,9 @@ nlu:
     - Quelles sont les installations spécialisées du Port de Dakar?
     - Quel est le nombre d'installations spécialisées?
     - installations spécialisées
-    - installations portuaires 
+    - installations portuaires
     - installations
     - installation
-    - installations portuaires
     - nombre d'installations portuaires
 - intent: installation_paquebot
   examples: |
@@ -650,7 +646,6 @@ nlu:
     - Inormations sur les postes à quai
     - postes à quai du port de Dakar
     - Postes à quai du Port
-    - quaie 
     - quaie
     - QUAI
 - intent: terminaux
@@ -780,7 +775,6 @@ nlu:
     - service commercial
     - peche
     - pech
-    - peche
 - intent: dedouanement
   examples: |
     - Quelles sont les procédures de dédouanement
@@ -916,6 +910,7 @@ nlu:
     - structures de sécurité
     - forces de sécurité du Port
     - Port de sécurité du Port Autonome de Dakar
+    - QUELLES SONT LES FORCES DE SECURITe
 - intent: acces_port
   examples: |
     - Conditions d’accès au port des personnes et laisser-passé des  véhicules
