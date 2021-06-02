@@ -581,7 +581,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse" 
   utter_please_rephrase:
-  - text: "Je suis désolé, mais je comprend pas votre question. Pourriez-vous la reformuler s'il vous plaît?"
+  - text: "Je suis désolé, mais je ne comprends pas votre question. Pourriez-vous la reformuler s'il vous plaît?"
     # buttons: 
     #   - title: "Menu principal"
     #     payload: "/menu_principal"
