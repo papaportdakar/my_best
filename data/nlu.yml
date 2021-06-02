@@ -32,6 +32,14 @@ nlu:
     - je veux faire mon stage au port
     - est ce qu il y a des stages disponibles au port
     - demande de stage
+    - stagiaires du port
+    - Comment obtenir un contrat de travail au Port
+    - Comment obtenir un CDI au Port
+    - Comment obtenir un CDD
+    - Comment obtenir un contrat de travail à duree interminee
+    - Comment obtenir un contrat de travail a durée détermine
+    - CDD
+    - CDI
 
 
 - intent: convention_partenariat
