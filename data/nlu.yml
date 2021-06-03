@@ -1116,10 +1116,15 @@ nlu:
     - Allez à Gorée par voie maritime
     - Nous voulons allez à Gorée
     - Lignes maritime Dakar Gorée
+    - ligne maritime dakar goree
     - bateau Dakar Gorée
     - Voyage Dakar Gorée
     - Tarif Dakar-Gorée?
+    - tarif dakar goree
+    - Allez a goree
+    - ticker dakar goree
     - Planning de rotation pour Gorée?
+    - comment avoir un ticket Dakar Goree
     - bateaux pour Gorée
     - bateau pour allez à Gorée
     - Le prix du billet Dakar-Gorée
@@ -1150,6 +1155,7 @@ nlu:
 - intent: capacite_accueil_gare_maritime
   examples: |
     - Capacité d'accueil de la Gare Maritime Internationale de Dakar
+    - capacite accueil de la gare maritime
     - Capacité d'accueil de la Gare Maritime
     - Quelle est la capacité d'accueil de la gare maritime
     - Condition d'accueil à la Gare Maritime?
@@ -1166,29 +1172,35 @@ nlu:
     - Services annexes à la Gare?
     - wifi
     - disponibité d'un wifi
-    - restaurant?
+    - restaurant ?
     - Restaurant de la gare
+    - restaurant de la gare maritime
     - cafétéria?
+    - cafeteriat
     - souvenir?
-    - Guichet  de banque?
+    - Guichet  de banque ?
     - transfert d'argent?
     - Où je peux acheter un cadeau à la Gare Maritime?
     - Stationnement à la Gare Maritime?
     - Se garer à la Gare Maritime?
     - Parking à la Gare Maritime?
+    - parking a la gare maritime
 - intent: service_offert_au_public
   examples: |
     - Services offerts au public
     - quel est le Services offerts au public?
     - Espaces publicitaires à la Gare Maritime?
+    - Espaces publicitaires a la Gare Maritime ?
     - Faire une publicité au niveau de la Gare Maritime?
     - Organiser une manifestation à la Gare Maritime?
     - Organiser une cérémonie à la Gare Maritime?
     - Cocktail à la Gare Maritime?
     - Salle de manifestation à la Gare Maritime?
     - Exposition d'arts à la Gare Maritime?
+    - exposition d arts a la gare maritime 
     - Organiser une conférence à la Gare Maritime?
     - publicité à la Gare maritime
+    - publicite a la gare maritime 
 - intent: certification_gare_maritime
   examples: |
     - Certification Qualité Sécurité Environnement?
