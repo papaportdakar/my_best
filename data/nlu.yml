@@ -171,7 +171,9 @@ nlu:
 - intent: goodbye
   examples: |
     - Bonne journée
+    - bonne journee
     - Bonne soirée
+    - bonne soiree
     - Au revoir
     - good by
     - A plus
@@ -212,6 +214,7 @@ nlu:
     - extremement bien
     - Je suis très en forme
     - Très bien
+    - tres bien
     - Très heureux
     - Je suis content
 - intent: mood_unhappy
@@ -297,6 +300,7 @@ nlu:
     - les différents agréments
     - differents agrement
     - les différents agréments du Port
+    - les differents agrement
     - types agréments
     - types agrements
     - les agréments du Port
@@ -317,6 +321,7 @@ nlu:
     - Obligations pour obtenir un agrément
     - obligation pour obtenir un agrement
     - Quelles sont les obligations à respecter pour l’obtention d’un agrément?
+    - quelles sont les obligations a respecter pour l obtention d un agrement ?
     - Conditions pour obtention d'agrément au Port
 - intent: liste_piece
   examples: |
@@ -366,8 +371,11 @@ nlu:
 - intent: suivi_agrement
   examples: |
     - Comment connaitre la suite qui a été donnée au dossier déposé?
+    - Comment connaitre la suite qui a ete donnee au dossier depose
     - Comment connaitre la suite du dossier déposé
+    - comment connaitre la suite du dossier depose 
     - Suite du dossier déposé
+    - suite du dossier depose
     - Comment connaitre la suite qui a ete donnee au dossier depose
     - Comment obtenir des informations sur la suite du dossier?
     - Au cas où le dossier déposé est valide quand est-ce qu’on pourra disposer de l’agrément?
@@ -375,7 +383,9 @@ nlu:
     - quand est-ce qu’on obtiendra l'agrément?
     - La date d'obtention d'agrément
     - comment suivre son dossier d'agrément
+    - comment suivre son dossier d agrement
     - suivi dossier d'agrément
+    - suivi agrement 
 - intent: exigence
   examples: |
     - Quelles sont les exigences soumises à une société titulaire d’un agrément?
@@ -384,6 +394,7 @@ nlu:
     - les conditions à respecter une société titulaire d’un agrément
     - les obligations pour une société titulaire d’un agrément
     - exigences pour agréments
+    - exigence pour agrement
     - les normes à respecter
     - norme a respecter
     - normes des agréments vis-à-vis du Port
@@ -418,14 +429,18 @@ nlu:
     - Montant de la caution
     - Comment faire pour déposer cette caution?
     - Comment déposer la caution
+    - Comment deposer la caution
     - depot de la caution
 - intent: activite_navire
   examples: |
     - Quelles sont les activités autorisées?
+    - quelles sont les activites autorises ?
     - Quelles sont les activités autorisées au bord des navires?
     - activités au bord des navires
+    - activites au bord des navires
     - activités autorisées au bord des navires
     - activités des navires
+    - activites des navires
     - les activités qu'on peut exercer au bord des navires
     - activités exercées au bord des navires
     - exercices au bord des navires
@@ -440,9 +455,11 @@ nlu:
     - remboursement en cas de cessation d'activités
     - demande de remboursement de la caution
     - demande de remboursement
+    - remboursement
 - intent: chiffre_cle
   examples: |
     - chiffres clés
+    - chiffre cles
     - Les chiffres clés du port de dakar
     - Quel est le trafic global du port?
     - information sur le trafic global
