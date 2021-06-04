@@ -44,6 +44,8 @@ nlu:
     - stagiaire au port
     - depot de CV
     - ou deposer son CV au Port
+    - stage master 2
+    - stage licence 3
 
 
 - intent: convention_partenariat
