@@ -678,9 +678,11 @@ nlu:
   examples: |
     - Infrastructure et capacité d’accueil
     - Quelle est la capacité d'accueil du port de Dakar
+    - capacite d accueil du port
     - Quelles sont les Infrastructures du port de dakar
     - des informations sur la capacité d'accueil
     - des informations sur les Infrastructures du Port
+    - information sur les infrastructure du port
     - Infrastructure
     - capacité d'accueil
 - intent: installation_specialise
@@ -689,6 +691,7 @@ nlu:
     - Quelles sont les installations spécialisées du Port de Dakar?
     - Quel est le nombre d'installations spécialisées?
     - installations spécialisées
+    - installation specialisee
     - installations portuaires 
     - installations
     - installation
@@ -716,6 +719,7 @@ nlu:
     - Inormations sur les postes à quai
     - postes à quai du port de Dakar
     - Postes à quai du Port
+    - poste a quai
     - quaie 
     - quaie
     - QUAI
@@ -723,11 +727,13 @@ nlu:
   examples: |
     - Quelle est la capacité d’accueil du Terminal roulier du Port de Dakar?
     - capacité du terminal roulier
+    - capacite du terminal roulier
     - terminal roulier
     - terminal
     - Quelle est la capacité d’accueil du Terminal à conteneurs du Port de Dakar?
     - capacité du terminal à conteneurs
     - terminal à conteneurs
+    - terminal a conteneur
     - Quelle est la capacité d’accueil du Terminal vraquier du Port de Dakar?
     - capacité du terminal vraquier
     - terminal vraquier
@@ -763,6 +769,7 @@ nlu:
   examples: |
     - Quelles sont les installations dédiées aux marchandises en transit au Port de Dakar vers le Mali?
     - installations dédiées aux marchandises en transit
+    - installations dédiees aux marchandises en transit
     - marchandises en transit au Port de Dakar vers le Mali
     - transit Dakar vers Mali
     - Quelles sont les entrepots pour les marchandises en transit entre le Mali et le Sénégal
@@ -775,6 +782,7 @@ nlu:
     - Comment transporter des marchandises à partir du Port de Dakar vers le Mali?
     - acheminer des marchandises de Dakar à Bamako
     - acheminement de machandises de Sénégal à Mali
+    - acheminement de machandises de Senegal a Mali
     - Transporter de marchandises à partir du Sénégal vers le Mali
     - Informations sur le transport des marchandises entre le Sénégal et le Mali
     - Informations sur le transport des machandises entre Dakar-Bamako
@@ -786,7 +794,9 @@ nlu:
     - stationnement des camions sur le corridor Dakar-Bamako
     - aires de stationnement Dakar-Bamako
     - stationnement Dakar-Bamako
+    - stationnement Dakar Bamako
     - stationnemnt Sénégal-Mali
+    - stationnemnt Sénégal Mali
     - stationnement des camions entre le Sénégal et le Mali
     - stationnement des camions entre Dakar et Bamako
     - Ou se trouvent les stationnement entre Dakar et Bamako
@@ -794,11 +804,13 @@ nlu:
   examples: |
     - Quelles sont les facilités accordées aux marchandises en transit?
     - facilités accordées aux marchandises en transit
+    - facilites accordees aux marchandises en transit
     - facilités accordées aux navires effectuant des opérations commerciales pour le compte du Mali.
     - Quelles sont facilités accordées aux navires effectuant des opérations commerciales pour le compte du Mali.
     - Priorités des navires effectuant des opérations commerciales pour le compte du Mali.
-    - Avantages des marchandises en transit.
+    - Avantages des marchandises en transit
     - Avantages accordés aux marchandises en transit
+    - Avantages accordes aux marchandises en transit
 - intent: equipement_port
   examples: |
     - Equipements du Port de Dakar
@@ -852,15 +864,19 @@ nlu:
     - Quelles sont les procédures de dédouanement
     - procédures de dédouanement
     - dédouanement
+    - dedouanement de marchandise
     - dédouanement au port de Dakar
     - Quelles sont les procédures de dédouanement au port de Dakar
+    - procedure de dedouanement au port de dakar
     - comment faire le dédouanement au port
     - dédouanement au Port
+    - dedouanement au Port
 - intent: enlevement_marchandise
   examples: |
     - Quelles sont les conditions à remplir pour l’enlèvement de marchandise au Port de Dakar?
     - enlèvement de marchandise au Port de Dakar?
     - Enlèvement de marchandise
+    - enlevement de marchandise
     - Enlèvement de marchandise au Port
     - comment faire pour enlever sa marchandise
     - Je veux enlever ma marchandise
@@ -868,6 +884,7 @@ nlu:
     - conditions à remplir pour l’enlèvement de marchandise
     - conditions à remplir pour l’enlèvement de marchandise au Port
     - Quelles sont les conditions à remplir pour l’enlèvement de marchandise
+    - condition a remplir pour enlevement de marchandise
 - intent: out_of_scope_1
   examples: |
     - mafé
@@ -911,6 +928,7 @@ nlu:
     - Stockage des marchandises
     - installations dédiées au stockage des marchandises au Port
     - installations dédiées au stockage
+    - installations dediees au stockage
     - Comment le Port stock les marchandise
     - Comment stocker les marchandises au Port
     - Comment stocker les marchandises au Port de Dakar
@@ -921,10 +939,14 @@ nlu:
     - La durée de séjour des marchandises au Port de Dakar?
     - Quelle est la durée de séjour des marchandises au Port
     - Durée de séjour des marchandises
+    - duree de sejour des marchandises
+    - duree de sejour
     - Durée de séjour des marchandises au Port
     - Séjour des marchandises
+    - sejour marchandises
     - Séjour des marchandises au Port
     - Séjour des marchandises au Port de Dakar
+    - sejour des marchandises au port de dakar
 - intent: redevance_marchandise
   examples: |
     - Quelles sont les redevances applicables aux marchandises?
@@ -940,23 +962,30 @@ nlu:
 - intent: securite_surete_environnement
   examples: |
     - Sécurité du Port
+    - securite du Port
     - Sécurité
+    - securite
     - Sécurité du Port autonome de Dakar
     - Sûreté du port
+    - surete du Port
     - Sûreté du Port autonome de Dakar
     - Environnement
     - Environnement du Port de Dakar
     - securité, sureté, environnement
     - securité, sureté, environnement du Port de Dakar
     - sureté, environnement du Port de Dakar
+    - securite, surete, environnement du Port
 - intent: surete_securite
   examples: |
     - Quelles sont les dispositions de sécurité et de sûreté au Port de Dakar?
     - securité et sureté du Port
+    - securite et surete du port
     - dispositions de sécurité et de sûreté
     - dispositions de sécurité et de sûreté au Port de Dakar?
+    - dispositions de securite et de surete au Port
     - dispositions de sécurité et de sûreté au Port Autonome de Dakar?
     - dispositions de sécurité
+    - dispositions de securite
     - dispositions de sécurité au Port
     - dispositions de sécurité au Port de Dakar
     - dispositions de Sûreté
@@ -980,7 +1009,9 @@ nlu:
     - administrations de sécurité du Port
     - structures, administrations et forces de sécurité
     - structures de sécurité
+    - structures de securite
     - forces de sécurité du Port
+    - force de securite du port
     - Port de sécurité du Port Autonome de Dakar
 - intent: acces_port
   examples: |
@@ -989,12 +1020,16 @@ nlu:
     - Quelles sont les conditions d’accès des véhicules?
     - Conditions d’accès au port des personnes
     - laisser-passé des  véhicules
+    - laisser passe des vehicules
     - Conditions d’accès au port
     - Conditions d’accès au port des véhicules
     - Conditions d’accès
+    - conditions acces au port
     - Accès des véhicules
     - Accès des personnes
+    - acces des personnes
     - laisser-passé
+    - laisse passe 
     - Accès
 - intent: service_assistance_navire
   examples: |
@@ -1007,6 +1042,7 @@ nlu:
     - Les services au navire au Port de Dakar
     - Les  services aux navires
     - Services navires
+    - service navire 
     - Services navires du Port
     - Services navires au Port Autonome de Dakar
 - intent: qualite_service
@@ -1015,11 +1051,14 @@ nlu:
     - qualité du service de pilotage des navires
     - qualité du service de pilotage
     - qualité pilotage
+    - qualite de pilotage
     - qualité du service de pilotage des navires au Port
     - qualité pilotage au Port
+    - qualite pilotage au Port
     - qualité pilotage au Port Autonome de Dakar
     - Quelle est la qualité du service de remorquage au Port de Dakar?
     - La qualité du service de remorquage
+    - qualite du service de remorquage
     - La qualité de remorquage
     - Qualité de remorquage au Port
     - Qualité de remorquage au Port Autonome
@@ -1034,13 +1073,16 @@ nlu:
     - Union des Remorqueurs de Dakar
     - URD
     - Société de Transit et de Négoce
+    - societe de transite et de negoce
     - STN
     - Nombre de sociétés de remorquage au Port
+    - Nombre de societes de remorquage au Port
     - Nombre de société de remorquage au Port Autonome de Dakar
 - intent: avitaillement_eau_hydro
   examples: |
     - Comment s’opère l’avitaillement en eau au port de Dakar?
     - Comment s’opère l’avitaillement en eau?
+    - comment s opere l avitaillement en eau ?
     - Avitaillement en eau
     - avitaillement
     - eau
@@ -1056,6 +1098,7 @@ nlu:
   examples: |
     - Existe-t-il un atelier de réparation navale au Port de DAKAR?
     - Existe-t-il un atelier de réparation navale
+    - atelier de reparation navale au Port de DAKAR ?
     - atelier de réparation navale au Port de DAKAR
     - réparation navale au Port de DAKAR
     - réparation navale
@@ -1064,6 +1107,8 @@ nlu:
     - Les équipements de réparation navale
     - Dakarnav
     - société de réparation navale
+    - reparation navale
+    - elevateur bateau
     - élévateur à bateau
     - élévateur à bateau  au Port de Dakar
 - intent: facture_domaine
@@ -1092,6 +1137,7 @@ nlu:
     - installation à l'extérieur du Port
     - terrains
     - Peut on avoir des surfaces allouées au Port
+    - surfaces allouees au Port
 - intent: gare_maritime
   examples: |
     - Comment se rendre à la Gare Maritime?
