@@ -96,7 +96,7 @@ responses:
   # utter_merci_bcp: 
   # - text: "Merci beaucoup"
   utter_demande_emploi: 
-  - text: "Pour avoir des informations relatives aux offres d'emploi, veuillez envoyer un mail à l'adresse suivant: **pad@portdakar.sn**"
+  - text: "Pour avoir des informations relatives aux offres d'emploi, veuillez envoyer un mail à l'adresse suivante: **pad@portdakar.sn**"
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
