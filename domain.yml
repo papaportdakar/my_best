@@ -512,6 +512,13 @@ responses:
   utter_chiffre_cle:
   - text: "Pour vous informer sur les chiffres clés du Port de Dakar cliquer sur 
           [statistiques du port](http://www.portdakar.sn/fr/nous-decouvrir/nos-chiffres-cles)"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
   utter_help:
   # - text: "Comment puis-je vous aider ?"
   - text: "Qu'avez-vous besoin de savoir sur le port de dakar?"
