@@ -116,6 +116,8 @@ responses:
         payload: "/UserMerci"
       - title: "👎"
         payload: "/mauvaise_reponse"
+      - title: "Menu principal"
+        payload: "/menu_principal"
 # Partie partenariat stratégique du Port Autonome de Dakar 
   utter_accord_partenariat: 
   - text: "Déposer un dossier contenant une lettre officielle adressée au Cordonateur de la Cellule des 
@@ -129,6 +131,8 @@ responses:
         payload: "/UserMerci"
       - title: "👎"
         payload: "/mauvaise_reponse"
+      - title: "Menu principal"
+        payload: "/menu_principal"
   utter_out_of_scope:
   - text: "Pour avoir des informations relatives à cette question, nous vous demandons de visiter notre site 
           en cliquant [ici](https://www.portdakar.sn/fr/nous-decouvrir/message-du-dg)."
@@ -249,6 +253,9 @@ responses:
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
 
   utter_did_that_help:
   - text: "Did that help you?"            
