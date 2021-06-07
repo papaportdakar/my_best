@@ -1132,10 +1132,12 @@ nlu:
     - Est ce possible d’avoir des surfaces allouées au Port?
     - des surfaces allouées pour une longue durée bien déterminée?
     - surfaces allouées
+    - surface allouee
     - Terrains et installation de stockage
     - installation de stockage
     - installation à l'extérieur du Port
     - terrains
+    - terrain
     - Peut on avoir des surfaces allouées au Port
     - surfaces allouees au Port
 - intent: gare_maritime
@@ -1159,9 +1161,11 @@ nlu:
     - quelles sont les lignes maritimes disponibles à la gare maritime?
     - Voyager à l'intérieur du Sénégal par voie maritime?
     - Visiter l'île de Gorée?
+    - visiter l ile de goree
     - Comment allez à Gorée?
     - Je veux allez à Gorée, comment faire?
     - Allez à Gorée par voie maritime
+    - allez a goree par voie maritime
     - Nous voulons allez à Gorée
     - Lignes maritime Dakar Gorée
     - ligne maritime dakar goree
@@ -1169,14 +1173,18 @@ nlu:
     - Voyage Dakar Gorée
     - Tarif Dakar-Gorée?
     - tarif dakar goree
+    - tarif dakar goree
     - Allez a goree
-    - ticker dakar goree
+    - ticket dakar goree
     - Planning de rotation pour Gorée?
     - comment avoir un ticket Dakar Goree
     - bateaux pour Gorée
     - bateau pour allez à Gorée
     - Le prix du billet Dakar-Gorée
     - Quel est le prix du ticket Dakar-Gorée
+    - LMDG
+    - Coumba Castel
+    - Chaloupe 
 - intent: ligne_maritime_zig
   examples: |
     - Comment allez à Ziguinchor Par voie maritime
@@ -1249,11 +1257,13 @@ nlu:
     - Organiser une conférence à la Gare Maritime?
     - publicité à la Gare maritime
     - publicite a la gare maritime 
+    - tableau d' arts
 - intent: certification_gare_maritime
   examples: |
     - Certification Qualité Sécurité Environnement?
     - Quels sont les activités certifiés à la Gare Maritime?
     - activités certifiés à la Gare Maritime
+    - activites certifies a la gare maritime
     - Quels sont les certificats obtenus par la Gare maritime?
     - Quel organisme à certifié la Gare Maritime?
     - Système de Management Qualité à la Gare Maritime
@@ -1266,5 +1276,5 @@ nlu:
     - Gestion des déchets à la Gare Maritime?
     - Gestion de la COVID à la Gare?
     - COVID 19 à la Gare Maritime?
-    - Quelles sont les mesures barrières contre la COVID?
+    - Quelles sont les mesures barrières contre la COVID ?
     - Informations et sensibilisations sur la COVID?
