@@ -890,14 +890,18 @@ responses:
         payload: "/mauvaise_reponse"
   utter_dedouanement:
   - text: "Le **dédouanement** est effectué par le transitaire ou commissionnaire en douane qui, après avoir réuni 
-          les différents documents énumérés ci-dessous, effectue la procédure suivante : établissement de la note de 
-          détail manuelle ; saisie de la note de détail dans le système informatique de la Douane « GAINDE » ; 
+          les différents documents énumérés ci-dessous, effectue la procédure suivante :"
+  utter_dedouanement_1:
+  - text: "établissement de la note de détail manuelle ; saisie de la note de détail dans le système informatique de la Douane « GAINDE » ; 
           enregistrement de ces informations dans le système qui lui indique en retour les droits et taxes à payer et 
-          l’inspecteur en charge du dossier ; dépôt physique des documents à la Douane pour recevabilité 
+          l’inspecteur en charge du dossier"
+  utter_dedouanement_2:
+  - text: "dépôt physique des documents à la Douane pour recevabilité 
           (vérification de l’exhaustivité et de la conformité des pièces, du régime fiscal, des bases taxables etc.) ; 
           règlement des redevances au bureau du trésor en cas de recevabilité du dossier (pour les dossiers au comptant) ; 
-          validation du “Bon à enlever” par l’inspecteur des Douanes ; enlèvement de la marchandise après visa de la 
-          brigade de la Douane."
+          validation du “Bon à enlever” par l’inspecteur des Douanes"
+  utter_dedouanement_3:
+  - text: "enlèvement de la marchandise après visa de la brigade de la Douane."
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"

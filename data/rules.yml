@@ -164,6 +164,9 @@ rules:
   steps:
   - intent: dedouanement
   - action: utter_dedouanement
+  - action: utter_dedouanement_1
+  - action: utter_dedouanement_2
+  - action: utter_dedouanement_3
 - rule: les formalites pour obtnir une autorisation
   steps:
   - intent: formalite_domaniale
