@@ -1185,6 +1185,8 @@ nlu:
     - LMDG
     - Coumba Castel
     - Chaloupe 
+    - nombre de Chaloupe de la LMDG
+    - nombre de Chaloupe de la gare maritime
 - intent: ligne_maritime_zig
   examples: |
     - Comment allez à Ziguinchor Par voie maritime
