@@ -949,16 +949,18 @@ nlu:
     - sejour des marchandises au port de dakar
 - intent: redevance_marchandise
   examples: |
-    - Quelles sont les redevances applicables aux marchandises?
+    - Quelles sont les redevances applicables aux marchandises ?
     - Quelles sont les redevances applicables aux marchandises au Port de Dakar?
     - redevances applicables aux marchandises
     - Redevances applicables
     - Redevances applicables au Port de Dakar
     - Redevances
     - Redevances aux marchandises
+    - redevance marchandise
     - redevances au Port
     - redevances au Port autonome de Dakar
     - Je veux des renseignements sur les redevances aux marchandises
+    - renseignement sur les redevance marchandise
 - intent: securite_surete_environnement
   examples: |
     - Sécurité du Port
@@ -1029,8 +1031,9 @@ nlu:
     - Accès des personnes
     - acces des personnes
     - laisser-passé
-    - laisse passe 
+    - laisser passe 
     - Accès
+    - acces
 - intent: service_assistance_navire
   examples: |
     - Quelles sont les services au Port Autonome de Dakar pour l’assistance aux navires?
@@ -1061,8 +1064,9 @@ nlu:
     - qualite du service de remorquage
     - La qualité de remorquage
     - Qualité de remorquage au Port
+    - qualite de remorquage
     - Qualité de remorquage au Port Autonome
-    - Quelle est qualité de remorquage?
+    - Quelle est qualité de remorquage ?
 - intent: gestion_remorquage
   examples: |
     - Quelles sont  les sociétés qui gèrent le remorquage des navires au Port?
@@ -1184,6 +1188,8 @@ nlu:
     - Quel est le prix du ticket Dakar-Gorée
     - LMDG
     - Coumba Castel
+    - Beer
+    - Coumba Lamb
     - Chaloupe 
     - nombre de Chaloupe de la LMDG
     - nombre de Chaloupe de la gare maritime
@@ -1206,7 +1212,9 @@ nlu:
     - Contacts Ligne Maritime Dakar Ziguinchor?
     - Information sur le fret Dakar-Ziguinchor?
     - Planning de voyage pour Ziguinchor?
-    - Tarif Dakar-Ziguinchor?
+    - Tarif Dakar-Ziguinchor ?
+    - tarif dakar Ziguinchor
+    - aller en casamence par bateau
     - Les bateaux pour se rendre à Ziguinchor?
     - Le prix du ticket Dakar-Ziguinchor
     - billet Dakar-Zig
@@ -1240,6 +1248,7 @@ nlu:
     - transfert d'argent?
     - Où je peux acheter un cadeau à la Gare Maritime?
     - Stationnement à la Gare Maritime?
+    - stationnement gare maritime
     - Se garer à la Gare Maritime?
     - Parking à la Gare Maritime?
     - parking a la gare maritime
