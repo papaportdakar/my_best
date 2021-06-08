@@ -1237,6 +1237,7 @@ nlu:
     - Les bateaux pour se rendre à Ziguinchor?
     - Le prix du ticket Dakar-Ziguinchor
     - billet Dakar-Zig
+    - COSAMA
 - intent: capacite_accueil_gare_maritime
   examples: |
     - Capacité d'accueil de la Gare Maritime Internationale de Dakar
@@ -1249,6 +1250,8 @@ nlu:
     - Billetterie Dakar Ziguinchor?
     - Billetterie Dakar Gorée?
     - Billetterie
+    - accueil de la gare
+    - accueil de la gare maritime
     - Billetterie de la gare maritime
 - intent: service_offert_aux_passager
   examples: |
