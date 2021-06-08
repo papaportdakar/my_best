@@ -2,6 +2,15 @@ version: "2.0"
 
 rules: 
 
+- rule: port de ndaye
+  steps: 
+  - intent: port_ndayane
+  - action: utter_port_ndayane_1
+  - action: utter_port_ndayane_2
+  - action: utter_port_ndayane_3
+  - action: utter_port_ndayane_4
+  - action: utter_port_ndayane_5
+
 - rule: demande d'emploi
   steps:
   - intent: demande_emploi

@@ -86,6 +86,7 @@ intents:
   - convention_partenariat
   - gestion_remorquage
   - demande_emploi
+  - port_ndayane
 
 # This part is our bot's responses
 responses:
@@ -95,6 +96,23 @@ responses:
 #   - text: "Comment vous vous appelez ?"
   # utter_merci_bcp: 
   # - text: "Merci beaucoup"
+  utter_port_ndayane_1: 
+  - text: "Port de Ndayane, un grand souffle au Port autonome de Dakar"
+  utter_port_ndayane_2: 
+  - text: "Le Port de Ndayane, qui s’étend sur 600 hectares, sera un port en eau profonde de 18 mètres de profondeur et l’un des plus grands en Afrique de l’Ouest et du Centre."
+  utter_port_ndayane_3: 
+  - text: "Il pourra, à terme, recevoir des post-Panamax, c’est-à-dire des porte-conteneurs qui pourront venir avec 10 000 conteneurs, explique-t-on."
+  utter_port_ndayane_4: 
+  - text: "A sa mise en service, cette plateforme servira d’alternative au port de Dakar qui capte actuellement 95 % des échanges commerciaux du Sénégal."
+  utter_port_ndayane_5: 
+  - text: "En effet, le port de Ndayane offre une belle opportunité de connexion à la Zone Economique Spéciale Intégrée, tout en bénéficiant de la proximité de l’Aéroport International Blaise Diagne de Dakar (AIBD). La première phase sera composée d’un (1) kilomètre de quai, soixante dix (70) hectares de zone portuaire et cent cinquante (150) hectares de zone logistique et de zone franche."
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
   utter_demande_emploi: 
   - text: "Pour avoir des informations relatives aux offres d'emploi, veuillez envoyer un mail à l'adresse suivante: **pad@portdakar.sn**"
     buttons: 
@@ -246,6 +264,8 @@ responses:
         payload: "/securite_surete_environnement"
       - title: "Demande d'emploi ou de stage"
         payload: "/demande_emploi"
+      - title: "Port multinational de Ndayane"
+        payload: "/port_ndayane"
       # - title: "👍"
       #   payload: "/UserMerci"
       # - title: "👎"

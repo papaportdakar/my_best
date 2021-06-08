@@ -1,6 +1,23 @@
 version: "2.0"
 nlu:
 
+- intent: port_ndayane
+  examples:  |
+    - port de ndayane
+    - ndayane
+    - port multinational de ndayane
+    - le plus grand port du senegal
+    - le nouveau port du senegal
+    - superficie du port de ndayane
+    - actualité sur ndayane
+    - informations sur le port de ndayane
+    - le nouveau port
+    - le dernier port du senegal
+    - le plus grand port du senegal
+    - Ndayan
+    - Ndayanne
+    - port autonome de ndayane
+
 - intent: demande_emploi
   examples:  |
     - Emploi au port de Dakar 
