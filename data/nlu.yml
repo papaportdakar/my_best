@@ -904,6 +904,8 @@ nlu:
     - condition a remplir pour enlevement de marchandise
 - intent: out_of_scope_1
   examples: |
+    - terre pleine
+    - terre pleine disponible
     - mafé
     - thiébou djeune
     - thiébu diene
