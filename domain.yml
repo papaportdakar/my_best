@@ -1205,8 +1205,7 @@ responses:
            affluence, d’octobre à décembre (1500 passagers), (2500 à 3000 passagers) / jour dont 25% de touristes
            une Chaloupe spéciale peu aussi être affrétée à la demande. "
   utter_ligne_maritime_goree_3: 
-  - text: "Cliquer [ici](http://www.portdakar.sn/fr/nos-services/trafic-passager/dakar-goree) pour visiter 
-          notre site web. "
+  - text: "Pour avoir plus d'info sur les horaires et le tarif cliquer [ici](http://www.portdakar.sn/fr/nos-services/trafic-passager/dakar-goree)."
     buttons: 
       - title: "👍"
         payload: "/UserMerci"
