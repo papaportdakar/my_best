@@ -335,7 +335,7 @@ rules:
   steps: 
   - intent: gare_maritime
   - action: utter_gare_maritime
-  - action: utter_gare_maritime_1
+  # - action: utter_gare_maritime_1
   - action: utter_gare_maritime_2
   - action: utter_gare_maritime_3
   - action: utter_gare_maritime_4

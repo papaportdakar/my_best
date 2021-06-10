@@ -1173,10 +1173,10 @@ responses:
   utter_gare_maritime: 
   - text: "La Gare Maritime Internationale de Dakar Cardinal Hyacinthe THIANDOUM est mise en exploitation en 
           juillet 2010." 
-  utter_gare_maritime_1: 
-  - text: "Occupant 1800m² de surface sur un site d'un (1)+S3 hectare son objectif est de créer un  cadre 
-          et un environnement adéquat permettant aux passagers des compagnies maritimes intérieures de séjourner et de 
-          transiter par la Gare dans d’excellentes conditions de confort de sécurité et de sureté."
+  # utter_gare_maritime_1: 
+  # - text: "Occupant 1800m² de surface sur un site d'un (1)+S3 hectare son objectif est de créer un  cadre 
+  #         et un environnement adéquat permettant aux passagers des compagnies maritimes intérieures de séjourner et de 
+  #         transiter par la Gare dans d’excellentes conditions de confort de sécurité et de sureté."
   utter_gare_maritime_2:
   - text: "lignes maritimes sur place : **Dakar Gorée** et **Dakar Ziguinchor** 
           adresse : 21, boulevard de la libération "
