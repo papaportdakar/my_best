@@ -6,7 +6,7 @@ rules:
   steps: 
   - intent: tooltip
   - action: utter_init_5
-  - action: utter_init_6
+  # - action: utter_init_6
 
 - rule: port de ndaye
   steps: 
@@ -40,7 +40,7 @@ rules:
   steps: 
   - intent: greet
   - action: utter_init_5
-  - action: utter_init_6
+  # - action: utter_init_6
   # Information sur   Accessibilité maritime du Port de Dakar
 - rule: Information géographique du port de Dakar
   steps:
@@ -75,7 +75,7 @@ rules:
 - rule: Initialisation de la conversation
   steps:
   - intent: initialise
-  - action: utter_init_0
+  # - action: utter_init_0
   - action: utter_init
   - action: utter_init_1
   - action: utter_init_2
