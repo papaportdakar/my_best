@@ -1,6 +1,15 @@
 version: "2.0"
 nlu:
 
+- intent: tooltip
+  examples:  |
+    - je suis tooltip
+    - tooltip
+    - je suis le tooltip du chatbot
+    - Aidez moi tooltip
+    - tooltip start conversation
+    - Saluer l'utilisateur
+
 - intent: port_ndayane
   examples:  |
     - port de ndayane

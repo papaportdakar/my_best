@@ -87,6 +87,7 @@ intents:
   - gestion_remorquage
   - demande_emploi
   - port_ndayane
+  - tooltip
 
 # This part is our bot's responses
 responses:
@@ -96,6 +97,7 @@ responses:
 #   - text: "Comment vous vous appelez ?"
   # utter_merci_bcp: 
   # - text: "Merci beaucoup"
+
   utter_port_ndayane_1: 
   - text: "Port de Ndayane, un grand souffle au Port autonome de Dakar"
   utter_port_ndayane_2: 

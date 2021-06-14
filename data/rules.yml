@@ -2,6 +2,12 @@ version: "2.0"
 
 rules: 
 
+- rule: Tooltip pour démarrer la conversation
+  steps: 
+  - intent: tooltip
+  - action: utter_init_5
+  - action: utter_init_6
+
 - rule: port de ndaye
   steps: 
   - intent: port_ndayane
