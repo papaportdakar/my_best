@@ -75,7 +75,7 @@ rules:
 - rule: Initialisation de la conversation
   steps:
   - intent: initialise
-  # - action: utter_init_0
+  - action: utter_init_0
   - action: utter_init
   - action: utter_init_1
   - action: utter_init_2
