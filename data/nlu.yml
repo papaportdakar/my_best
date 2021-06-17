@@ -589,6 +589,8 @@ nlu:
     - menu s'il vous plait
     - Aller au menu
     - Je veux voir le menu principal
+
+
 - intent: initialise
   examples: |
     - Commencer la conversation

@@ -327,8 +327,15 @@ responses:
   - text: "I am a bot, powered by Autonomous Port of Dakar." 
   #Réponse pour les questions relatives aux manifestations d'intêrét
   utter_manifestion:
-  - text: "Pour remplir le formulaire de la manifestation d'intérêt cliquer 
-          [ici](https://www.portdakar.sn/fr/manifestation-dinteret)"
+  - text: "Pour remplir le formulaire de la manifestation d'intérêt cliquer [ici](https://www.portdakar.sn/fr/manifestation-dinteret)"
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse" 
+
   #Réponse pour les questions relatives aux demandes d'agrément
   utter_agrement:
   - text: "Vous voulez avoir des informations sur:"
