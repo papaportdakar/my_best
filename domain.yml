@@ -116,7 +116,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse"
   utter_demande_emploi: 
-  - text: "Pour avoir des informations relatives aux offres d'emploi, veuillez envoyer un mail à l'adresse suivante: **pad@portdakar.sn**"
+  - text: "Vous souhaitez rejoindre nos équipes ? Génial, nous avons peut-être un poste pour vous. Envoyez-nous votre CV et votre lettre de motivation à l'adresse mail :  **pad@portdakar.sn**"
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
