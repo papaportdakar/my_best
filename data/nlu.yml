@@ -1,6 +1,19 @@
 version: "2.0"
 nlu:
 
+- intent: date_creation
+  examples:  |
+    - la date de création du port
+    - Quelle est la date de création du port autonome de dakar
+    - historique du port
+    - en quelle année le port a été crée
+    - année de création du port
+    - historique port Autonome de Dakar
+    - histoire du Port de Dakar
+    - historique du Port de Dakar
+    - date de création
+    - historique
+
 - intent: tooltip
   examples:  |
     - je suis tooltip

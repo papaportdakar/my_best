@@ -88,6 +88,7 @@ intents:
   - demande_emploi
   - port_ndayane
   - tooltip
+  - date_creation
 
 # This part is our bot's responses
 responses:
@@ -97,7 +98,15 @@ responses:
 #   - text: "Comment vous vous appelez ?"
   # utter_merci_bcp: 
   # - text: "Merci beaucoup"
-
+  utter_date_creation:
+  - text: "Si vous voulez plus d'informations sur l'historique du Port de Dakar nous vous demandons de visiter notre site web en cliquant [ici](https://www.portdakar.sn/fr/nous-decouvrir/presentation/historique)"
+    buttons: 
+      - title: "Menu principal"
+        payload: "/menu_principal"
+      - title: "👍"
+        payload: "/UserMerci"
+      - title: "👎"
+        payload: "/mauvaise_reponse"
   utter_port_ndayane_1: 
   - text: "Port de Ndayane, un grand souffle au Port autonome de Dakar"
   utter_port_ndayane_2: 
@@ -123,7 +132,7 @@ responses:
       - title: "👍"
         payload: "/UserMerci"
       - title: "👎"
-        payload: "/mauvaise_reponse"
+        payload: "/mauvaise_reponse" 
   utter_convention_partenariat:
   - text: "Déposer un dossier contenant une lettre officielle adressée au Cordonateur de la Cellule des 
           Partenariats et Coopération Internationale, les termes de référence, une note conceptuelle avec les 
@@ -463,9 +472,9 @@ responses:
         payload: "/mauvaise_reponse"
   utter_exigence: 
   - text: "la société titulaire d'un agrément devra obligatoirement déclarer son chiffre d’affaires de 
-          l’année n-1 au plus tard le 30 juin de l’année n. 
-          ** NB**: une société peut obtenir plusieurs agréments à condition qu'elle dispose d’un capital 
-          qui lui permet de répondre à l’exigence du type d’agrément demandé."
+          l’année n-1 au plus tard le 30 juin de l’année n et se conformer à la réglémentation en vigueur. "
+  utter_exigence_1: 
+  - text: "une société peut obtenir plusieurs agréments à condition qu'elle remplisse toutes les conditions qui lui permettent de répondre à l’exigence de chaque type d’agrément demandé."
     buttons: 
       - title: "Agrément et autorisation"
         payload: "/agrement"
@@ -872,12 +881,12 @@ responses:
       - title: "Port de Pêche"
         payload: "/port_peche"
   utter_manutention_conteneur:
-  - text: "\n2 portiques de quai (STS) Panamax Manutention en Tandem, 4 portiques de quai (STS) Post Panamax 
+  - text: "2 portiques de quai (STS) Panamax Manutention en Tandem, 4 portiques de quai (STS) Post Panamax 
           Manutention en Tandem, 10 portiques de parc (RTG) hauteur de 6, 3 grues mobiles Gottwald 100T, 2 spreaders 
           automatiques, 6 spreaders à verrouillage automatique, 15 chariots élévateurs (Reach Stackers), 4 fourchettes 
           (Empty Handlers), 32 Tracteurs et Remorques de Parc. "
   utter_manutention_conteneur_1:
-  - text: "La **cadence de manutention des conteneurs** au Port de Dakar est 50 mouvement/ heure."
+  - text: "La **cadence de manutention des conteneurs** au Port de Dakar est 79 mouvement/ heure."
     buttons:
       - title: "Quels sont les équipements du Port ?"
         payload: "/equipement_port"

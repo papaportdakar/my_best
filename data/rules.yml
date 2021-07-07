@@ -2,6 +2,11 @@ version: "2.0"
 
 rules: 
 
+- rule: historique port de dakar
+  steps: 
+  - intent: date_creation
+  - action: utter_date_creation
+
 - rule: Tooltip pour démarrer la conversation
   steps: 
   - intent: tooltip
@@ -214,6 +219,7 @@ rules:
   steps: 
   - intent: exigence
   - action: utter_exigence
+  - action: utter_exigence_1
 - rule: déclarations de chiffres d'affaire 
   steps: 
   - intent: chiffre_affaire
