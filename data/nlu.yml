@@ -6,21 +6,25 @@ nlu:
     - la date de création du port
     - Quelle est la date de création du port autonome de dakar
     - historique du port
+    - date de creation du port
     - en quelle année le port a été crée
     - année de création du port
     - historique port Autonome de Dakar
     - histoire du Port de Dakar
     - historique du Port de Dakar
+    - donnez l'historique du port de Dakar 
+    - Je veux avoir des informations sur l'histoire du Port
     - date de création
+    - date de creation du Port Autonome de Dakar 
     - historique
-- intent: tooltip
-  examples:  |
-    - je suis tooltip
-    - tooltip
-    - je suis le tooltip du chatbot
-    - Aidez moi tooltip
-    - tooltip start conversation
-    - Saluer l'utilisateur
+# - intent: tooltip
+#   examples:  |
+#     - je suis tooltip
+#     - tooltip
+#     - je suis le tooltip du chatbot
+#     - Aidez moi tooltip
+#     - tooltip start conversation
+#     - Saluer l'utilisateur
 - intent: port_ndayane
   examples:  |
     - port de ndayane
