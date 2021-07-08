@@ -165,7 +165,7 @@ responses:
   - text: "Pour avoir des informations relatives à cette question, nous vous demandons de visiter notre site 
           en cliquant [ici](https://www.portdakar.sn/fr/nous-decouvrir/message-du-dg)."
   utter_init_5:
-  - text: "Hey, je suis l'assistant virtuel du Port Autonome de Dakar. Comment puis-je vous aider?"
+  - text: "Hey, je suis l'assistant virtuel du Port Autonome de Dakar."
   # utter_init_6:
   # - text: "Comment puis-je vous aider?" 
     buttons:

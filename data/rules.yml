@@ -7,10 +7,11 @@ rules:
   - intent: date_creation
   - action: utter_date_creation
 
-- rule: Tooltip pour démarrer la conversation
-  steps: 
-  - intent: tooltip
-  - action: utter_init_5
+# - rule: Tooltip pour démarrer la conversation
+#   steps: 
+#   - intent: tooltip
+#   - action: utter_init_5
+#   - action: utter_init_1
   # - action: utter_init_6
 
 - rule: port de ndaye
@@ -80,8 +81,7 @@ rules:
 - rule: Initialisation de la conversation
   steps:
   - intent: initialise
-  - action: utter_init_0
-  - action: utter_init
+  - action: utter_init_5
   - action: utter_init_1
   - action: utter_init_2
   - action: utter_init_3
