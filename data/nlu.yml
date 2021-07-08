@@ -4,11 +4,16 @@ nlu:
 - intent: date_creation
   examples:  |
     - la date de création du port
+    - date de creation de Port
+    - en quelle annee est crée le port
+    - en quelle annee le Port de Dakar a été créé 
+    - en quelle anne le port de dakar a ete cree
     - Quelle est la date de création du port autonome de dakar
     - historique du port
     - date de creation du port
-    - en quelle année le port a été crée
+    - en quelle année le port a été créee
     - année de création du port
+    - anne de creation du Port 
     - historique port Autonome de Dakar
     - histoire du Port de Dakar
     - historique du Port de Dakar
