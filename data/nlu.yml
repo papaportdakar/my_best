@@ -13,7 +13,6 @@ nlu:
     - historique du Port de Dakar
     - date de création
     - historique
-
 - intent: tooltip
   examples:  |
     - je suis tooltip
@@ -22,7 +21,6 @@ nlu:
     - Aidez moi tooltip
     - tooltip start conversation
     - Saluer l'utilisateur
-
 - intent: port_ndayane
   examples:  |
     - port de ndayane
@@ -39,9 +37,15 @@ nlu:
     - Ndayan
     - Ndayanne
     - port autonome de ndayane
-
 - intent: demande_emploi
   examples:  |
+    - Comment faire pour postuler pour le poste de responsable facture
+    - poste de responsable facture
+    - Je cherche un stage en géomatique
+    - stage en gestion
+    - stage en data science
+    - Je suis data scientist, je cherche un emploi en data science
+    - Stage en Big Data
     - Emploi au port de Dakar 
     - Embauchement au Port 
     - Recrutement au Port
@@ -51,6 +55,8 @@ nlu:
     - Recrutement Port de Dakar
     - Recrutement
     - emploi 
+    - je m'appelle cheikh abdoulahat je cherche du travail
+    - mon nom est Demba je cherche du travail au port
     - comment travailler au port
     - demande d'emploi
     - demande emploi
@@ -85,8 +91,6 @@ nlu:
     - ou deposer son CV au Port
     - stage master 2
     - stage licence 3
-
-
 - intent: convention_partenariat
   examples: |
     - Comment signer un convention de partenariat?
@@ -602,8 +606,6 @@ nlu:
     - menu s'il vous plait
     - Aller au menu
     - Je veux voir le menu principal
-
-
 - intent: initialise
   examples: |
     - Commencer la conversation
@@ -838,6 +840,7 @@ nlu:
     - stationnement Dakar Bamako
     - stationnemnt Sénégal-Mali
     - stationnemnt Sénégal Mali
+    - stationnemnt Senegal Mali
     - stationnement des camions entre le Sénégal et le Mali
     - stationnement des camions entre Dakar et Bamako
     - Ou se trouvent les stationnement entre Dakar et Bamako
@@ -858,6 +861,7 @@ nlu:
     - quels sont les équipements du Port de Dakar
     - les équipements disponibles au Port de Dakar
     - Les équipements de manutention
+    - Les equipements de manutention
     - Les équipements de manutention au Port
     - manutention au port
     - Equipements du Port
@@ -985,6 +989,7 @@ nlu:
     - duree de sejour des marchandises
     - duree de sejour
     - Durée de séjour des marchandises au Port
+    - Duree de sejour des marchandises au Port
     - Séjour des marchandises
     - sejour marchandises
     - Séjour des marchandises au Port
