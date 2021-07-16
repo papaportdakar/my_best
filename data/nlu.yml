@@ -1,6 +1,19 @@
 version: "2.0"
 nlu:
-
+# - intent: prevision
+#   examples:  |
+#     - prevision
+#     - prévisions des navires
+#     - date d'arrivee des navires
+#     - navires provenant de la belgique
+#     - navires provenant de la france
+#     - entree des naives
+#     - les navires qui sont arrivées
+#     - navires qui sont au poste à quai
+#     - prevision des navires
+#     - poste a quai
+#     - départ navires
+#     - départs navires
 - intent: date_creation
   examples:  |
     - la date de création du port
@@ -48,10 +61,30 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - centre de formation métier
+    - candidature spontanee
+    - je cherche une nouvelle opportunité professionnelle
+    - opportunite professionnelle
+    - je viens au près de votre haute bienveillance solliciter un travail en qualité de technicien
+    - Je suis technicien je cherche du travail
+    - je suis technicien en support réseau
     - Comment faire pour postuler pour le poste de responsable facture
     - poste de responsable facture
     - Je cherche un stage en géomatique
     - stage en gestion
+    - comment faire pour travailler dans votre entreprise 
+    - je veux déposer mon CV dans votre entreprise
+    - je voulais déposer une demande de stage
+    - je suis titulaire d'un diplome informatique
+    - je veux postuler pour un poste
+    - je veux un travail au port
+    - comment postuler pour un poste au Port
+    - je veux postuler pour un stage
+    - Je suis un conducteur d'engins
+    - je suis un chauffeur
+    - bonjour je suis informaticien
+    - je suis un gestionnaire
+    - je suis un comptable
     - stage en data science
     - Je suis data scientist, je cherche un emploi en data science
     - Stage en Big Data
@@ -63,10 +96,15 @@ nlu:
     - obtenir un emploi au Port
     - Recrutement Port de Dakar
     - Recrutement
+    - Bonjour je m'appelle Tidjane, je suis etudiant et je veux franchement travailler au Port
+    - Je veux franchement travailler au Port
+    - Je suis étudiant et je cherche un emploi
+    - je suis étudiant et je veux travailler au Port de Dakar
     - emploi 
     - je m'appelle cheikh abdoulahat je cherche du travail
     - mon nom est Demba je cherche du travail au port
     - comment travailler au port
+    - Bonjour on est etudiant et on veut vraiment obtenir un stage au Port
     - demande d'emploi
     - demande emploi
     - Embauchement
@@ -92,14 +130,32 @@ nlu:
     - Comment obtenir un CDD
     - Comment obtenir un contrat de travail à duree interminee
     - Comment obtenir un contrat de travail a durée détermine
+    - contrat a duree determinee
+    - je voudrais déposer une candidature spontanée
+    - candidature spontanee
+    - je viens par cette présente postuler ma candidature pour le poste d'assistant de direction 
+    - je suis assistant de direction
     - CDD
     - CDI
     - devenir stagiaire au port
     - stagiaire au port
     - depot de CV
     - ou deposer son CV au Port
+    - Bonjour j ai mon diplome en transite informatique
+    - bonjour j'ai mon diplome en gestion comptable
+    - bonjour je suis à la rechere d'un stage
+    - j'aimerais déposer ma candidature pour un poste de magasinier
+    - postuler pour un travail au port
+    - postuler pour un poste de magasinier
     - stage master 2
     - stage licence 3
+    - Je suis titulaire d'un BAC. je cherche un emploi
+    - Salut je suis étudiant diplomée d'un BTS transit. Je suis à la recherche de stage
+    - Je suis titulaire d'un BTS
+    - BTS comptable
+    - je suis informaticien et je cherche un stage
+    - BTS en comptabilité
+    - stage en comptabilité
 - intent: convention_partenariat
   examples: |
     - Comment signer un convention de partenariat?
@@ -208,6 +264,8 @@ nlu:
     - ça va?
     - Hey, comment vas tu?
     - hey
+    - comment vous allez ?
+    - comment allez-vous ?
     - hello
     - hi
     - salam
@@ -310,9 +368,14 @@ nlu:
     - formulaire pour les professions de transitaire
 - intent: agrement
   examples: |
+    - Je voulais savoir quels sont les dossiers à fournir pour un agrement de manutention et de consignations
+    - agrement de conteneur
     - Agrément et autorisation d’exercer
     - agrement et autorisation d exercer
     - Comment obtenir un agrément?
+    - je veux deposer une lettre d agrement
+    - comment faire pour avoir un agrement au port autonome de Dakar
+    - cmt faire pour obtenir un agrément au port de dakar
     - ou deposer une demande d'agrémént
     - depot d'agrément
     - ou deposer une demande d agrement 
@@ -583,15 +646,23 @@ nlu:
   examples: |
     - Merci beaucoup
     - Je vous remercie
+    - je le fait tout de suite
+    - Je vais l'envoyer tout de suite
     - Merci pour votre aide
     - Merci, c'est gentil
+    - c'est gentil
+    - C' est gentil
     - Je vous remercie énormement
     - Merci Cheikh
     - Merci beaucoup Cheikh
     - Je vous remercie Cheikh
     - merci
     - m6
+    - je vous remercie pour votre reponse 
     - mrci
+    - merci de m'avoir répondu
+    - merci pour votre réponse
+    - merci d'avoir pris le temps de nous répondre
 - intent: mauvaise_reponse
   examples: |
     - mauvaise réponse
@@ -927,6 +998,8 @@ nlu:
     - dedouanement au Port
 - intent: enlevement_marchandise
   examples: |
+    - enlevement d'un conteneur au port autonome de Dakar 
+    - comment se déroule l'enlèvement d'un contenur 
     - Quelles sont les conditions à remplir pour l’enlèvement de marchandise au Port de Dakar?
     - enlèvement de marchandise au Port de Dakar?
     - Enlèvement de marchandise
@@ -1146,6 +1219,8 @@ nlu:
     - comment s opere l avitaillement en eau ?
     - Avitaillement en eau
     - avitaillement
+    - ravitaillement sur les navires au port autonome de dakar 
+    - ravitaillement
     - eau
     - Comment s’opère l'avitaillement en hydrocarbure au Port de Dakar?
     - Avitaillement en hydrocarbure au Port de Dakar
@@ -1235,15 +1310,20 @@ nlu:
     - Tarif Dakar-Gorée?
     - tarif dakar goree
     - tarif dakar goree
+    - reservation dakar goree 
+    - Réservation Dakar Gorée
     - Allez a goree
     - ticket dakar goree
     - Planning de rotation pour Gorée?
     - comment avoir un ticket Dakar Goree
     - bateaux pour Gorée
     - bateau pour allez à Gorée
+    - liaison dakar goree
+    - liaison dakar gorée
     - Le prix du billet Dakar-Gorée
     - Quel est le prix du ticket Dakar-Gorée
     - LMDG
+    - avoir un ticket dakar goree
     - horaire de la chaloupe
     - heure de depart de la chaloupe
     - Coumba Castel
@@ -1254,14 +1334,28 @@ nlu:
     - nombre de Chaloupe de la gare maritime
 - intent: ligne_maritime_zig
   examples: |
+    - quel bateau est prevu pour la date du
+    - place disponible pour le bateau aline sitoe diatta
+    - horaire et tarif de aline sitoe diatta
+    - reserver une place pour le samedi
+    - j'aimerais reserver une place
     - Comment allez à Ziguinchor Par voie maritime
+    - bignona
+    - je veux aller a bignona
     - Lignes maritime Dakar Ziguinchor
+    - les jour ou le bateau quitte Ziguinchor por Dakar
     - bateau Dakar Ziguinchor
+    - Est ce que les bateaux en direction de ziguinchor seront dispo la semaine prochaine
+    - disponibilite des bateaux pour Ziguinchor
+    - reservation de billet liaison dakar ziguinchor
+    - réservation de billet Dakar-Zig
     - Voyage Dakar Ziguinchor
     - bateau pour aller en casamence
     - Je veux aller en casamence par bateau
     - Quelles sont les lignes maritimes pour aller en casamence
     - Dakar-Ziguinchor
+    - Réserver un cabinet Dakar Ziguinchor
+    - reserver 1 cabinet sur le bateau dakar ziguinchor 
     - Dk-Zig
     - Voyage Dk Zig
     - Les bateaux Dakar-Ziguinchor?
@@ -1277,6 +1371,8 @@ nlu:
     - Les bateaux pour se rendre à Ziguinchor?
     - Le prix du ticket Dakar-Ziguinchor
     - billet Dakar-Zig
+    - Comment faire une reservation
+    - reservation dakar Ziguinchor
     - COSAMA
 - intent: capacite_accueil_gare_maritime
   examples: |

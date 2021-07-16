@@ -2,6 +2,11 @@ version: "2.0"
 
 rules: 
 
+# - rule: prevision des navires à postes a quai
+#   steps:
+#   - intent: prevision
+#   - action: action_prevision
+
 - rule: historique port de dakar
   steps: 
   - intent: date_creation
