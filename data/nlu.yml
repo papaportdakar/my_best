@@ -61,7 +61,9 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - Je veux postuler en tant que dans l'une de vos services
     - centre de formation métier
+    - je veux postuler pour un emploi j'ai le Bac, le BFEM et le CFEE
     - candidature spontanee
     - je cherche une nouvelle opportunité professionnelle
     - opportunite professionnelle
@@ -261,6 +263,7 @@ nlu:
     - Que dois-je faire pour signer une charte d'amitié?
 - intent: greet
   examples: |
+    - ça va mon ami
     - ça va?
     - Hey, comment vas tu?
     - hey
@@ -287,12 +290,18 @@ nlu:
     - Bonne soirée
     - bonne soiree
     - Au revoir
+    - bye baye
     - good by
     - A plus
     - A la prochaine
     - Ok bonne nuit
     - bye bye
+    - cool
     - bye
+    - ok a tout de suite 
+    - ok a tout a l'heure
+    - je le ferais tout de suite
+    - je vais le faire
     - goodbye
     - have a nice day
     - see you around
@@ -619,6 +628,7 @@ nlu:
     - redevances aux navires non pilotables
 - intent: gestion_client
   examples: |
+    - Comment vous joindre
     - Ecoute client et prise en charge
     - Gestion client
     - Réclamation clients
@@ -644,6 +654,9 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
+    - ok merci
+    - D'accord merci
+    - merci beaucoup pour votre compréhension
     - Merci beaucoup
     - Je vous remercie
     - je le fait tout de suite
@@ -653,11 +666,13 @@ nlu:
     - c'est gentil
     - C' est gentil
     - Je vous remercie énormement
-    - Merci Cheikh
-    - Merci beaucoup Cheikh
-    - Je vous remercie Cheikh
+    - Merci 
+    - Merci beaucoup 
+    - Je vous remercie 
     - merci
     - m6
+    - mrci beaucoup
+    - merci bcp
     - je vous remercie pour votre reponse 
     - mrci
     - merci de m'avoir répondu
@@ -998,6 +1013,7 @@ nlu:
     - dedouanement au Port
 - intent: enlevement_marchandise
   examples: |
+    - Bonjour je voudrais savoir les documents à fournir pour avoir un bon à enlever?
     - enlevement d'un conteneur au port autonome de Dakar 
     - comment se déroule l'enlèvement d'un contenur 
     - Quelles sont les conditions à remplir pour l’enlèvement de marchandise au Port de Dakar?
@@ -1180,6 +1196,8 @@ nlu:
     - Services navires au Port Autonome de Dakar
 - intent: qualite_service
   examples: |
+    - politique de qualité
+    - quelle est la politique de qualite du Port ?
     - Quelle est la qualité du service de pilotage des navires au Port de Dakar?
     - qualité du service de pilotage des navires
     - qualité du service de pilotage
@@ -1286,18 +1304,42 @@ nlu:
     - l'adresse de la Gare Maritime
     - informations sur la gare maritime
     - gare maritime
+    - horaires de la traversée
+    - Dimanche et jours fériers
     - Je veux venir à la gare maritime
     - Où se trouve la gare maritime?
     - ou se situe la gare maritime
     - situation de la gare maritime
-    - gare maritime de Dakar
+    - gare maritime de Dakar   
 - intent: ligne_maritime_goree
   examples: |
+    - prix
+    - prix aller et retour dakar gorée
+    - le prix de l'aller retour
+    - quel est le prix de la traversée pour un adulte
+    - Est-ce que la LMDG est toujours en service
+    - les liaisons maritimes dakar gorée seront elles effectives pour le mercredi
+    - type de billets
+    - billet pour les eleves
+    - prix du billet pour les Non résident Afrique 
+    - Non résident Senegal
+    - non resident Sénégal
+    - Montant de la traversée
+    - la liaison est elle ouverte
+    - Nous voulons nous rendre à île de goree et aimerions savoir les horaires et le prix de la traversée
+    - il ya t'il des billets disponible pour un depart de 
     - Les lignes maritimes disponibles
+    - Tarifs de la traversée
     - quelles sont les lignes maritimes disponibles à la gare maritime?
     - Voyager à l'intérieur du Sénégal par voie maritime?
     - Visiter l'île de Gorée?
     - visiter l ile de goree
+    - possible de partir à gorée avec des élèves 
+    - je veux partir à goree avec mes élèves
+    - Je veux partir à gorée avec des eleves
+    - La liaison est elle ouverte
+    - la liaison maritime Dakar Goree est elle ouverte
+    - y a t-il des traversées le dimanche
     - Comment allez à Gorée?
     - Je veux allez à Gorée, comment faire?
     - Allez à Gorée par voie maritime
@@ -1334,6 +1376,17 @@ nlu:
     - nombre de Chaloupe de la gare maritime
 - intent: ligne_maritime_zig
   examples: |
+    - jours de vente des billets
+    - comment acheter un billet
+    - numero service dakar casamence
+    - avoir un billet de bateau
+    - je cherche un billet pour le vendredi
+    - reservation en logne dakar ziguinchor
+    - les tarifs des moins de 17 ans dakar ziguinchor pour les 
+    - les heures de depart Dakar Ziguinchor
+    - Les horaires de ziguinchor dakar
+    - les tarifs de ziguinchor dakar
+    - est ce que la liaison Dakar Ziguinchor est toujours fonctionnelle?
     - quel bateau est prevu pour la date du
     - place disponible pour le bateau aline sitoe diatta
     - horaire et tarif de aline sitoe diatta
@@ -1429,6 +1482,8 @@ nlu:
     - tableau d' arts
 - intent: certification_gare_maritime
   examples: |
+    - Comment vous Organisez vous avec le covid
+    - quelle est la situation pour le port avec covid
     - Certification Qualité Sécurité Environnement?
     - Quels sont les activités certifiés à la Gare Maritime?
     - activités certifiés à la Gare Maritime
