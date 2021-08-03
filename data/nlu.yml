@@ -61,6 +61,11 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - accodez vous de stage 
+    - email DRH
+    - Directeur des Ressources humaines du Port
+    - travailleur journalier
+    - Je suis au chomage je cherche du boulot
     - Je veux postuler en tant que dans l'une de vos services
     - centre de formation métier
     - je veux postuler pour un emploi j'ai le Bac, le BFEM et le CFEE
@@ -162,6 +167,7 @@ nlu:
   examples: |
     - Comment signer un convention de partenariat?
     - convention de partenariat?
+    - je cherche un partenariat
     - Quelle est la procédure pour la signature d'une conevention de partenriat?
     - procédure d'une conevention de partenriat?
     - Je veux obtenir une convention  de partenariat avec le Port de Dakar
@@ -263,6 +269,8 @@ nlu:
     - Que dois-je faire pour signer une charte d'amitié?
 - intent: greet
   examples: |
+    - salut cv
+    - salut ça va
     - ça va mon ami
     - ça va?
     - Hey, comment vas tu?
@@ -377,6 +385,10 @@ nlu:
     - formulaire pour les professions de transitaire
 - intent: agrement
   examples: |
+    - j'aimerais envoyer une demande d'agrément
+    - agrément prestataire de services
+    - Bonjour je voudrai déposer une demande d'agrément
+    - Agrément pour transport de camion
     - Je voulais savoir quels sont les dossiers à fournir pour un agrement de manutention et de consignations
     - agrement de conteneur
     - Agrément et autorisation d’exercer
@@ -628,6 +640,8 @@ nlu:
     - redevances aux navires non pilotables
 - intent: gestion_client
   examples: |
+    - je veux parler à un agent
+    - Je joindre au telephone à l'un de vos agents
     - Comment vous joindre
     - Ecoute client et prise en charge
     - Gestion client
@@ -654,6 +668,7 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
+    - c'est fait
     - ok merci
     - D'accord merci
     - merci beaucoup pour votre compréhension
@@ -767,6 +782,7 @@ nlu:
     - Quelle est la localisation du Port
 - intent: situation_geographique
   examples: |
+    - ou se trouve le port de dakar
     - Quelle est la situation géographique du Port de Dakar?
     - situation géographique du port
     - Donnez moi la situation géographique
@@ -1296,6 +1312,9 @@ nlu:
     - surfaces allouees au Port
 - intent: gare_maritime
   examples: |
+    - les tarifs pour les résidants sénégalais
+    - le prix du billet pour les senegalais
+    - Le prix du billet pour un senegalais
     - Comment se rendre à la Gare Maritime?
     - se rendre à la Gare Maritime
     - Je veux me rendre à la Gare Maritime de Dakar
@@ -1313,6 +1332,14 @@ nlu:
     - gare maritime de Dakar   
 - intent: ligne_maritime_goree
   examples: |
+    - quelles sont vos navettes
+    - je prévois de faire la traversée demain 
+    - le tarif pour enfant
+    - les bateaux sont ouverts aujourd'hui
+    - comment faire pour avoir un billet à 7h.
+    - j'ai besoin des informations pour la traversée 
+    - je voudrais partir sur goree est ce qu'il ya des restrictions pour la traversée
+    - les tarifs
     - prix
     - prix aller et retour dakar gorée
     - le prix de l'aller retour
@@ -1376,6 +1403,10 @@ nlu:
     - nombre de Chaloupe de la gare maritime
 - intent: ligne_maritime_zig
   examples: |
+    - ya des départs pour la casamance pour le bateau
+    - je veux reserver
+    - je veux réserver
+    - comment faire pour réserver
     - jours de vente des billets
     - comment acheter un billet
     - numero service dakar casamence
@@ -1482,6 +1513,9 @@ nlu:
     - tableau d' arts
 - intent: certification_gare_maritime
   examples: |
+    - comment le port de dakar gére la crise sanitaire
+    - comment vous organisez vous avec la pandemie
+    - Comment vous organisez vous avec le covid 19
     - Comment vous Organisez vous avec le covid
     - quelle est la situation pour le port avec covid
     - Certification Qualité Sécurité Environnement?

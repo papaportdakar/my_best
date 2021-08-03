@@ -609,7 +609,8 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse" 
   utter_please_rephrase:
-  - text: "Je suis désolé, mais je ne comprends pas votre question. Pourriez-vous la reformuler s'il vous plaît?"
+  - text: "Je comprend votre question mais je suis pas en mesure de vous répondre."
+  # - text: "Désolé, je ne comprends pas cela. Je continue d'apprendre. Pourriez-vous le reformuler s'il vous plaît?"
     # buttons: 
     #   - title: "Menu principal"
     #     payload: "/menu_principal"
@@ -1272,7 +1273,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse"
   utter_telephone_service_client:
-  - text: "Ou bien, veuillez-vous adresser au Service Clientèle via les numéros 33 849 45 06/ 77 645 70 79"
+  - text: "Veuillez-vous adresser au Service Clientèle via les numéros 33 849 45 06/ 77 645 70 79 ."
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
