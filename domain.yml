@@ -28,7 +28,6 @@ intents:
   - installation_specialise
   - infrastructure_capacite
   - installation_paquebot
-  - poste_a_quai
   - terminaux
   - frigo
   - fluidite
@@ -88,10 +87,10 @@ intents:
   - port_ndayane
   # - tooltip
   - date_creation
-  # - prevision
-
-# actions:
-#   - action_prevision
+  - prevision
+  # - poste_a_quai
+actions:
+  - action_prevision
 
 # This part is our bot's responses
 responses:
@@ -101,6 +100,8 @@ responses:
 #   - text: "Comment vous vous appelez ?"
   # utter_merci_bcp: 
   # - text: "Merci beaucoup"
+  utter_prevision:
+  - text: "Vous voulez avoir des informations sur les navires à quai? Veuillez cliquer sur le lien suivante: https://www.portdakar.sn/fr/infos-pratiques/previsions-trafic"
   utter_date_creation:
   - text: "Si vous voulez plus d'informations sur l'historique du Port de Dakar nous vous demandons de visiter notre site web en cliquant [ici](https://www.portdakar.sn/fr/nous-decouvrir/presentation/historique)"
     buttons: 
@@ -716,18 +717,18 @@ responses:
         payload: "/UserMerci"
       - title: "👎"
         payload: "/mauvaise_reponse"
-  utter_poste_a_quai:
-  - text: "Le Port de Dakar dispose de 52 postes à quai ainsi répartis : 21 à la Zone Nord, 18 à la zone Sud, 
-          10 au Port de Pêche et 03 au Sea-lines."
-    buttons:
-      - title: "Infrastructures spécialisées"
-        payload: "/infrastructure_capacite"
-      - title: "Menu principal"
-        payload: "/menu_principal"
-      - title: "👍"
-        payload: "/UserMerci"
-      - title: "👎"
-        payload: "/mauvaise_reponse"
+  # utter_poste_a_quai:
+  # - text: "Le Port de Dakar dispose de 52 postes à quai ainsi répartis : 21 à la Zone Nord, 18 à la zone Sud, 
+  #         10 au Port de Pêche et 03 au Sea-lines."
+  #   buttons:
+  #     - title: "Infrastructures spécialisées"
+  #       payload: "/infrastructure_capacite"
+  #     - title: "Menu principal"
+  #       payload: "/menu_principal"
+  #     - title: "👍"
+  #       payload: "/UserMerci"
+  #     - title: "👎"
+  #       payload: "/mauvaise_reponse"
   utter_terminaux:
   - text: "** Terminal roulier: ** ? Un terminal roulier d’une superficie de 8 ha avec 700m de linéaire de quai qui 
           répond aux spécificités de ce type de trafic en termes de sécurité et d’accessibilité. "

@@ -12,6 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import webbrowser
+import time
 # 
 # 
 #
@@ -29,18 +30,21 @@ import webbrowser
 #         return []
 
 
-# class ActionPrevision(Action):
+class ActionPrevision(Action):
 
-#     def name(self) -> Text:
-#         return "action_prevision"
+    def name(self) -> Text:
+        return "action_prevision"
 
 
-#     async def run(self, 
-#         dispatcher:CollectingDispatcher, 
-#         tracker: Tracker, 
-#         domain: Dict[Text, Any]
-#     ) -> List[Dict[Text, Any]]:
-#         my_url = "https://www.portdakar.sn/"
-#         dispatcher.utter_message("Nous vous demandons de regarder la section mouvements des navires sur le site du Port. Veuillez patienter nous allons ouvrir le site pour vous")
-#         webbrowser.open(my_url)
-#         return []
+    async def run(self, 
+        dispatcher:CollectingDispatcher, 
+        tracker: Tracker, 
+        domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+        my_url = "https://www.portdakar.sn/fr/infos-pratiques/previsions-trafic"
+        buttons = []
+        buttons.append({'title': 'Menu' , 'payload': '/menu_principal'})
+        dispatcher.utter_message(text= f"Nous vous demandons de consulter la liste des navires à quai en cliquant sur le lien suivant: {my_url}" , buttons=buttons)
+        print(my_url)
+        # webbrowser.open(my_url)
+        return []

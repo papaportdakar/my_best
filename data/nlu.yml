@@ -1,21 +1,28 @@
 version: "2.0"
 nlu:
-# - intent: prevision
-#   examples:  |
-#     - prevision
-#     - prévisions des navires
-#     - date d'arrivee des navires
-#     - navires provenant de la belgique
-#     - navires provenant de la france
-#     - entree des naives
-#     - les navires qui sont arrivées
-#     - navires qui sont au poste à quai
-#     - prevision des navires
-#     - poste a quai
-#     - départ navires
-#     - départs navires
+- intent: prevision
+  examples:  |
+    - Date d'arrivée pour le navire
+    - est ce que silver moon est arrivé au port de dakar
+    - prevision
+    - prévisions des navires
+    - date d'arrivee des navires
+    - navires provenant de la belgique
+    - navires provenant de la france
+    - entree des naives
+    - les navires qui sont arrivées
+    - navires qui sont au poste à quai
+    - prevision des navires
+    - poste a quai
+    - départ navires
+    - départs navires
+    - Bonjour je voudrai savoir si le DONG A GLAUCOS est a quai Merci
+    - quels sont les navires qui doivent entrer aujourd'hui
 - intent: date_creation
   examples:  |
+    - bibliographie
+    - bibliographie du port autonome de dakar
+    - je veux votre bibliographie
     - la date de création du port
     - date de creation de Port
     - en quelle annee est crée le port
@@ -61,6 +68,16 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - je suis titulaire d'un bac +2 en transport logistique
+    - comment faire pour etre un agent de service
+    - comment avoir un stage dans le domaine de la finance
+    - stage en finance
+    - j'aimerai faire un stage dans votre entreprise je suis étudiant en 3em année en 
+    - je viens de sollicité au près de vous par la présence de ma lettre de motivation
+    - soudeur
+    - je souhaite rejoindre votre equipe de par ma qualité de chauffeur et des services sanitaires
+    - je suis en cours de formation en premiere année
+    - j'ai besoin d'un travail pour aider ma famille
     - accodez vous de stage 
     - email DRH
     - Directeur des Ressources humaines du Port
@@ -269,6 +286,9 @@ nlu:
     - Que dois-je faire pour signer une charte d'amitié?
 - intent: greet
   examples: |
+    - CC
+    - coucou 
+    - bonjour je m'appelle 
     - salut cv
     - salut ça va
     - ça va mon ami
@@ -282,6 +302,7 @@ nlu:
     - salam
     - Bonjour comment vous allez?
     - Bonsoir j'espère que tu vas bien?
+    - Bonjour Monsieur l'assistance du Port Autonome de Dakar
     - coucou
     - Bonjour
     - Bonsoir
@@ -640,6 +661,8 @@ nlu:
     - redevances aux navires non pilotables
 - intent: gestion_client
   examples: |
+    - votre contact
+    - Bonjour je voulais votre contact svp.
     - je veux parler à un agent
     - Je joindre au telephone à l'un de vos agents
     - Comment vous joindre
@@ -668,8 +691,16 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
+    - ok pas de quoi
+    - ok merci bonne fin de journée
+    - ok d'accord
+    - ok je vous envoye tout de suite
+    - ok je vais vous envoyer 
+    - je l'ai fait
+    - Je l'ai deja fait
     - c'est fait
     - ok merci
+    - D'accord j'y serais
     - D'accord merci
     - merci beaucoup pour votre compréhension
     - Merci beaucoup
@@ -862,21 +893,21 @@ nlu:
     - Installation des paquebots au port de Dakar
     - installation des bateaux croisières au Port de Dakar
     - informations pour l'installation des bateaux croisières
-- intent: poste_a_quai
-  examples: |
-    - Combien de postes à quai existent au Port de Dakar?
-    - Quel es le nombre de postes à quai au Port de Dakar?
-    - postes à quai
-    - postes à quai disponible au port de dakar
-    - le nombre de postes à quai disponibles
-    - le nombre de postes à qui existants au port de Dakar
-    - Inormations sur les postes à quai
-    - postes à quai du port de Dakar
-    - Postes à quai du Port
-    - poste a quai
-    - quaie 
-    - quaie
-    - QUAI
+# - intent: poste_a_quai
+#   examples: |
+#     - Combien de postes à quai existent au Port de Dakar?
+#     - Quel es le nombre de postes à quai au Port de Dakar?
+#     - postes à quai
+#     - postes à quai disponible au port de dakar
+#     - le nombre de postes à quai disponibles
+#     - le nombre de postes à qui existants au port de Dakar
+#     - Inormations sur les postes à quai
+#     - postes à quai du port de Dakar
+#     - Postes à quai du Port
+#     - poste a quai
+#     - quaie 
+#     - quaie
+#     - QUAI
 - intent: terminaux
   examples: |
     - Quelle est la capacité d’accueil du Terminal roulier du Port de Dakar?
@@ -979,6 +1010,7 @@ nlu:
     - manutention
 - intent: manutention_conteneur
   examples: |
+    - beaucoup plus d'informations sur la manutention portuaire
     - Quels sont les équipements de manutention des conteneurs au Port de Dakar?
     - Quels sont les équipements de manutention des conteneurs?
     - équipements de manutention des conteneurs
@@ -1017,6 +1049,8 @@ nlu:
     - peche
 - intent: dedouanement
   examples: |
+    - comment effectuer un dédouanement au port
+    - je souhaite avoir des infos pour dédouanement de voiture
     - Quelles sont les procédures de dédouanement
     - procédures de dédouanement
     - dédouanement
@@ -1276,6 +1310,8 @@ nlu:
     - Quels sont les équipements de réparation navale?
     - Les équipements de réparation navale
     - Dakarnav
+    - Des explications sur Dakarnave
+    - Des informations sur Dakarnave
     - société de réparation navale
     - reparation navale
     - elevateur bateau
@@ -1332,6 +1368,11 @@ nlu:
     - gare maritime de Dakar   
 - intent: ligne_maritime_goree
   examples: |
+    - on voudrait faire avec la famille une excursion sur Goree 
+    - Y a-t-il des quotas de personnes journalieres pour aller a l'île de goré
+    - combien de personnes par jour peuvent se rendre à gorée 
+    - pourriez-vous m'informer des départs de dakar à goré 
+    - moi je suis sénégal et j'ai 19 ans et je veux savoir mon tarif de traver pour aller à gorée
     - quelles sont vos navettes
     - je prévois de faire la traversée demain 
     - le tarif pour enfant
@@ -1494,6 +1535,8 @@ nlu:
     - Se garer à la Gare Maritime?
     - Parking à la Gare Maritime?
     - parking a la gare maritime
+    - avez vous un parking
+    - parking
 - intent: service_offert_au_public
   examples: |
     - Services offerts au public
@@ -1513,6 +1556,8 @@ nlu:
     - tableau d' arts
 - intent: certification_gare_maritime
   examples: |
+    - avez vous un service de traitement des déchets
+    - service de traitement des dechets
     - comment le port de dakar gére la crise sanitaire
     - comment vous organisez vous avec la pandemie
     - Comment vous organisez vous avec le covid 19
@@ -1530,7 +1575,7 @@ nlu:
     - Satisfaction clients de la Gare Maritime?
     - comment améliorer la satisfaction des clients au niveau de la Gare Maritime?
     - Depuis quand est ce que la Gare Maritime est certifiée?
-    - Tri de déchets à la Gare maritime?
+    - Tri de déchets à la Gare maritime ?
     - Gestion des déchets à la Gare Maritime?
     - Gestion de la COVID à la Gare?
     - COVID 19 à la Gare Maritime?

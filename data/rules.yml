@@ -2,10 +2,10 @@ version: "2.0"
 
 rules: 
 
-# - rule: prevision des navires à postes a quai
-#   steps:
-#   - intent: prevision
-#   - action: action_prevision
+- rule: prevision des navires à postes a quai
+  steps:
+  - intent: prevision
+  - action: utter_prevision
 
 - rule: historique port de dakar
   steps: 
@@ -126,10 +126,10 @@ rules:
   steps:
   - intent: installation_paquebot
   - action: utter_installation_paquebot
-- rule: les postes à quai du port
-  steps:
-  - intent: poste_a_quai
-  - action: utter_poste_a_quai
+# - rule: les postes à quai du port
+#   steps:
+#   - intent: poste_a_quai
+#   - action: utter_poste_a_quai
 - rule: les terminaux du port de Dakar
   steps:
   - intent: terminaux
