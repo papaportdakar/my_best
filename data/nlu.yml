@@ -2,9 +2,21 @@ version: "2.0"
 nlu:
 - intent: prevision
   examples:  |
+    - Navire msc carla arrive au port de Dakar
+    - Navire msc carla quand il sera a dakar
+    - Quelle est la date d'arrivée du navire contenant des  voitures venant du canada vers le senegal?
+    - Les navires programmés à venir au mois de juillet 2021 au port de Dakar
+    - les navires programmés pour la semaine prochaine
+    - port autonome de dakar prevision trafic
+    - Les bateaux qui sont prévu pendant ces deux jours
+    - quelle est son heure d'entrée de port prévisionnelle
+    - entree navire NIKOLOAS
+    - Heure d'entrée navire NIKOLOAS
+    - quel est le prochain navire de ITS
     - Date d'arrivée pour le navire
     - est ce que silver moon est arrivé au port de dakar
     - prevision
+    - prévision trafic
     - prévisions des navires
     - date d'arrivee des navires
     - navires provenant de la belgique
@@ -68,6 +80,12 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - Est ce que mon profil vous serez utile j'ai fais informatique de gestion et je suis en 2ème année
+    - cher assistant je voulais un eclaircissement sur comment faire pour avoir un emploi au port svp
+    - je veux postuler au niveau du département marketing
+    - je voulais obtenir un job au port autonome de Dakar
+    - Comment trouver un boulot au port autonome de Dakar
+    - je veux un job
     - je suis titulaire d'un bac +2 en transport logistique
     - comment faire pour etre un agent de service
     - comment avoir un stage dans le domaine de la finance
@@ -617,6 +635,9 @@ nlu:
     - remboursement
 - intent: chiffre_cle
   examples: |
+    - le nombre de navire accueilli par le port de dakar par an
+    - LE PORT ACCUEIL COMBIEN DE NAVIRE PAR AN
+    - statistiques su les déchargements au Port
     - chiffres clés
     - chiffre cles
     - Les chiffres clés du port de dakar
@@ -661,6 +682,7 @@ nlu:
     - redevances aux navires non pilotables
 - intent: gestion_client
   examples: |
+    - je voulais votre contact svp
     - votre contact
     - Bonjour je voulais votre contact svp.
     - je veux parler à un agent
@@ -691,6 +713,8 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
+    ok bien reçu merci et à très bientot
+    - D'accord j'y serai
     - ok pas de quoi
     - ok merci bonne fin de journée
     - ok d'accord
@@ -699,6 +723,7 @@ nlu:
     - je l'ai fait
     - Je l'ai deja fait
     - c'est fait
+    - D'accord
     - ok merci
     - D'accord j'y serais
     - D'accord merci
@@ -726,6 +751,7 @@ nlu:
     - merci d'avoir pris le temps de nous répondre
 - intent: mauvaise_reponse
   examples: |
+    - je ne suis pas satisfait
     - mauvaise réponse
     - pas bonne
     - non répondu à ma question
@@ -1159,6 +1185,7 @@ nlu:
     - renseignement sur les redevance marchandise
 - intent: securite_surete_environnement
   examples: |
+    - comment fonctionne la sécurité du port
     - Sécurité du Port
     - securite du Port
     - Sécurité

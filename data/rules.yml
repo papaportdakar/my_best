@@ -27,6 +27,7 @@ rules:
   - action: utter_port_ndayane_3
   - action: utter_port_ndayane_4
   - action: utter_port_ndayane_5
+  - action: utter_port_ndayane_6
 
 - rule: demande d'emploi
   steps:

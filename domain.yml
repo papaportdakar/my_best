@@ -121,6 +121,8 @@ responses:
   - text: "A sa mise en service, cette plateforme servira d’alternative au port de Dakar qui capte actuellement 95 % des échanges commerciaux du Sénégal."
   utter_port_ndayane_5: 
   - text: "En effet, le port de Ndayane offre une belle opportunité de connexion à la Zone Economique Spéciale Intégrée, tout en bénéficiant de la proximité de l’Aéroport International Blaise Diagne de Dakar (AIBD). La première phase sera composée d’un (1) kilomètre de quai, soixante dix (70) hectares de zone portuaire et cent cinquante (150) hectares de zone logistique et de zone franche."
+  utter_port_ndayane_6:
+  - text: "Pour plus d'informations cliquer sur le lien suivant: https://portdakarndayane.com/"
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
@@ -610,7 +612,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse" 
   utter_please_rephrase:
-  - text: "Je comprend votre question mais je suis pas en mesure de vous répondre."
+  - text: "Je comprend votre question mais je ne suis pas en mesure de vous répondre."
   # - text: "Désolé, je ne comprends pas cela. Je continue d'apprendre. Pourriez-vous le reformuler s'il vous plaît?"
     # buttons: 
     #   - title: "Menu principal"
@@ -1263,7 +1265,8 @@ responses:
         payload: "/mauvaise_reponse"
   # Out of scope message When user ask questions outside our nlu data
   utter_out_of_scope_1:
-  - text: Je suis un robot programmé pour ne répondre qu'à certaines des questions fréquentes. 
+  - text: "Je suis un robot programmé pour ne répondre qu'à certaines des questions fréquentes." 
+  - text: "Je suis un robot programmé pour ne répondre qu'à certaines des questions fréquentes."
   utter_out_of_scope_2:
   - text: utilisez le menu principal ou écrivez votre question ci-dessous.
     buttons: 
