@@ -1583,6 +1583,7 @@ nlu:
     - tableau d' arts
 - intent: certification_gare_maritime
   examples: |
+    - traitement des déchets
     - avez vous un service de traitement des déchets
     - service de traitement des dechets
     - comment le port de dakar gére la crise sanitaire
