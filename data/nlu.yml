@@ -2,6 +2,16 @@ version: "2.0"
 nlu:
 - intent: prevision
   examples:  |
+    - Heure daccostage navire sntt ?
+    - les navires en rade 
+    - Je veux les navire qui venu en rade le 08 octobre 2021
+    - Orient transit va accosté ken ?
+    - Orient transit va accoster quand ?
+    - Date d'arrivée de Orient transit
+    - Le batou de companies de MSC que vien de Englaterre est que il et arrive la port de Dakar?
+    - Salut sava je veux le bateau de anvers depart quelle jour arrive a dakar
+    - Heure d'accostage navire sntt ?
+    - Heure daccostage navire sntt ?
     - Navire msc carla arrive au port de Dakar
     - Navire msc carla quand il sera a dakar
     - Quelle est la date d'arrivée du navire contenant des  voitures venant du canada vers le senegal?
@@ -80,6 +90,20 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - je suis une nouvelle diplômée en transport logistique spécialisée en transport ferroviaire
+    - Je veux travail chez vous si c'est possible
+    - C'est quoi l'adresse mail
+    - la quelle adresse mail
+    - L'adresse mail
+    - Pour avoir du travail dans les bateaux de pêche comment faire?
+    - je veux avoir votre adresse mail
+    - Qu’elle est l’adresse e-mail
+    - adresse mail pour demande d'emploi
+    - Quelle est l'adresse mail s'il vous plaît ?
+    - je veux avoir votre adresse mail
+    - Quelle est votre adresse mail
+    - Cc salut j'aimerai vraiment exercer au port autonome de dakar
+    - J'ai fais Commerce International l2. Quels sont les postes probables pour mon niveau
     - Est ce que mon profil vous serez utile j'ai fais informatique de gestion et je suis en 2ème année
     - cher assistant je voulais un eclaircissement sur comment faire pour avoir un emploi au port svp
     - je veux postuler au niveau du département marketing
@@ -305,6 +329,7 @@ nlu:
 - intent: greet
   examples: |
     - CC
+    - comment t'aller vous ?
     - coucou 
     - bonjour je m'appelle 
     - salut cv
@@ -332,6 +357,7 @@ nlu:
     - salut
 - intent: goodbye
   examples: |
+    - Ciao ciao
     - Bonne journée
     - bonne journee
     - Bonne soirée
@@ -635,6 +661,8 @@ nlu:
     - remboursement
 - intent: chiffre_cle
   examples: |
+    - J’aimerais savoir le pourcentage du à conteneur
+    - Le taux de conteneur enregistrés  est estimé à combien
     - le nombre de navire accueilli par le port de dakar par an
     - LE PORT ACCUEIL COMBIEN DE NAVIRE PAR AN
     - statistiques su les déchargements au Port
@@ -713,7 +741,11 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
-    ok bien reçu merci et à très bientot
+    - A bientôt
+    - Très bien merci
+    - Je suis disponible pour vous
+    - C'est gentille de votre part
+    - ok bien reçu merci et à très bientot
     - D'accord j'y serai
     - ok pas de quoi
     - ok merci bonne fin de journée
@@ -1089,6 +1121,7 @@ nlu:
     - dedouanement au Port
 - intent: enlevement_marchandise
   examples: |
+    - Comment faire sortir ses marchandises
     - Bonjour je voudrais savoir les documents à fournir pour avoir un bon à enlever?
     - enlevement d'un conteneur au port autonome de Dakar 
     - comment se déroule l'enlèvement d'un contenur 
@@ -1395,6 +1428,8 @@ nlu:
     - gare maritime de Dakar   
 - intent: ligne_maritime_goree
   examples: |
+    - Bonjour... Je voudrais savoir le prix de la traversée est le même pour les sénégalais et les étrangers africains.. J ai une amie de nationalité malienne que j aimerais amener à Gorée demain et je me demandais combien ce serait pour elle.
+    - Bonjour, comment vous allez est ce que la liaison maritime dakar goree est fonctionnelle merci
     - on voudrait faire avec la famille une excursion sur Goree 
     - Y a-t-il des quotas de personnes journalieres pour aller a l'île de goré
     - combien de personnes par jour peuvent se rendre à gorée 
