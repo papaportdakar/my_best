@@ -2,6 +2,14 @@ version: "2.0"
 nlu:
 - intent: prevision
   examples:  |
+    - Bonjour, je souhaite savoir la date d'arrivée du Navire GRANDE FRANCIA de chez MAERSK.
+    - Bateau good wood véhicule est arrivée ?
+    - Quand est-ce que le navire Good Wood serait au port de Lomé ?
+    - Le navire se rendra quand au Togo?
+    - je veux savoir comment es positionner notre navire DYNAMIC .M
+    - Traffic
+    - Services trafic
+    - NAVIRE GOODWOOD
     - Heure daccostage navire sntt ?
     - les navires en rade 
     - Je veux les navire qui venu en rade le 08 octobre 2021
@@ -90,6 +98,8 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - Je suis intéressé de votre service
+    - Je veux travail chez vous si c'est possible
     - je suis une nouvelle diplômée en transport logistique spécialisée en transport ferroviaire
     - Je veux travail chez vous si c'est possible
     - C'est quoi l'adresse mail
@@ -661,6 +671,7 @@ nlu:
     - remboursement
 - intent: chiffre_cle
   examples: |
+    - Le nombre de conteneurs débarqué en 2020
     - J’aimerais savoir le pourcentage du à conteneur
     - Le taux de conteneur enregistrés  est estimé à combien
     - le nombre de navire accueilli par le port de dakar par an
@@ -710,6 +721,7 @@ nlu:
     - redevances aux navires non pilotables
 - intent: gestion_client
   examples: |
+    - QUEL EST LE TELEPHONE DU PORT
     - je voulais votre contact svp
     - votre contact
     - Bonjour je voulais votre contact svp.
@@ -741,6 +753,7 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
+    - Dakors monsieur
     - A bientôt
     - Très bien merci
     - Je suis disponible pour vous
@@ -1506,6 +1519,7 @@ nlu:
     - nombre de Chaloupe de la gare maritime
 - intent: ligne_maritime_zig
   examples: |
+    - Je voudrais voyager
     - ya des départs pour la casamance pour le bateau
     - je veux reserver
     - je veux réserver
