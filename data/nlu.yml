@@ -2,6 +2,7 @@ version: "2.0"
 nlu:
 - intent: prevision
   examples:  |
+    - LA GRANDE SIERRA LEONE
     - Bonjour, je souhaite savoir la date d'arrivée du Navire GRANDE FRANCIA de chez MAERSK.
     - Bateau good wood véhicule est arrivée ?
     - Quand est-ce que le navire Good Wood serait au port de Lomé ?
@@ -98,6 +99,7 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - je voudrai avoir un poste au service de réclamation ou à la gare maritime
     - Je suis intéressé de votre service
     - Je veux travail chez vous si c'est possible
     - je suis une nouvelle diplômée en transport logistique spécialisée en transport ferroviaire
@@ -367,6 +369,7 @@ nlu:
     - salut
 - intent: goodbye
   examples: |
+    - ok
     - Ciao ciao
     - Bonne journée
     - bonne journee
@@ -671,6 +674,7 @@ nlu:
     - remboursement
 - intent: chiffre_cle
   examples: |
+    - Statistique des activités portuaires
     - Le nombre de conteneurs débarqué en 2020
     - J’aimerais savoir le pourcentage du à conteneur
     - Le taux de conteneur enregistrés  est estimé à combien
@@ -753,6 +757,8 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
+    - Ok
+    - Okay
     - Dakors monsieur
     - A bientôt
     - Très bien merci
@@ -1120,6 +1126,9 @@ nlu:
     - peche
 - intent: dedouanement
   examples: |
+    - Puis je avoir des informations sur le dédouanement de container
+    - dédouanement de container
+    - Puis je avoir des informations sur le dédouanement de container venant d'italie? 
     - comment effectuer un dédouanement au port
     - je souhaite avoir des infos pour dédouanement de voiture
     - Quelles sont les procédures de dédouanement
