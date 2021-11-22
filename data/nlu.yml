@@ -99,6 +99,7 @@ nlu:
     - port autonome de ndayane
 - intent: demande_emploi
   examples:  |
+    - Déposer port
     - je voudrai avoir un poste au service de réclamation ou à la gare maritime
     - Je suis intéressé de votre service
     - Je veux travail chez vous si c'est possible
@@ -463,6 +464,8 @@ nlu:
     - formulaire pour les professions de transitaire
 - intent: agrement
   examples: |
+    - agrément pour être transitaire
+    - je voudrai savoir comment avoir un agrément pour être transitaire commissionnaire en douane
     - j'aimerais envoyer une demande d'agrément
     - agrément prestataire de services
     - Bonjour je voudrai déposer une demande d'agrément
@@ -758,6 +761,8 @@ nlu:
 - intent: UserMerci
   examples: |
     - Ok
+    - Je peux vous l'envoyer demain si possible
+    - Ok ça marche
     - Okay
     - Dakors monsieur
     - A bientôt
@@ -837,8 +842,11 @@ nlu:
     - allons-y
 - intent: out_of_scope
   examples: |
+    - actuellement le directeur du PAD
     - Qui est le directeur du port autonome de dakar
     - Le nom du directeur de la DSI
+    - actuel Directeur général du PAD
+    - Le Directeur actuel du Port de Dakar
     - DSI port de dakar
     - PAD
     - Port autonome de Dakar
@@ -1240,6 +1248,7 @@ nlu:
     - renseignement sur les redevance marchandise
 - intent: securite_surete_environnement
   examples: |
+    - Sécurité et sûreté d'un terminal a conteneur
     - comment fonctionne la sécurité du port
     - Sécurité du Port
     - securite du Port
@@ -1601,7 +1610,9 @@ nlu:
     - Billetterie de la gare maritime
 - intent: service_offert_aux_passager
   examples: |
+    - Est-ce qu'il un parking pour voiture à l'embarcadère ?
     - Services offerts aux passagers
+    - Y a-t-il un parking voiture avant d'embarquer pour l'île de Gorée ?
     - quels sont les services offerts aux passagers?
     - Services annexes à la Gare?
     - wifi
@@ -1620,6 +1631,7 @@ nlu:
     - Se garer à la Gare Maritime?
     - Parking à la Gare Maritime?
     - parking a la gare maritime
+    - Je voudrais savoir s'il un parking à l'embarcadère où laisser sa voiture ?
     - avez vous un parking
     - parking
 - intent: service_offert_au_public
