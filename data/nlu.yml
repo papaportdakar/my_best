@@ -3,6 +3,13 @@ nlu:
 - intent: prevision
   examples:  |
     - LA GRANDE SIERRA LEONE
+    - arrivé du navire 00CL MEMPIS 068E quand esce
+    - Quels sont les navires à inspecter aujourd'hui
+    - Le Bateau qui à quitter à l'Allemagne le 09-12-2021 va arriver quand à Dakar
+    - pour les bateaux étrangers
+    - Quand est ce que l'accostage du mel grâce ?
+    - Je souhaite savoir si le REPUBBLICA ARGENTINA a accosté.
+    - Quel bateau rentrer au Sénégal le 27
     - Bonjour, je souhaite savoir la date d'arrivée du Navire GRANDE FRANCIA de chez MAERSK.
     - Bateau good wood véhicule est arrivée ?
     - Quand est-ce que le navire Good Wood serait au port de Lomé ?
@@ -100,6 +107,8 @@ nlu:
 - intent: demande_emploi
   examples:  |
     - Déposer port
+    - Cherche journalier au 
+    - Comment peux je intégrer dans vos équipes comme pointeur
     - je voudrai avoir un poste au service de réclamation ou à la gare maritime
     - Je suis intéressé de votre service
     - Je veux travail chez vous si c'est possible
@@ -465,6 +474,7 @@ nlu:
 - intent: agrement
   examples: |
     - agrément pour être transitaire
+    - Agreement pour shipchandler
     - je voudrai savoir comment avoir un agrément pour être transitaire commissionnaire en douane
     - j'aimerais envoyer une demande d'agrément
     - agrément prestataire de services
@@ -678,6 +688,9 @@ nlu:
 - intent: chiffre_cle
   examples: |
     - Statistique des activités portuaires
+    - Le nombre de navires acostés au terminal en 2020
+    - vos chiffres clès 2020
+    - Statistiques 2017/2020
     - Le nombre de conteneurs débarqué en 2020
     - J’aimerais savoir le pourcentage du à conteneur
     - Le taux de conteneur enregistrés  est estimé à combien
@@ -1136,6 +1149,8 @@ nlu:
   examples: |
     - Puis je avoir des informations sur le dédouanement de container
     - dédouanement de container
+    - Je veux connaître le circuit douanier
+    - circuit douanier du port de dakar 
     - Puis je avoir des informations sur le dédouanement de container venant d'italie? 
     - comment effectuer un dédouanement au port
     - je souhaite avoir des infos pour dédouanement de voiture
@@ -1151,6 +1166,8 @@ nlu:
     - dedouanement au Port
 - intent: enlevement_marchandise
   examples: |
+    - J'aimerais comprendre autant que étudiante les étapes à suivre pour enlever des marchandises
+    - les étapes à suivre pour enlever des marchandises
     - Comment faire sortir ses marchandises
     - Bonjour je voudrais savoir les documents à fournir pour avoir un bon à enlever?
     - enlevement d'un conteneur au port autonome de Dakar 
@@ -1304,6 +1321,8 @@ nlu:
     - Port de sécurité du Port Autonome de Dakar
 - intent: acces_port
   examples: |
+    - Comment avoir une autorisation d'accès au port autonome de dakar
+    - je veux une autorisation d'accès au Port de Dakar
     - Conditions d’accès au port des personnes et laisser-passé des  véhicules
     - Quelles sont les conditions d’accès des personnes?
     - Quelles sont les conditions d’accès des véhicules?
@@ -1459,6 +1478,8 @@ nlu:
     - gare maritime de Dakar   
 - intent: ligne_maritime_goree
   examples: |
+    - Heure depart a Gore le samedi après-midi ?
+    - Quelle sont les heures de départ pour les samedi
     - Bonjour... Je voudrais savoir le prix de la traversée est le même pour les sénégalais et les étrangers africains.. J ai une amie de nationalité malienne que j aimerais amener à Gorée demain et je me demandais combien ce serait pour elle.
     - Bonjour, comment vous allez est ce que la liaison maritime dakar goree est fonctionnelle merci
     - on voudrait faire avec la famille une excursion sur Goree 
@@ -1537,7 +1558,11 @@ nlu:
     - nombre de Chaloupe de la gare maritime
 - intent: ligne_maritime_zig
   examples: |
+    - je peux réserver une cabine pour  3 adulte ( une étranger résidents et deux non résidents) et un enfant. Départ vendredi 3. Nov.; 20 h à Dakar. 
     - Je voudrais voyager
+    - Comment la réservation du bateau diambogne suis sénégalais
+    - Je veux une réservation
+    - Jour dembarcation apres achat ticket
     - ya des départs pour la casamance pour le bateau
     - je veux reserver
     - je veux réserver
