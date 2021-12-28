@@ -3,6 +3,8 @@ nlu:
 - intent: prevision
   examples:  |
     - LA GRANDE SIERRA LEONE
+    - position actuelle du navire JONATHAN P
+    - date d'arrivée du navire JONATHAN P
     - arrivé du navire 00CL MEMPIS 068E quand esce
     - Quels sont les navires à inspecter aujourd'hui
     - Le Bateau qui à quitter à l'Allemagne le 09-12-2021 va arriver quand à Dakar
