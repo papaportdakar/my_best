@@ -353,6 +353,7 @@ nlu:
 - intent: greet
   examples: |
     - CC
+    - Oui comment sava c'est
     - comment t'aller vous ?
     - coucou 
     - bonjour je m'appelle 
@@ -1325,6 +1326,7 @@ nlu:
   examples: |
     - Comment avoir une autorisation d'accès au port autonome de dakar
     - je veux une autorisation d'accès au Port de Dakar
+    - J'aimerais savoir comment faire pour avoir une carte d'accès au port autonome de Dakar
     - Conditions d’accès au port des personnes et laisser-passé des  véhicules
     - Quelles sont les conditions d’accès des personnes?
     - Quelles sont les conditions d’accès des véhicules?
