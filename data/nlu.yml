@@ -61,6 +61,7 @@ nlu:
 - intent: date_creation
   examples:  |
     - bibliographie
+    - Le port autonome de dakar a était créé quant?
     - bibliographie du port autonome de dakar
     - je veux votre bibliographie
     - la date de création du port
@@ -72,6 +73,7 @@ nlu:
     - historique du port
     - date de creation du port
     - en quelle année le port a été créee
+    - Quelle est la date de création du Port Autonome de Dakar
     - année de création du port
     - anne de creation du Port 
     - historique port Autonome de Dakar
@@ -94,6 +96,7 @@ nlu:
   examples:  |
     - port de ndayane
     - ndayane
+    - comment le port de ndayane parcipera au developpement du secteur marittime?
     - port multinational de ndayane
     - le plus grand port du senegal
     - le nouveau port du senegal
