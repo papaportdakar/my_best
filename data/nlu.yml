@@ -1,7 +1,7 @@
 version: "2.0"
 nlu:
 - intent: prevision
-  examples:  |
+  examples: |
     - LA GRANDE SIERRA LEONE
     - Accostage des navires de céréales
     - Mouvement accostage
@@ -23,7 +23,7 @@ nlu:
     - Services trafic
     - NAVIRE GOODWOOD
     - Heure daccostage navire sntt ?
-    - les navires en rade 
+    - les navires en rade
     - Je veux les navire qui venu en rade le 08 octobre 2021
     - Orient transit va accosté ken ?
     - Orient transit va accoster quand ?
@@ -31,7 +31,6 @@ nlu:
     - Le batou de companies de MSC que vien de Englaterre est que il et arrive la port de Dakar?
     - Salut sava je veux le bateau de anvers depart quelle jour arrive a dakar
     - Heure d'accostage navire sntt ?
-    - Heure daccostage navire sntt ?
     - Navire msc carla arrive au port de Dakar
     - Navire msc carla quand il sera a dakar
     - Quelle est la date d'arrivée du navire contenant des  voitures venant du canada vers le senegal?
@@ -61,7 +60,7 @@ nlu:
     - Bonjour je voudrai savoir si le DONG A GLAUCOS est a quai Merci
     - quels sont les navires qui doivent entrer aujourd'hui
 - intent: date_creation
-  examples:  |
+  examples: |
     - bibliographie
     - Le port autonome de dakar a était créé quant?
     - bibliographie du port autonome de dakar
@@ -69,7 +68,7 @@ nlu:
     - la date de création du port
     - date de creation de Port
     - en quelle annee est crée le port
-    - en quelle annee le Port de Dakar a été créé 
+    - en quelle annee le Port de Dakar a été créé
     - en quelle anne le port de dakar a ete cree
     - Quelle est la date de création du port autonome de dakar
     - historique du port
@@ -77,25 +76,17 @@ nlu:
     - en quelle année le port a été créee
     - Quelle est la date de création du Port Autonome de Dakar
     - année de création du port
-    - anne de creation du Port 
+    - anne de creation du Port
     - historique port Autonome de Dakar
     - histoire du Port de Dakar
     - historique du Port de Dakar
-    - donnez l'historique du port de Dakar 
+    - donnez l'historique du port de Dakar
     - Je veux avoir des informations sur l'histoire du Port
     - date de création
-    - date de creation du Port Autonome de Dakar 
+    - date de creation du Port Autonome de Dakar
     - historique
-# - intent: tooltip
-#   examples:  |
-#     - je suis tooltip
-#     - tooltip
-#     - je suis le tooltip du chatbot
-#     - Aidez moi tooltip
-#     - tooltip start conversation
-#     - Saluer l'utilisateur
 - intent: port_ndayane
-  examples:  |
+  examples: |
     - port de ndayane
     - ndayane
     - comment le port de ndayane parcipera au developpement du secteur marittime?
@@ -107,20 +98,18 @@ nlu:
     - informations sur le port de ndayane
     - le nouveau port
     - le dernier port du senegal
-    - le plus grand port du senegal
     - Ndayan
     - Ndayanne
     - port autonome de ndayane
 - intent: demande_emploi
-  examples:  |
+  examples: |
     - Déposer port
-    - Cherche journalier au 
+    - Cherche journalier au
     - Comment peux je intégrer dans vos équipes comme pointeur
     - je voudrai avoir un poste au service de réclamation ou à la gare maritime
     - Je suis intéressé de votre service
     - Je veux travail chez vous si c'est possible
     - je suis une nouvelle diplômée en transport logistique spécialisée en transport ferroviaire
-    - Je veux travail chez vous si c'est possible
     - C'est quoi l'adresse mail
     - la quelle adresse mail
     - L'adresse mail
@@ -129,7 +118,6 @@ nlu:
     - Qu’elle est l’adresse e-mail
     - adresse mail pour demande d'emploi
     - Quelle est l'adresse mail s'il vous plaît ?
-    - je veux avoir votre adresse mail
     - Quelle est votre adresse mail
     - Cc salut j'aimerai vraiment exercer au port autonome de dakar
     - J'ai fais Commerce International l2. Quels sont les postes probables pour mon niveau
@@ -143,13 +131,13 @@ nlu:
     - comment faire pour etre un agent de service
     - comment avoir un stage dans le domaine de la finance
     - stage en finance
-    - j'aimerai faire un stage dans votre entreprise je suis étudiant en 3em année en 
+    - j'aimerai faire un stage dans votre entreprise je suis étudiant en 3em année en
     - je viens de sollicité au près de vous par la présence de ma lettre de motivation
     - soudeur
     - je souhaite rejoindre votre equipe de par ma qualité de chauffeur et des services sanitaires
     - je suis en cours de formation en premiere année
     - j'ai besoin d'un travail pour aider ma famille
-    - accodez vous de stage 
+    - accodez vous de stage
     - email DRH
     - Directeur des Ressources humaines du Port
     - travailleur journalier
@@ -167,7 +155,7 @@ nlu:
     - poste de responsable facture
     - Je cherche un stage en géomatique
     - stage en gestion
-    - comment faire pour travailler dans votre entreprise 
+    - comment faire pour travailler dans votre entreprise
     - je veux déposer mon CV dans votre entreprise
     - je voulais déposer une demande de stage
     - je suis titulaire d'un diplome informatique
@@ -183,8 +171,8 @@ nlu:
     - stage en data science
     - Je suis data scientist, je cherche un emploi en data science
     - Stage en Big Data
-    - Emploi au port de Dakar 
-    - Embauchement au Port 
+    - Emploi au port de Dakar
+    - Embauchement au Port
     - Recrutement au Port
     - Comment devenir employé au Port
     - comment etre recruter au port
@@ -195,7 +183,7 @@ nlu:
     - Je veux franchement travailler au Port
     - Je suis étudiant et je cherche un emploi
     - je suis étudiant et je veux travailler au Port de Dakar
-    - emploi 
+    - emploi
     - je m'appelle cheikh abdoulahat je cherche du travail
     - mon nom est Demba je cherche du travail au port
     - comment travailler au port
@@ -204,17 +192,17 @@ nlu:
     - demande emploi
     - Embauchement
     - embauchement
-    - offre d'emploi 
+    - offre d'emploi
     - offre emploi au Port de Dakar
     - je veux travailler au port
     - comment etre employe au Port de dakar
     - Comment devenir un emploi du Port
     - travail au Port
-    - travailler au Port 
+    - travailler au Port
     - je cherche du travail au port
     - offre de stage
-    - comment effectuer un stage au port 
-    - stage 
+    - comment effectuer un stage au port
+    - stage
     - demande de stage au port
     - je veux faire mon stage au port
     - est ce qu il y a des stages disponibles au port
@@ -227,8 +215,7 @@ nlu:
     - Comment obtenir un contrat de travail a durée détermine
     - contrat a duree determinee
     - je voudrais déposer une candidature spontanée
-    - candidature spontanee
-    - je viens par cette présente postuler ma candidature pour le poste d'assistant de direction 
+    - je viens par cette présente postuler ma candidature pour le poste d'assistant de direction
     - je suis assistant de direction
     - CDD
     - CDI
@@ -251,6 +238,7 @@ nlu:
     - je suis informaticien et je cherche un stage
     - BTS en comptabilité
     - stage en comptabilité
+    - Je n'arrive pas à télécharger mon cv
 - intent: convention_partenariat
   examples: |
     - Comment signer un convention de partenariat?
@@ -360,8 +348,8 @@ nlu:
     - CC
     - Oui comment sava c'est
     - comment t'aller vous ?
-    - coucou 
-    - bonjour je m'appelle 
+    - coucou
+    - bonjour je m'appelle
     - salut cv
     - salut ça va
     - ça va mon ami
@@ -376,7 +364,6 @@ nlu:
     - Bonjour comment vous allez?
     - Bonsoir j'espère que tu vas bien?
     - Bonjour Monsieur l'assistance du Port Autonome de Dakar
-    - coucou
     - Bonjour
     - Bonsoir
     - Salut
@@ -402,7 +389,7 @@ nlu:
     - bye bye
     - cool
     - bye
-    - ok a tout de suite 
+    - ok a tout de suite
     - ok a tout a l'heure
     - je le ferais tout de suite
     - je vais le faire
@@ -467,7 +454,7 @@ nlu:
 - intent: manifest
   examples: |
     - manisfestion d'intérêt
-    - manifestion d interet 
+    - manifestion d interet
     - comment obtenir le formulaire de la manifestion d interet
     - Comment obtenir le formulaire de la manifestion d'intérêt
     - Remplissage du formulaire de la manisfestion d'intérêt du port autonome de Dakar
@@ -498,14 +485,14 @@ nlu:
     - cmt faire pour obtenir un agrément au port de dakar
     - ou deposer une demande d'agrémént
     - depot d'agrément
-    - ou deposer une demande d agrement 
+    - ou deposer une demande d agrement
     - dossier agrement
     - deposer un dossier pour un agrement
     - autorisation exercer
     - comment avoir une autorisation d'exercer au port?
     - Agrément
     - agrement
-    - autorisation 
+    - autorisation
     - obtnir un agrément au Port
     - obtenir un agrement au port
     - Je veux obtenir un agrément au port autonome de dakar
@@ -564,7 +551,7 @@ nlu:
   examples: |
     - Comment obtenir la liste des pièces à fournir pour les agréments?
     - liste des pièces à fournir pour les agréments?
-    - liste des pieces a fournir pour les agrements 
+    - liste des pieces a fournir pour les agrements
     - Pièces à fournir pour les agréments
     - Pièces à fournir
     - piece a fournir
@@ -580,7 +567,7 @@ nlu:
     - Quelle est la durée de validité de ces agréments?
     - Durée de validité d'un agréments
     - Durée de validité
-    - duree de validite 
+    - duree de validite
     - Durée des agréments
     - duree des agrements
     - Quelle est la validité des agréments
@@ -591,16 +578,13 @@ nlu:
     - Quelle est la durée de validité de l’autorisation pour exercer au bord des navires?
 - intent: commission
   examples: |
-    - Qui valide le dossier de demande d’agrément? 
-    - Quelle est la comission qui examine le dossier?
     - Qui valide le dossier de demande d’agrément?
+    - Quelle est la comission qui examine le dossier?
     - Quelle est la comission qui valide le dossier?
     - Quels sont les membres de cette commission?
     - les membres de la commission
     - Quelle est la fréquence de tenue de  la commission consultative portuaire?
     - commission consultative portuaire
-    - validation d'un agrément 
-    - validation d un agrement
     - validation d'un agrément
     - validation d un agrement
     - Commission de validation d'agréments
@@ -610,10 +594,9 @@ nlu:
     - Comment connaitre la suite qui a été donnée au dossier déposé?
     - Comment connaitre la suite qui a ete donnee au dossier depose
     - Comment connaitre la suite du dossier déposé
-    - comment connaitre la suite du dossier depose 
+    - comment connaitre la suite du dossier depose
     - Suite du dossier déposé
     - suite du dossier depose
-    - Comment connaitre la suite qui a ete donnee au dossier depose
     - Comment obtenir des informations sur la suite du dossier?
     - Au cas où le dossier déposé est valide quand est-ce qu’on pourra disposer de l’agrément?
     - quand est-ce qu’on pourra disposer de l’agrément?
@@ -622,7 +605,7 @@ nlu:
     - comment suivre son dossier d'agrément
     - comment suivre son dossier d agrement
     - suivi dossier d'agrément
-    - suivi agrement 
+    - suivi agrement
 - intent: exigence
   examples: |
     - Quelles sont les exigences soumises à une société titulaire d’un agrément?
@@ -767,18 +750,16 @@ nlu:
     - Contact Service Clientèle
     - Numero vert du port de Dakar
     - Service Clientèle du Port
-    - Y- a-t-il un numéro vert au Port de Dakar? 
-    - numéro vert 
+    - Y- a-t-il un numéro vert au Port de Dakar?
+    - numéro vert
     - relation client
     - relations clients
-    - Y- a-t-il un numéro vert au Port de Dakar?
     - Quelle est la meilleure façon de vous parler ?
     - Contact service client
     - meilleur facon de parler au port
     - comment contacter le port
     - reclamation
     - service clientele
-    - numéro vert
 - intent: UserMerci
   examples: |
     - Ok
@@ -796,7 +777,7 @@ nlu:
     - ok merci bonne fin de journée
     - ok d'accord
     - ok je vous envoye tout de suite
-    - ok je vais vous envoyer 
+    - ok je vais vous envoyer
     - je l'ai fait
     - Je l'ai deja fait
     - c'est fait
@@ -814,14 +795,12 @@ nlu:
     - c'est gentil
     - C' est gentil
     - Je vous remercie énormement
-    - Merci 
-    - Merci beaucoup 
-    - Je vous remercie 
+    - Merci
     - merci
     - m6
     - mrci beaucoup
     - merci bcp
-    - je vous remercie pour votre reponse 
+    - je vous remercie pour votre reponse
     - mrci
     - merci de m'avoir répondu
     - merci pour votre réponse
@@ -983,10 +962,9 @@ nlu:
     - Quel est le nombre d'installations spécialisées?
     - installations spécialisées
     - installation specialisee
-    - installations portuaires 
+    - installations portuaires
     - installations
     - installation
-    - installations portuaires
     - nombre d'installations portuaires
 - intent: installation_paquebot
   examples: |
@@ -999,21 +977,6 @@ nlu:
     - Installation des paquebots au port de Dakar
     - installation des bateaux croisières au Port de Dakar
     - informations pour l'installation des bateaux croisières
-# - intent: poste_a_quai
-#   examples: |
-#     - Combien de postes à quai existent au Port de Dakar?
-#     - Quel es le nombre de postes à quai au Port de Dakar?
-#     - postes à quai
-#     - postes à quai disponible au port de dakar
-#     - le nombre de postes à quai disponibles
-#     - le nombre de postes à qui existants au port de Dakar
-#     - Inormations sur les postes à quai
-#     - postes à quai du port de Dakar
-#     - Postes à quai du Port
-#     - poste a quai
-#     - quaie 
-#     - quaie
-#     - QUAI
 - intent: terminaux
   examples: |
     - Quelle est la capacité d’accueil du Terminal roulier du Port de Dakar?
@@ -1152,14 +1115,13 @@ nlu:
     - service commercial
     - peche
     - pech
-    - peche
 - intent: dedouanement
   examples: |
     - Puis je avoir des informations sur le dédouanement de container
     - dédouanement de container
     - Je veux connaître le circuit douanier
-    - circuit douanier du port de dakar 
-    - Puis je avoir des informations sur le dédouanement de container venant d'italie? 
+    - circuit douanier du port de dakar
+    - Puis je avoir des informations sur le dédouanement de container venant d'italie?
     - comment effectuer un dédouanement au port
     - je souhaite avoir des infos pour dédouanement de voiture
     - Quelles sont les procédures de dédouanement
@@ -1178,8 +1140,8 @@ nlu:
     - les étapes à suivre pour enlever des marchandises
     - Comment faire sortir ses marchandises
     - Bonjour je voudrais savoir les documents à fournir pour avoir un bon à enlever?
-    - enlevement d'un conteneur au port autonome de Dakar 
-    - comment se déroule l'enlèvement d'un contenur 
+    - enlevement d'un conteneur au port autonome de Dakar
+    - comment se déroule l'enlèvement d'un contenur
     - Quelles sont les conditions à remplir pour l’enlèvement de marchandise au Port de Dakar?
     - enlèvement de marchandise au Port de Dakar?
     - Enlèvement de marchandise
@@ -1346,7 +1308,7 @@ nlu:
     - Accès des personnes
     - acces des personnes
     - laisser-passé
-    - laisser passe 
+    - laisser passe
     - Accès
     - acces
 - intent: service_assistance_navire
@@ -1360,7 +1322,7 @@ nlu:
     - Les services au navire au Port de Dakar
     - Les  services aux navires
     - Services navires
-    - service navire 
+    - service navire
     - Services navires du Port
     - Services navires au Port Autonome de Dakar
 - intent: qualite_service
@@ -1406,7 +1368,7 @@ nlu:
     - comment s opere l avitaillement en eau ?
     - Avitaillement en eau
     - avitaillement
-    - ravitaillement sur les navires au port autonome de dakar 
+    - ravitaillement sur les navires au port autonome de dakar
     - ravitaillement
     - eau
     - Comment s’opère l'avitaillement en hydrocarbure au Port de Dakar?
@@ -1484,24 +1446,24 @@ nlu:
     - Où se trouve la gare maritime?
     - ou se situe la gare maritime
     - situation de la gare maritime
-    - gare maritime de Dakar   
+    - gare maritime de Dakar
 - intent: ligne_maritime_goree
   examples: |
     - Heure depart a Gore le samedi après-midi ?
     - Quelle sont les heures de départ pour les samedi
     - Bonjour... Je voudrais savoir le prix de la traversée est le même pour les sénégalais et les étrangers africains.. J ai une amie de nationalité malienne que j aimerais amener à Gorée demain et je me demandais combien ce serait pour elle.
     - Bonjour, comment vous allez est ce que la liaison maritime dakar goree est fonctionnelle merci
-    - on voudrait faire avec la famille une excursion sur Goree 
+    - on voudrait faire avec la famille une excursion sur Goree
     - Y a-t-il des quotas de personnes journalieres pour aller a l'île de goré
-    - combien de personnes par jour peuvent se rendre à gorée 
-    - pourriez-vous m'informer des départs de dakar à goré 
+    - combien de personnes par jour peuvent se rendre à gorée
+    - pourriez-vous m'informer des départs de dakar à goré
     - moi je suis sénégal et j'ai 19 ans et je veux savoir mon tarif de traver pour aller à gorée
     - quelles sont vos navettes
-    - je prévois de faire la traversée demain 
+    - je prévois de faire la traversée demain
     - le tarif pour enfant
     - les bateaux sont ouverts aujourd'hui
     - comment faire pour avoir un billet à 7h.
-    - j'ai besoin des informations pour la traversée 
+    - j'ai besoin des informations pour la traversée
     - je voudrais partir sur goree est ce qu'il ya des restrictions pour la traversée
     - les tarifs
     - prix
@@ -1512,20 +1474,20 @@ nlu:
     - les liaisons maritimes dakar gorée seront elles effectives pour le mercredi
     - type de billets
     - billet pour les eleves
-    - prix du billet pour les Non résident Afrique 
+    - prix du billet pour les Non résident Afrique
     - Non résident Senegal
     - non resident Sénégal
     - Montant de la traversée
     - la liaison est elle ouverte
     - Nous voulons nous rendre à île de goree et aimerions savoir les horaires et le prix de la traversée
-    - il ya t'il des billets disponible pour un depart de 
+    - il ya t'il des billets disponible pour un depart de
     - Les lignes maritimes disponibles
     - Tarifs de la traversée
     - quelles sont les lignes maritimes disponibles à la gare maritime?
     - Voyager à l'intérieur du Sénégal par voie maritime?
     - Visiter l'île de Gorée?
     - visiter l ile de goree
-    - possible de partir à gorée avec des élèves 
+    - possible de partir à gorée avec des élèves
     - je veux partir à goree avec mes élèves
     - Je veux partir à gorée avec des eleves
     - La liaison est elle ouverte
@@ -1542,8 +1504,7 @@ nlu:
     - Voyage Dakar Gorée
     - Tarif Dakar-Gorée?
     - tarif dakar goree
-    - tarif dakar goree
-    - reservation dakar goree 
+    - reservation dakar goree
     - Réservation Dakar Gorée
     - Allez a goree
     - ticket dakar goree
@@ -1562,12 +1523,12 @@ nlu:
     - Coumba Castel
     - Beer
     - Coumba Lamb
-    - Chaloupe 
+    - Chaloupe
     - nombre de Chaloupe de la LMDG
     - nombre de Chaloupe de la gare maritime
 - intent: ligne_maritime_zig
   examples: |
-    - je peux réserver une cabine pour  3 adulte ( une étranger résidents et deux non résidents) et un enfant. Départ vendredi 3. Nov.; 20 h à Dakar. 
+    - je peux réserver une cabine pour  3 adulte ( une étranger résidents et deux non résidents) et un enfant. Départ vendredi 3. Nov.; 20 h à Dakar.
     - Je voudrais voyager
     - Comment la réservation du bateau diambogne suis sénégalais
     - Je veux une réservation
@@ -1582,7 +1543,7 @@ nlu:
     - avoir un billet de bateau
     - je cherche un billet pour le vendredi
     - reservation en logne dakar ziguinchor
-    - les tarifs des moins de 17 ans dakar ziguinchor pour les 
+    - les tarifs des moins de 17 ans dakar ziguinchor pour les
     - les heures de depart Dakar Ziguinchor
     - Les horaires de ziguinchor dakar
     - les tarifs de ziguinchor dakar
@@ -1608,7 +1569,7 @@ nlu:
     - Quelles sont les lignes maritimes pour aller en casamence
     - Dakar-Ziguinchor
     - Réserver un cabinet Dakar Ziguinchor
-    - reserver 1 cabinet sur le bateau dakar ziguinchor 
+    - reserver 1 cabinet sur le bateau dakar ziguinchor
     - Dk-Zig
     - Voyage Dk Zig
     - Les bateaux Dakar-Ziguinchor?
@@ -1680,10 +1641,10 @@ nlu:
     - Cocktail à la Gare Maritime?
     - Salle de manifestation à la Gare Maritime?
     - Exposition d'arts à la Gare Maritime?
-    - exposition d arts a la gare maritime 
+    - exposition d arts a la gare maritime
     - Organiser une conférence à la Gare Maritime?
     - publicité à la Gare maritime
-    - publicite a la gare maritime 
+    - publicite a la gare maritime
     - tableau d' arts
 - intent: certification_gare_maritime
   examples: |
