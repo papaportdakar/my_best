@@ -3,6 +3,8 @@ nlu:
 - intent: prevision
   examples:  |
     - LA GRANDE SIERRA LEONE
+    - Accostage des navires de céréales
+    - Mouvement accostage
     - position actuelle du navire JONATHAN P
     - date d'arrivée du navire JONATHAN P
     - arrivé du navire 00CL MEMPIS 068E quand esce
