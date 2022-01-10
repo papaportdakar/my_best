@@ -3,6 +3,7 @@ nlu:
 - intent: prevision
   examples:  |
     - LA GRANDE SIERRA LEONE
+    - quelle est la date du depart de grand africa pour Conakry
     - Accostage des navires de céréales
     - Mouvement accostage
     - position actuelle du navire JONATHAN P
@@ -483,6 +484,8 @@ nlu:
   examples: |
     - agrément pour être transitaire
     - Agreement pour shipchandler
+    - Je voudrais avoir un agrément auprès de vous afin de réaliser vos travaux de rénovation, de réfection et de petites constructions. En effet je suis ingénieur en Génie Civil avec une expérience de plus de six ans.
+    - Salut, je suis un jeune entrepreneur directeur de société de construction. Je voudrais avoir un agrément auprès de vous afin de réaliser vos travaux de rénovation, de réfection et de petites constructions. En effet je suis ingénieur en Génie Civil avec une expérience de plus de six ans.
     - je voudrai savoir comment avoir un agrément pour être transitaire commissionnaire en douane
     - j'aimerais envoyer une demande d'agrément
     - agrément prestataire de services
@@ -1572,6 +1575,7 @@ nlu:
   examples: |
     - je peux réserver une cabine pour  3 adulte ( une étranger résidents et deux non résidents) et un enfant. Départ vendredi 3. Nov.; 20 h à Dakar. 
     - Je voudrais voyager
+    - Bonjour, le ferry Aline sitoe diata fonctionne t il actuellement ?
     - Comment la réservation du bateau diambogne suis sénégalais
     - Je veux une réservation
     - Jour dembarcation apres achat ticket
