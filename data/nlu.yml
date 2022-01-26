@@ -115,6 +115,8 @@ nlu:
 - intent: demande_emploi
   examples:  |
     - Déposer port
+    - j'aimerais savoir comment faire pour avoir un stage à la PAD
+    - stage au PAD
     - Cherche journalier au 
     - Comment peux je intégrer dans vos équipes comme pointeur
     - je voudrai avoir un poste au service de réclamation ou à la gare maritime
