@@ -788,6 +788,7 @@ nlu:
   examples: |
     - Ok
     - Non je vous quitte
+    - D accord ya de soucis
     - je vous quitte
     - Je peux vous l'envoyer demain si possible
     - Ok ça marche
