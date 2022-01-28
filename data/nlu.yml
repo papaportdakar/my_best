@@ -787,6 +787,9 @@ nlu:
 - intent: UserMerci
   examples: |
     - Ok
+    - Thanks
+    - thank you
+    - thank you very much
     - Non je vous quitte
     - D accord ya de soucis
     - je vous quitte
