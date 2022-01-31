@@ -117,6 +117,7 @@ nlu:
     - Déposer port
     - j'aimerais savoir comment faire pour avoir un stage à la PAD
     - stage au PAD
+    - Salut je voulais savoir comment faire pour devenir pointeur Au port de dakar
     - Cherche journalier au 
     - Comment peux je intégrer dans vos équipes comme pointeur
     - je voudrai avoir un poste au service de réclamation ou à la gare maritime
@@ -390,8 +391,10 @@ nlu:
     - salut
 - intent: goodbye
   examples: |
+    - Ok demain si possible
     - ok
     - Ciao ciao
+    - ok à demain
     - Bonne journée
     - bonne journee
     - Bonne soirée
@@ -700,7 +703,10 @@ nlu:
     - remboursement
 - intent: chiffre_cle
   examples: |
+    - Port autonome de Dakar a accueilli combien de navires en 2020 et 2021 ??
     - Statistique des activités portuaires
+    - le nombre de navires accueilli par le Port 
+    - le nombre de navires annuel accueilli pas le PAD
     - Le nombre de navires acostés au terminal en 2020
     - vos chiffres clès 2020
     - Statistiques 2017/2020
