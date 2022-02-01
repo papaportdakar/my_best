@@ -99,6 +99,8 @@ nlu:
   examples:  |
     - port de ndayane
     - ndayane
+    - La date d’annonce de la construction du port de Ndayane
+    - document d'étude impact environnemental du port de ndayane
     - comment le port de ndayane parcipera au developpement du secteur marittime?
     - port multinational de ndayane
     - le plus grand port du senegal
@@ -793,6 +795,7 @@ nlu:
 - intent: UserMerci
   examples: |
     - Ok
+    - D'accord Monsieur
     - Thanks
     - thank you
     - thank you very much

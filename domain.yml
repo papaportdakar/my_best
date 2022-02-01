@@ -552,11 +552,14 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse"
   utter_usermerci:
-  - text: "Ok"
+  - text: "Merci beaucoup"
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
-  # - text: "Je vous en prie."
+  - text: "Je vous en remercie."
+    buttons:
+      - title: "Menu principal"
+        payload: "/menu_principal"
   - text:  "👍"
     buttons:
       - title: "Menu principal"
