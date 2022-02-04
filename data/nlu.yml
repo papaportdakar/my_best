@@ -707,6 +707,9 @@ nlu:
   examples: |
     - Port autonome de Dakar a accueilli combien de navires en 2020 et 2021 ??
     - Statistique des activités portuaires
+    - nombre de navires par an
+    - statistiques des navires
+    - le nombre de conteneurs par an
     - le nombre de navires accueilli par le Port 
     - le nombre de navires annuel accueilli pas le PAD
     - Le nombre de navires acostés au terminal en 2020
