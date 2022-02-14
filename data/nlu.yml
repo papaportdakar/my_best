@@ -24,7 +24,9 @@ nlu:
     - Traffic
     - Services trafic
     - NAVIRE GOODWOOD
+    - Mouvements des navires
     - Heure daccostage navire sntt ?
+    - QUELLE EST LA POSITION DU NAVIRE MV AQUIARIUS
     - les navires en rade 
     - Je veux les navire qui venu en rade le 08 octobre 2021
     - Orient transit va accosté ken ?
@@ -511,7 +513,9 @@ nlu:
     - depot d'agrément
     - ou deposer une demande d agrement 
     - dossier agrement
+    - quelle est la procédure d'agrément pour une entreprise de prestation intellectuelle?
     - deposer un dossier pour un agrement
+    - quelle est la procédure d'agrément
     - autorisation exercer
     - comment avoir une autorisation d'exercer au port?
     - Agrément
@@ -1203,6 +1207,7 @@ nlu:
   examples: |
     - J'aimerais comprendre autant que étudiante les étapes à suivre pour enlever des marchandises
     - les étapes à suivre pour enlever des marchandises
+    - Comment se passe l'enlèvement dun véhicule
     - Comment faire sortir ses marchandises
     - Bonjour je voudrais savoir les documents à fournir pour avoir un bon à enlever?
     - enlevement d'un conteneur au port autonome de Dakar 
