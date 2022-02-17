@@ -3,6 +3,7 @@ nlu:
 - intent: prevision
   examples:  |
     - LA GRANDE SIERRA LEONE
+    - POSITION NAVIRES
     - quelle est la date du depart de grand africa pour Conakry
     - Accostage des navires de céréales
     - Trafic portuaire
@@ -712,7 +713,10 @@ nlu:
   examples: |
     - Port autonome de Dakar a accueilli combien de navires en 2020 et 2021 ??
     - Statistique des activités portuaires
+    - je voudrais des informations par rapport au quantité de marchandises qui ont transité au port en 2021
+    - Nombre des navires accoste au terminal en 2020 ?
     - nombre de navires par an
+    - quantité de marchandises en 2021
     - statistiques des navires
     - le nombre de conteneurs par an
     - le nombre de navires accueilli par le Port 
