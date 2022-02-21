@@ -4,6 +4,8 @@ nlu:
   examples:  |
     - LA GRANDE SIERRA LEONE
     - POSITION NAVIRES
+    - date d'accrochage du bateau
+    - je voulais savoir a quelle va accrocher le MICHEL A
     - quelle est la date du depart de grand africa pour Conakry
     - Accostage des navires de céréales
     - Trafic portuaire
@@ -1192,6 +1194,7 @@ nlu:
   examples: |
     - Puis je avoir des informations sur le dédouanement de container
     - dédouanement de container
+    - besoin fournir des dossiers pour dédouaner nos marchandises
     - Je veux connaître le circuit douanier
     - circuit douanier du port de dakar 
     - Puis je avoir des informations sur le dédouanement de container venant d'italie? 
