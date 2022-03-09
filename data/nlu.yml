@@ -860,6 +860,7 @@ nlu:
     - merci de m'avoir répondu
     - merci pour votre réponse
     - merci d'avoir pris le temps de nous répondre
+    - De rien
 - intent: mauvaise_reponse
   examples: |
     - je ne suis pas satisfait
@@ -1194,6 +1195,7 @@ nlu:
   examples: |
     - Puis je avoir des informations sur le dédouanement de container
     - dédouanement de container
+    - A il besoin fournir des dossiers pour dédouaner nos marchandises
     - besoin fournir des dossiers pour dédouaner nos marchandises
     - Je veux connaître le circuit douanier
     - circuit douanier du port de dakar 

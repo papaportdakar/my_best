@@ -542,7 +542,7 @@ responses:
   - text: "Qu'avez-vous besoin de savoir sur le port de dakar?"
 #Réponse du bot quand l'utilisateur parle l'anglais
   utter_english:
-  - text: I am still learning. I not now able to speack english. Thank you for your undustanting.
+  - text: "I am still learning. I not now able to speack english. Thank you for your undustanting."
   utter_english_1: 
   - text: "But you can translate your questions before asking it to me by using 
           [google translate](https://translate.google.com/?hl=fr&sl=auto&tl=fr&text=i%20am%20fine%20&op=translate)"
@@ -556,7 +556,7 @@ responses:
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
-  - text: "Je vous en remercie."
+  - text: "ok"
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
