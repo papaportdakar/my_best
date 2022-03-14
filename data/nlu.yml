@@ -4,6 +4,8 @@ nlu:
   examples:  |
     - LA GRANDE SIERRA LEONE
     - POSITION NAVIRES
+    - navire à quai
+    - Listes des navires 
     - date d'accrochage du bateau
     - je voulais savoir a quelle va accrocher le MICHEL A
     - quelle est la date du depart de grand africa pour Conakry
@@ -809,6 +811,7 @@ nlu:
 - intent: UserMerci
   examples: |
     - Ok
+    - D'accord je le ferai dans quelques minutes
     - D'accord Monsieur
     - Thanks
     - thank you
