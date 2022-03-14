@@ -811,6 +811,8 @@ nlu:
 - intent: UserMerci
   examples: |
     - Ok
+    - Bravo PAD
+    - Bravo Port de Dakar
     - D'accord je le ferai dans quelques minutes
     - D'accord Monsieur
     - Thanks
