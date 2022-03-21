@@ -810,6 +810,8 @@ nlu:
     - numéro vert
 - intent: UserMerci
   examples: |
+    - Je vous en prie
+    - Je t'en prie
     - Ok
     - Bravo PAD
     - Bravo Port de Dakar
