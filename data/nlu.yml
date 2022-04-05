@@ -4,7 +4,11 @@ nlu:
   examples:  |
     - LA GRANDE SIERRA LEONE
     - POSITION NAVIRES
+    - Sallum quitte quel jour en Europe
+    - J veux savoir quand sallum va quitte Europe et venir au Sénégal
+    - Je voudrai savoir le bateau grand Gabon va venir au senegal
     - navire à quai
+    - bateau grand Gabon
     - Listes des navires 
     - date d'accrochage du bateau
     - je voulais savoir a quelle va accrocher le MICHEL A
