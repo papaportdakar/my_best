@@ -1,5 +1,6 @@
 version: "2.0"
 # List all my intents in this part
+# environnement virtuel local: venv
 intents:
   - out_of_scope_1
   - greet
