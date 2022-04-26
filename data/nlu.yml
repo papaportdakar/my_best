@@ -8,6 +8,7 @@ nlu:
     - J veux savoir quand sallum va quitte Europe et venir au Sénégal
     - Je voudrai savoir le bateau grand Gabon va venir au senegal
     - navire à quai
+    - Je veux savoir quand sallum va quitte Europe
     - bateau grand Gabon
     - Listes des navires 
     - date d'accrochage du bateau
@@ -76,6 +77,7 @@ nlu:
 - intent: date_creation
   examples:  |
     - bibliographie
+    - l'historique de la societe
     - Le port autonome de dakar a était créé quant?
     - bibliographie du port autonome de dakar
     - je veux votre bibliographie
@@ -503,6 +505,7 @@ nlu:
   examples: |
     - agrément pour être transitaire
     - Agreement pour shipchandler
+    - Agrément transport container
     - Je voudrais avoir un agrément auprès de vous afin de réaliser vos travaux de rénovation, de réfection et de petites constructions. En effet je suis ingénieur en Génie Civil avec une expérience de plus de six ans.
     - Salut, je suis un jeune entrepreneur directeur de société de construction. Je voudrais avoir un agrément auprès de vous afin de réaliser vos travaux de rénovation, de réfection et de petites constructions. En effet je suis ingénieur en Génie Civil avec une expérience de plus de six ans.
     - je voudrai savoir comment avoir un agrément pour être transitaire commissionnaire en douane
@@ -1345,6 +1348,7 @@ nlu:
   examples: |
     - Quelles sont les dispositions de sécurité et de sûreté au Port de Dakar?
     - securité et sureté du Port
+    - quelle niveau de securite
     - securite et surete du port
     - dispositions de sécurité et de sûreté
     - dispositions de sécurité et de sûreté au Port de Dakar?
