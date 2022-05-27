@@ -968,6 +968,8 @@ nlu:
     - Quelle est la localisation du Port
 - intent: situation_geographique
   examples: |
+    - la position géographique du port autonome de dakar
+    - la position géographique du port de dakar
     - ou se trouve le port de dakar
     - Quelle est la situation géographique du Port de Dakar?
     - situation géographique du port
