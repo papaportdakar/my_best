@@ -819,6 +819,8 @@ nlu:
   examples: |
     - Je vous en prie
     - Je t'en prie
+    - super
+    - génial
     - Ok
     - Bravo PAD
     - Bravo Port de Dakar
@@ -850,8 +852,10 @@ nlu:
     - c'est fait
     - D'accord
     - ok merci
+    - merci pour ta gentillesse
     - D'accord j'y serais
     - D'accord merci
+    - formidable
     - merci beaucoup pour votre compréhension
     - Merci beaucoup
     - Je vous remercie
