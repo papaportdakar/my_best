@@ -1281,7 +1281,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse"
   utter_telephone_service_client:
-  - text: "Veuillez-vous adresser au Service Clientèle via les numéros 33 849 45 06/ 77 645 70 79 ."
+  - text: "Veuillez-vous adresser au Service Clientèle via les numéros +221 33 849 45 06/+221 77 645 70 79 ."
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
