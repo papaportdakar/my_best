@@ -132,6 +132,8 @@ nlu:
 - intent: demande_emploi
   examples:  |
     - Déposer port
+    - poste d'emploi disponible
+    - SLT JE SUIS UN ETUDIANT DU DOMAINE DE TRANSPORT LOGISTIQUE.JE VOULAIS ACQUERIR UNE EXPERIENCE. QUE FAIRE?
     - j'aimerais savoir comment faire pour avoir un stage à la PAD
     - stage au PAD
     - Salut je voulais savoir comment faire pour devenir pointeur Au port de dakar
