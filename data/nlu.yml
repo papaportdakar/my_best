@@ -1,5 +1,6 @@
 version: "2.0"
 nlu:
+# environnement virtuel local: venv
 - intent: prevision
   examples:  |
     - LA GRANDE SIERRA LEONE
@@ -1127,6 +1128,8 @@ nlu:
     - ENSEMA
 - intent: acheminement_dakar_mali
   examples: |
+    - exportation vers le mali
+    - JE VEUX DES INFORMATIONS SUR LES EXPORTATIONS VERS LE MALI
     - Comment acheminer des marchandises à partir du Port de Dakar vers le Mali?
     - Comment transporter des marchandises à partir du Port de Dakar vers le Mali?
     - acheminer des marchandises de Dakar à Bamako
@@ -1549,6 +1552,8 @@ nlu:
     - gare maritime de Dakar   
 - intent: ligne_maritime_goree
   examples: |
+    - île de gorée
+    - à quelle heure le bateau part pour l'île
     - Heure depart a Gore le samedi après-midi ?
     - Quelle sont les heures de départ pour les samedi
     - Bonjour... Je voudrais savoir le prix de la traversée est le même pour les sénégalais et les étrangers africains.. J ai une amie de nationalité malienne que j aimerais amener à Gorée demain et je me demandais combien ce serait pour elle.
