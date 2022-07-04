@@ -1129,6 +1129,7 @@ nlu:
 - intent: acheminement_dakar_mali
   examples: |
     - exportation vers le mali
+    - Exportation de marchandise dakar vers le Mali
     - JE VEUX DES INFORMATIONS SUR LES EXPORTATIONS VERS LE MALI
     - Comment acheminer des marchandises à partir du Port de Dakar vers le Mali?
     - Comment transporter des marchandises à partir du Port de Dakar vers le Mali?
