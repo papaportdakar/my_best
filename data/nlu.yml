@@ -3,6 +3,7 @@ nlu:
 # environnement virtuel local: venv
 - intent: prevision
   examples:  |
+    - Je veux des informations  sur le  navire princess jonna voy 2270.
     - LA GRANDE SIERRA LEONE
     - POSITION NAVIRES
     - Sallum quitte quel jour en Europe
