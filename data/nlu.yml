@@ -1557,6 +1557,9 @@ nlu:
 - intent: ligne_maritime_goree
   examples: |
     - île de gorée
+    - le ferry circule normalement
+    - est-ce que le ferry va normalement à l'île de Gorée aujourd'hui ?
+    - Is ferry going today
     - à quelle heure le bateau part pour l'île
     - Heure depart a Gore le samedi après-midi ?
     - Quelle sont les heures de départ pour les samedi
