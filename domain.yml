@@ -942,7 +942,7 @@ responses:
         payload: "/mauvaise_reponse"
   utter_gestion_client: 
   - text: "En cas de réclamations ou de préoccupations n’ayant pas trait aux agréments ou aux autorisations, 
-          veuillez-vous adresser au Service Clientèle via les numéros **33 849 45 06/ 77 645 70 79** ou télécharger la 
+          veuillez-vous adresser au Service Clientèle via les numéros **33 849 45 45 ou télécharger la 
           fiche de réclamations via le site internet du PAD. "
   utter_gestion_client_1:
   - text: Le "**Numéro vert** du Port Autonome de Dakar est  **800 801 802** "
@@ -1281,7 +1281,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse"
   utter_telephone_service_client:
-  - text: "Veuillez-vous adresser au Service Clientèle via les numéros +221 33 849 45 06/+221 77 645 70 79 ."
+  - text: "Veuillez-vous adresser au Service Clientèle via les numéros +221 33 849 45 45 ."
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
