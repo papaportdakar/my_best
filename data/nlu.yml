@@ -921,6 +921,12 @@ nlu:
 - intent: out_of_scope
   examples: |
     - actuellement le directeur du PAD
+    - le nouveau directeur du port de Dakar 
+    - le nouveau DG du Port  
+    - Mountaga sy
+    - qui est Mountaga SY
+    - Le nom de l'actuel directeur du port  
+    - le nom du DG du Port
     - Qui est le directeur du port autonome de dakar
     - Le nom du directeur de la DSI
     - actuel Directeur général du PAD

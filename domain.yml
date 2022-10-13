@@ -161,7 +161,7 @@ responses:
           spécifications techniques et finacières. Les élèments du dossier doivent être en adéquation avec les 
           textes régissants les PPP."
   utter_accord_partenariat_1:
-  - text: "Appeler le 33 849 45 45 est demandé le 4770"
+  - text: "Appeler le 33 849 45 45 et demander le 4770"
     buttons:
       - title: "👍"
         payload: "/UserMerci"
@@ -204,7 +204,7 @@ responses:
   utter_mauvaise_reponse_1:
   - text: " Veuillez reformuler votre question s'il vous plait !"
   utter_mauvaise_reponse_2:
-  - text: "Ou bien, veuillez-vous adresser au Service Clientèle via les numéros +221 33 849 45 45"
+  - text: "Ou bien, veuillez-vous adresser au Service Clientèle via le numéro +221 33 849 45 45"
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
@@ -942,7 +942,7 @@ responses:
         payload: "/mauvaise_reponse"
   utter_gestion_client: 
   - text: "En cas de réclamations ou de préoccupations n’ayant pas trait aux agréments ou aux autorisations, 
-          veuillez-vous adresser au Service Clientèle via les numéros **33 849 45 45 ou télécharger la 
+          veuillez-vous adresser au Service Clientèle via le numéro **33 849 45 45 ou télécharger la 
           fiche de réclamations via le site internet du PAD. "
   utter_gestion_client_1:
   - text: Le "**Numéro vert** du Port Autonome de Dakar est  **800 801 802** "
@@ -1270,7 +1270,6 @@ responses:
   # Out of scope message When user ask questions outside our nlu data
   utter_out_of_scope_1:
   - text: "Je suis un robot programmé pour ne répondre qu'à certaines des questions fréquentes." 
-  - text: "Je suis un robot programmé pour ne répondre qu'à certaines des questions fréquentes."
   utter_out_of_scope_2:
   - text: utilisez le menu principal ou écrivez votre question ci-dessous.
     buttons: 
@@ -1281,7 +1280,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse"
   utter_telephone_service_client:
-  - text: "Veuillez-vous adresser au Service Clientèle via les numéros +221 33 849 45 45 ."
+  - text: "Veuillez-vous adresser au Service Clientèle via le numéro +221 33 849 45 45 ."
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
