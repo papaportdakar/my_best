@@ -204,7 +204,7 @@ responses:
   utter_mauvaise_reponse_1:
   - text: " Veuillez reformuler votre question s'il vous plait !"
   utter_mauvaise_reponse_2:
-  - text: "Ou bien, veuillez-vous adresser au Service Clientèle via le numéro +221 33 849 45 45 ou l'email orientationclient@portdakar.sn"
+  - text: "Ou bien, veuillez-vous adresser au Service Clientèle via le numéro **+221 33 849 45 45** ou l'email **orientationclient@portdakar.sn**"
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
@@ -356,7 +356,7 @@ responses:
           Général du PAD qui, après accord, impute le dossier au Service des Affaires Domaniales pour traitement et suivi.
           C’est ainsi qu’un cahier des charges est élaboré et enregistré aux impôts et domaines par le client. Après 
           cette phase d’enregistrement, le client verse une caution. Il s’en suit l’établissement du procès-verbal de 
-          remise, document dans lequel figurent le mode et le début de facturation du client. Email: orientationclient@portdakar.sn"
+          remise, document dans lequel figurent le mode et le début de facturation du client. Email: **orientationclient@portdakar.sn**"
     buttons: 
       - title: "Agrément et autorisation"
         payload: "/agrement"
@@ -392,7 +392,7 @@ responses:
   - text: "Pour savoir les pièces à fournir pour les agréments, vous pouvez cliquer 
           [ici](https://www.portdakar.sn/fr/opportunite-daffaire/procedures/agrement/obtenir-un-agrement) 
           ou  vous rendre à la Direction commerciale et Expérience Client du port pour plus d’informations.  
-          Vous pouvez aussi joindre la direction commerciale via le mail suivant: orientationclient@portdakar.sn"
+          Vous pouvez aussi joindre la direction commerciale via le mail suivant: **orientationclient@portdakar.sn**"
     buttons: 
       - title: "Agrément et autorisation"
         payload: "/agrement"
@@ -943,10 +943,10 @@ responses:
         payload: "/mauvaise_reponse"
   utter_gestion_client: 
   - text: "En cas de réclamations ou de préoccupations n’ayant pas trait aux agréments ou aux autorisations, 
-          veuillez-vous adresser au Service Clientèle via le numéro **33 849 45 45 ou via l'email orientationclient@portdakar.sn ou télécharger la 
+          veuillez-vous adresser au Service Clientèle via le numéro **33 849 45 45 ou via l'email **orientationclient@portdakar.sn** ou télécharger la 
           fiche de réclamations via le site internet du PAD. "
   utter_gestion_client_1:
-  - text: Le "**Numéro vert** du Port Autonome de Dakar est  **800 801 802** "
+  - text: "Le **Numéro vert** du Port Autonome de Dakar est  **800 801 802** "
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
@@ -1281,7 +1281,7 @@ responses:
       - title: "👎"
         payload: "/mauvaise_reponse"
   utter_telephone_service_client:
-  - text: "Veuillez-vous adresser au Service Clientèle via le numéro +221 33 849 45 45 ou via l'email orientationclient@portdakar.sn."
+  - text: "Veuillez-vous adresser au Service Clientèle via le numéro +221 33 849 45 45 ou via l'email **orientationclient@portdakar.sn**."
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
