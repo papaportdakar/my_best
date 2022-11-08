@@ -133,6 +133,9 @@ nlu:
 - intent: demande_emploi
   examples:  |
     - Déposer port
+    - docker
+    - Je veux être une dokere à port d'autome
+    - comment devenir un docker au port
     - poste d'emploi disponible
     - SLT JE SUIS UN ETUDIANT DU DOMAINE DE TRANSPORT LOGISTIQUE.JE VOULAIS ACQUERIR UNE EXPERIENCE. QUE FAIRE?
     - j'aimerais savoir comment faire pour avoir un stage à la PAD
@@ -823,6 +826,7 @@ nlu:
   examples: |
     - Je vous en prie
     - Je t'en prie
+    - J'ai déjà envoyé mes dossiers
     - super
     - génial
     - Ok
