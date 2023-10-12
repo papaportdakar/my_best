@@ -102,9 +102,9 @@ responses:
   # utter_merci_bcp: 
   # - text: "Merci beaucoup"
   utter_prevision:
-  - text: "Vous voulez avoir des informations sur les navires à quai? Veuillez cliquer sur le lien suivante: https://www.portdakar.sn/fr/infos-pratiques/previsions-trafic"
+  - text: "Vous voulez avoir des informations sur les navires à quai? Veuillez cliquer sur le lien suivante: https://www.portdakar.sn/infos-pratiques/previsions-trafic"
   utter_date_creation:
-  - text: "Si vous voulez plus d'informations sur l'historique du Port de Dakar nous vous demandons de visiter notre site web en cliquant [ici](https://www.portdakar.sn/fr/nous-decouvrir/presentation/historique)"
+  - text: "Si vous voulez plus d'informations sur l'historique du Port de Dakar nous vous demandons de visiter notre site web en cliquant [ici](https://www.portdakar.sn/nous-decouvrir/presentation/historique)"
     buttons: 
       - title: "Menu principal"
         payload: "/menu_principal"
@@ -171,7 +171,7 @@ responses:
         payload: "/menu_principal"
   utter_out_of_scope:
   - text: "Pour avoir des informations relatives à cette question, nous vous demandons de visiter notre site 
-          en cliquant [ici](https://www.portdakar.sn/fr/nous-decouvrir/message-du-dg)."
+          en cliquant [ici](https://www.portdakar.sn/nous-decouvrir/message-du-dg)."
   utter_init_5:
   - text: "Hello, je suis l'assistant virtuel du Port Autonome de Dakar."
   # utter_init_6:
@@ -311,7 +311,7 @@ responses:
   - text: "I am a bot, powered by Autonomous Port of Dakar." 
   #Réponse pour les questions relatives aux manifestations d'intêrét
   utter_manifestion:
-  - text: "Pour remplir le formulaire de la manifestation d'intérêt cliquer [ici](https://www.portdakar.sn/fr/manifestation-dinteret)"
+  - text: "Pour remplir le formulaire de la manifestation d'intérêt cliquer [ici](https://www.portdakar.sn/manifestation-dinteret)"
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
@@ -390,7 +390,7 @@ responses:
         payload: "/mauvaise_reponse"
   utter_liste_piece:
   - text: "Pour savoir les pièces à fournir pour les agréments, vous pouvez cliquer 
-          [ici](https://www.portdakar.sn/fr/opportunite-daffaire/procedures/agrement/obtenir-un-agrement) 
+          [ici](https://www.portdakar.sn/opportunite-daffaire/procedures/agrement/obtenir-un-agrement) 
           ou  vous rendre à la Direction commerciale et Expérience Client du port pour plus d’informations.  
           Vous pouvez aussi joindre la direction commerciale via le mail suivant: **orientationclient@portdakar.sn**"
     buttons: 
@@ -462,7 +462,7 @@ responses:
   utter_chiffre_affaire: 
   - text: "Des formulaires de déclaration de chiffre d’affaire sont disponibles à la direction commerciale du port
           selon le type d’activité ou 
-          [ici](https://www.portdakar.sn/fr/opportunite-daffaire/procedures/agrement/formulaires-de-declaration-de-chiffres-daffaires). 
+          [ici](https://www.portdakar.sn/opportunite-daffaire/procedures/agrement/formulaires-de-declaration-de-chiffres-daffaires). 
           La société titulaire d’un agrément devra payer des frais de redevance et frais de contrôle qui sont 
           respectivement de 1/1000 et 1/5000. Ces frais sont fixés à un montant forfaitaire de 23600 si la société 
           ou le GIE n’a pas fait un chiffre d’affaire supérieur ou égal 20.000.000."
@@ -531,7 +531,7 @@ responses:
   #Reponses pour les questions relatives aux statistiques du port de Dakar
   utter_chiffre_cle:
   - text: "Pour vous informer sur les chiffres clés du Port de Dakar cliquer sur 
-          [statistiques du port](http://www.portdakar.sn/fr/nous-decouvrir/nos-chiffres-cles)"
+          [statistiques du port](http://www.portdakar.sn/nous-decouvrir/nos-chiffres-cles)"
     buttons:
       - title: "Menu principal"
         payload: "/menu_principal"
@@ -1202,7 +1202,7 @@ responses:
            affluence, d’octobre à décembre (1500 passagers), (2500 à 3000 passagers) / jour dont 25% de touristes
            une Chaloupe spéciale peu aussi être affrétée à la demande. "
   utter_ligne_maritime_goree_3: 
-  - text: "Pour avoir plus d'info sur les horaires et le tarif cliquer [ici](http://www.portdakar.sn/fr/nos-services/trafic-passager/dakar-goree)."
+  - text: "Pour avoir plus d'info sur les horaires et le tarif cliquer [ici](http://www.portdakar.sn/nos-services/trafic-passager/dakar-goree)."
     buttons: 
       - title: "👍"
         payload: "/UserMerci"
