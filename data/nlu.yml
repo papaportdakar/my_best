@@ -1566,6 +1566,7 @@ nlu:
     - gare maritime de Dakar   
 - intent: ligne_maritime_goree
   examples: |
+    - Si je n'ai pas de pièces d'identités ni passport  comment faire pour la traversée ?
     - île de gorée
     - le ferry circule normalement
     - est-ce que le ferry va normalement à l'île de Gorée aujourd'hui ?
